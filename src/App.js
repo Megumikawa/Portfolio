@@ -10,6 +10,7 @@ function App() {
       <Switch>
         <Route path="/" />
       </Switch>
+      <Footer />
     </div>
   );
 }
