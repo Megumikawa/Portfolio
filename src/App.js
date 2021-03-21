@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" />
+        <Route path="/about" />
       </Switch>
       <Footer />
     </div>
