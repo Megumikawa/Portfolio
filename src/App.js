@@ -10,6 +10,7 @@ function App() {
       <Switch>
         <Route path="/" />
         <Route path="/about" />
+        <Route path="works" />
       </Switch>
       <Footer />
     </div>
