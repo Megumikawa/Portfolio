@@ -11,7 +11,7 @@ function App() {
         <Route path="/" />
         <Route path="/about" />
         <Route path="/works" />
-        <Route path="/working history" />
+        <Route path="/contact" />
       </Switch>
       <Footer />
     </div>
