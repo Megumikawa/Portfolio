@@ -7,9 +7,9 @@ export default function Header() {
       <Link></Link>
       <nav>
         <ul>
-          <li>ABOUT</li>
-          <li>PROJECTS</li>
-          <li>CONTACT</li>
+          <li><Link>ABOUT</Link></li>
+          <li><Link>PROJECTS</Link></li>
+          <li><Link>CONTACT</Link></li>
         </ul>
       </nav>
     </div>

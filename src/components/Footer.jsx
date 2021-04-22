@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-      <small>&copy; Megumik Portfolio</small>
+      <small>&copy;2021 Created by Megumi Kawagoe</small>
     </div>
   )
 }
