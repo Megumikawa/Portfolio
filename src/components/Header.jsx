@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function Header() {
+function Header() {
   return (
     <div>
       <div className="logo"><Link></Link></div>
@@ -15,3 +15,4 @@ export default function Header() {
     </div>
   )
 }
+export default Header;

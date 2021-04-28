@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Projects() {
+function Projects() {
   return (
     <div>
       <ul>
@@ -11,3 +11,4 @@ export default function Projects() {
     </div>
   )
 }
+export default Projects
