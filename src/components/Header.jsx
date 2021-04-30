@@ -5,14 +5,21 @@ import { Button } from 'react-bootstrap';
 function Header() {
   return (
     <div>
-      <div className="logo"><Link></Link></div>
-      <nav>
-        <ul>
-          <li><Link>ABOUT</Link></li>
-          <li><Link>PROJECTS</Link></li>
-          <li><Link>CONTACT</Link></li>
-        </ul>
-      </nav>
+      <Nav variant="tabs" defaultActiveKey="/home">
+        <Nav.Item>
+          <Nav.Link href="/home">Home</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-1">ABOUT</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-1">PROJECT</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-1">CONTACT</Nav.Link>
+        </Nav.Item>
+        
+      </Nav>
     </div>
   )
 }
