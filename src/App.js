@@ -2,8 +2,8 @@ import './App.css';
 import React, { Component } from "react";
 import {Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Home from './components/Home';
-// import about from './components/About';
+import Home from './components/Home';
+import about from './components/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
