@@ -5,6 +5,7 @@ function About() {
     <div>
       <h1>About Me</h1>
       <p>I am Megumi Kawagoe...........</p>
+      <p>I am Megumi Kawagoe...........</p>
     </div>
   )
 }
