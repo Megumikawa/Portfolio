@@ -10,7 +10,7 @@ function Header() {
           <Nav.Link href="/home">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">ABOUT</Nav.Link>
+          <Nav.Link eventKey="/about">ABOUT</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="link-1">PROJECT</Nav.Link>
