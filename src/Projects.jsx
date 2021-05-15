@@ -3,12 +3,21 @@ import React from 'react';
 function Projects() {
   return (
     <div>
-      <ul>
-        <li>React app comming here</li>
-        <li>Node.js project comming here</li>
-        <li>game project comming here</li>
-        <li>html and css project comming to this</li>
-      </ul>
+      <section className="project-wrapper">
+        <h1 className="project-title">Kittchat</h1>
+        <div className="project-link"></div>
+        <p>Kittchat is a online booking website of cat cafe in Berlin.</p>
+      </section>
+      <section className="project-wrapper">
+        <h1 className="project-title">Animeek</h1>
+        <div className="project-link"></div>
+        <p>Kittchat is a online booking website of cat cafe in Berlin.</p>
+      </section>
+      <section className="project-wrapper">
+        <h1 className="project-title">Coin Collector</h1>
+        <div className="project-link"></div>
+        <p>Kittchat is a online booking website of cat cafe in Berlin.</p>
+      </section>
     </div>
   )
 }
