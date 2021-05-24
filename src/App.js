@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from "react";
-import {Route, Switch} from 'react-router-dom';
+// import {Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home';
 import About from './components/About';
@@ -12,16 +12,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <Switch>
-        <Route path="/" />
-        <Route path="/About" />
-        <Route path="/Works" />
-        <Route path="/Contact" />
-      </Switch>
+      <Home />
+      <About />
+      <Works />
+      <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 
