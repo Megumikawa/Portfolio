@@ -21,7 +21,6 @@ function Header() {
           <Nav.Link href="/Contact">Contact</Nav.Link>
         </Nav.Item>
       </Nav>
-      
     </>
   )
 }
