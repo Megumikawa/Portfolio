@@ -1,27 +1,27 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-// import React from 'react';
+import { Link } from 'react-router-dom';
 import { Nav } from 'react-bootstrap';
-import { Button } from '@material-ui/core';
+
 
 
 function Header() {
   return (
     <>
-      <Nav variant="tabs" defaultActiveKey="/home">
+      <div>
+        <Link to="/">logo</Link>
+      </div>
+      <Nav className="justify-content-end" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/home">Home</Nav.Link>
+          <Nav.Link href="/About">About</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="/about">ABOUT</Nav.Link>
+          <Nav.Link href="/Projects">Projects</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="/works">PROJECT</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="/contact">CONTACT</Nav.Link>
+          <Nav.Link href="/Contact">Contact</Nav.Link>
         </Nav.Item>
       </Nav>
+      
     </>
   )
 }

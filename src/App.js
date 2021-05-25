@@ -1,11 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
-// import {Route, Switch} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Home from './components/Home';
+import Home from './components/Home';
 import About from './components/About';
-// import Works from './components/works';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -14,10 +14,12 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Home /> */}
-      <About />
-      {/* <Works /> */}
-      <Contact />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/About" component={About} />
+        <Route path="/Projects" componet={Projects} />
+        <Route path="/Contact" componet={Contact} />
+      </Switch>
       <Footer />
     </>
   );
