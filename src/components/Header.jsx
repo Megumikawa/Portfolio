@@ -2,6 +2,8 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 // import React from 'react';
 import { Nav } from 'react-bootstrap';
+import { Button } from '@material-ui/core';
+
 
 function Header() {
   return (
@@ -14,10 +16,10 @@ function Header() {
           <Nav.Link eventKey="/about">ABOUT</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">PROJECT</Nav.Link>
+          <Nav.Link eventKey="/works">PROJECT</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">CONTACT</Nav.Link>
+          <Nav.Link eventKey="/contact">CONTACT</Nav.Link>
         </Nav.Item>
       </Nav>
     </>
