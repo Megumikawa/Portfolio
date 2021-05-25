@@ -1,26 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Nav } from 'react-bootstrap';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
 
 
 function Header() {
   return (
     <>
-      <div>
-        <Link to="/">logo</Link>
-      </div>
-      <Nav className="justify-content-end" activeKey="/home">
-        <Nav.Item>
-          <Nav.Link href="/About">About</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="/Projects">Projects</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="/Contact">Contact</Nav.Link>
-        </Nav.Item>
-      </Nav>
+      <Navbar bg="light" expand="lg" fixed="top">
+        <Navbar.Brand href="/home">Logo</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="/About">About</Nav.Link>
+            <Nav.Link href="/Projects">Projects</Nav.Link>
+            <Nav.Link href="/Contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </>
   )
 }

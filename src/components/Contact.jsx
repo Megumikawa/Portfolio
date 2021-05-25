@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Contact() {
+const Contact = () => {
   return (
     <>
       <h1>This is an contact page</h1>
