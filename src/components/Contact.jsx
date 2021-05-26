@@ -1,10 +1,16 @@
 import React from 'react';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import EmailIcon from '@material-ui/icons/Email';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const Contact = () => {
   return (
     <>
-      <h1>This is an contact page</h1>
-      <p>I am Megumi Kawagoe...........</p>
+      <h1>Questions?</h1>
+      <h2>Let's talk and get in touch!!</h2>
+      <GitHubIcon />
+      <EmailIcon />
+      <LinkedInIcon />
     </>
   )
 }
