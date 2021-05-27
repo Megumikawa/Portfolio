@@ -2,18 +2,18 @@ import React from "react";
 import {Route, Switch, withRouter} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Home from './components/Home';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Header from './components/Header';
+import Home from './pages/Home';
+import About from './pages/About';
+import Skills from './pages/Skills';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import MyNav from './components/MyNav';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="body">
-      <Header />
+    <div className="main">
+      <MyNav />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />

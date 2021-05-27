@@ -17,10 +17,8 @@ function About() {
       <ul>
         <li>Traveling</li>
         <li>Yoga</li>
-        <li>Jogging</li>
         <li>Handicraft</li>
         <li>Japanese calligraphy</li>
-        <li>Playing the piano</li>
       </ul>
     </>
   )
