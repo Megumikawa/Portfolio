@@ -12,20 +12,39 @@ function About() {
       <p>I like working with a team, especially those who have different backgrounds. 
         So every moment of experiences at Bootcamp was fun, intense and very stimulating.</p>
       {/* <p>Because I always put myself to step out of my comfort zone, being passionate about web design and JavaScript and my diligence of learning new skills are never ending.</p> */}
-      
+
       <h1>Skills</h1>
       <h2>Front End</h2>
         <ul>
-          <li></li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>jQuery</li>
+          <li>WordPress</li>
+          <li>RESTAPI</li>
+          <li>Bootstrap</li>
+          <li>Material-UI</li>
+          <li>Responsive Design</li>
         </ul>
       <h2>BackEnd</h2>
         <ul>
-          <li></li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>MongoDB</li>
+          <li>PHP</li>
         </ul>
+      <h2>Version Control</h2>
+        <ul>
+          <li>Git</li>
+          <li>Github</li>
+        </ul>
+
       <h1>Hobbies</h1>
       <ul>
         <li>Traveling</li>
         <li>Yoga</li>
+        <li>Video EditingVideo Editing</li>
         <li>Handicraft</li>
         <li>Japanese calligraphy</li>
       </ul>
