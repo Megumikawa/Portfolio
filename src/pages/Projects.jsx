@@ -52,7 +52,7 @@ function Projects() {
         </a>
         <Card className="my-project-card">
           <CardContent>
-            <h2 className="project-title">Animeek</h2>
+            <h2 className="project-title">Coin Collector</h2>
             <p className="project-description">
               A detail description of this project is comming here!!!!
             </p>
@@ -66,11 +66,11 @@ function Projects() {
 
       <section className="project-container">
         <a href="https://megumikawa.github.io/manabito-feuille/">
-          <img className="project-images" src="images/feuille1.png" alt="coincollecter-image" />
+          <img className="project-images" src="images/feuille1.png" alt="feuille-image" />
         </a>
         <Card className="my-project-card">
           <CardContent>
-            <h2 className="project-title">Animeek</h2>
+            <h2 className="project-title">feuille</h2>
             <p className="project-description">
               A detail description of this project is comming here!!!!
             </p>
