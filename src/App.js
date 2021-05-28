@@ -7,13 +7,13 @@ import About from './pages/About';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import MyNav from './components/MyNav';
+import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="main">
-      <MyNav />
+      <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />

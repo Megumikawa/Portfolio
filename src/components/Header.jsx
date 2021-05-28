@@ -9,7 +9,7 @@ function Header() {
   return (
     <>
       <Navbar bg="light" expand="lg" fixed="top">
-        <Navbar.Brand href="/home">
+        <Navbar.Brand href="/">
           <img src="images/mklogo.png" className="logo" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
