@@ -19,6 +19,9 @@ function Projects() {
             <p className="project-description">
               A detail description of this project is comming here!!!!
             </p>
+            <div className="project-skills">
+              <span>#JavaScript</span>
+            </div>
             <div className="project-link">
               <a href="https://kittchat.herokuapp.com/"><LanguageIcon />Web site</a>
               <a href="https://github.com/LuisaEgoavil/Kittchat-client"><GitHubIcon />Repository(client)</a>
