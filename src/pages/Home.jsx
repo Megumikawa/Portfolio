@@ -1,16 +1,18 @@
 import React from 'react'
-import Typist from 'react-typist';
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
     <>
-      <h1>Hello. I am Megumi Kawagoe.</h1>
-      <Typist>Frontend developer</Typist>
-      <Typist>
-        <span> First Sentence </span>
-          <Typist.Backspace count={8} delay={200} />
-        <span> Phrase </span>
-      </Typist>
+      <h1>Hello!<br /> I am Megumi Kawagoe.</h1>
+      <Typewriter
+        options={{
+          strings: ["Front-end Developer", "MERN Developer", "Learner"],
+          autoStart: true,
+          loop: true,
+          delay: 50
+        }}
+      />
     </>
   )
 }

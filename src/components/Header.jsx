@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
@@ -15,10 +15,14 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Link to={"/about"}>About</Link>
+            {/* <Link to={"/about"}>About</Link>
             <Link to={"/skills"}>Skills</Link>
             <Link to={"/projects"}>Projects</Link>
-            <Link to={"/contact"}>Contact</Link>
+            <Link to={"/contact"}>Contact</Link> */}
+            <Nav.Link href="/About">About</Nav.Link>
+            {/* <Nav.Link href="/Skills">Skills</Nav.Link> */}
+            <Nav.Link href="/Projects">Projects</Nav.Link>
+            <Nav.Link href="/Contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
