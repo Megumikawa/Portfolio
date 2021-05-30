@@ -15,10 +15,6 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            {/* <Link to={"/about"}>About</Link>
-            <Link to={"/skills"}>Skills</Link>
-            <Link to={"/projects"}>Projects</Link>
-            <Link to={"/contact"}>Contact</Link> */}
             <Nav.Link href="/About">About</Nav.Link>
             {/* <Nav.Link href="/Skills">Skills</Nav.Link> */}
             <Nav.Link href="/Projects">Projects</Nav.Link>

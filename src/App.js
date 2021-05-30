@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
-import Skills from './pages/Skills';
+// import Skills from './pages/Skills';s
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Header from './components/Header';
@@ -17,7 +17,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/skills" component={Skills} />
+        {/* <Route path="/skills" component={Skills} /> */}
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
       </Switch>
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default withRouter(App);
+// export default App;

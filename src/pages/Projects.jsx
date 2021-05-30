@@ -1,9 +1,12 @@
 import React from 'react'
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
+// import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import Carousel from 'react-bootstrap/Carousel'
+// import Zoom from 'react-reveal/Zoom';
+// import Fade from 'react-reveal/Fade';
 
 function Projects() {
   return (
@@ -101,9 +104,26 @@ function Projects() {
           </CardContent>
         </Card>
       </section>
-      
+
+{/* ------------------------test------------------------ */}
+      <section>
+        <Carousel interval={500} controls={false} indicators={false}>
+          <Carousel.Item>
+            <img className="d-block w-100" src="images/feuille1.png" alt="feuille-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src="images/animeek-mockup.png" alt="feuille-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src="images/feuille1.png" alt="feuille-image" />
+          </Carousel.Item>
+        </Carousel>
+    </section>
+{/* ------------------------test------------------------ */}
     </>
   )
 }
 export default Projects;
+
+
 
