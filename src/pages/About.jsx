@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -12,8 +13,9 @@ function About() {
       <p>I like working with a team, especially those who have different backgrounds. 
         So every moment of experiences at Bootcamp was fun, intense and very stimulating.</p>
       {/* <p>Because I always put myself to step out of my comfort zone, being passionate about web design and JavaScript and my diligence of learning new skills are never ending.</p> */}
-
-      
+      <div>
+        <Link className="text-blue contact-me" to="/contact">Let's Talk</Link>
+      </div>
 
       <h1>Hobbies</h1>
       <ul>
