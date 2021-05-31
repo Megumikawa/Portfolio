@@ -5,7 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Carousel from 'react-bootstrap/Carousel'
-// import Zoom from 'react-reveal/Zoom';
+import Zoom from 'react-reveal/Zoom';
 // import Fade from 'react-reveal/Fade';
 
 function Projects() {
@@ -106,8 +106,10 @@ function Projects() {
       </section>
 
 {/* ------------------------test------------------------ */}
+      
+      {/* <Zoom> */}
       <section>
-        <Carousel interval={500} controls={false} indicators={false}>
+        <Carousel fade interval={500} controls={false} indicators={false}>
           <Carousel.Item>
             <img className="d-block w-100" src="images/feuille1.png" alt="feuille-image" />
           </Carousel.Item>
@@ -119,6 +121,7 @@ function Projects() {
           </Carousel.Item>
         </Carousel>
     </section>
+    {/* </Zoom> */}
 {/* ------------------------test------------------------ */}
     </>
   )
