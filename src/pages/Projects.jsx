@@ -5,16 +5,47 @@ import CardContent from '@material-ui/core/CardContent';
 import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Carousel from 'react-bootstrap/Carousel'
-import Zoom from 'react-reveal/Zoom';
-// import Fade from 'react-reveal/Fade';
 
 function Projects() {
   return (
     <>
       <h1>Projects</h1>
+
+{/* --------------------Kittchat-------------------- */}
       <section className="project-container">
         <a href="https://kittchat.herokuapp.com/">
-          <img className="project-images" src="images/kittchat-mockup.png" alt="kittchat-image" />
+          <Carousel fade interval={800} controls={false} indicators={false}>
+          <Carousel.Item>
+            <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block project-images" src="images/kittchat2.png" alt="kittchat-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block project-images" src="images/kittchat3.png" alt="kittchat-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block project-images" src="images/kittchat4.png" alt="kittchat-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block project-images" src="images/kittchat5.png" alt="kittchat-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block project-images" src="images/kittchat6.png" alt="kittchat-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block project-images" src="images/kittchat7.png" alt="kittchat-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block project-images" src="images/kittchat8.png" alt="kittchat-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block project-images" src="images/kittchat9.png" alt="kittchat-image" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block project-images" src="images/kittchat10.png" alt="kittchat-image" />
+          </Carousel.Item>
+        </Carousel>
         </a>
         <Card className="my-project-card">
           <CardContent>
@@ -38,9 +69,23 @@ function Projects() {
         </Card>
       </section>
 
+{/* --------------------Animeek-------------------- */}
       <section className="project-container">
         <a href="https://animeek.herokuapp.com/">
-          <img className="project-images" src="images/animeek-mockup.png" alt="animeek-image" />
+          <Carousel fade interval={2000} controls={false} indicators={false}>
+            <Carousel.Item>
+              <img className="d-block project-images" src="images/animeek1.png" alt="animeek-image" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block project-images" src="images/animeek2.png" alt="animeek-image" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block project-images" src="images/animeek3.png" alt="animeek-image" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block project-images" src="images/animeek4.png" alt="animeek-image" />
+            </Carousel.Item>
+          </Carousel>
         </a>
         <Card className="my-project-card">
           <CardContent>
@@ -55,13 +100,22 @@ function Projects() {
               <span>#Nodejs</span>
               <span>#Bootstrap</span>
             </div>
+            <div className="project-link">
+              <a href="https://animeek.herokuapp.com/"><LanguageIcon />Checkout</a>
+              <a href="https://github.com/LuisaEgoavil/animeek"><GitHubIcon />Repository</a>
+            </div>
           </CardContent>
         </Card>
       </section>
 
+{/* --------------------coin-collector-------------------- */}
       <section className="project-container">
         <a href="https://megumikawa.github.io/coin-collector-game/">
-          <img className="project-images" src="images/coincollecter1.png" alt="coincollecter-image" />
+          <Carousel fade interval={2000} controls={false} indicators={false}>
+            <Carousel.Item>
+              <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
+            </Carousel.Item>
+          </Carousel>
         </a>
         <Card className="my-project-card">
           <CardContent>
@@ -77,13 +131,22 @@ function Projects() {
               <span>#JavaScript</span>
               <span>#Canvas</span>
             </div>
+            <div className="project-link">
+              <a href="https://megumikawa.github.io/coin-collector-game/"><LanguageIcon />Checkout</a>
+              <a href="https://github.com/Megumikawa/coin-collector-game"><GitHubIcon />Repository</a>
+            </div>
           </CardContent>
         </Card>
       </section>
 
+{/* --------------------feuille-------------------- */}
       <section className="project-container">
         <a href="https://megumikawa.github.io/manabito-feuille/">
-          <img className="project-images" src="images/feuille1.png" alt="feuille-image" />
+          <Carousel fade interval={2000} controls={false} indicators={false}>
+            <Carousel.Item>
+              <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
+            </Carousel.Item>
+          </Carousel>
         </a>
         <Card className="my-project-card">
           <CardContent>
@@ -104,25 +167,6 @@ function Projects() {
           </CardContent>
         </Card>
       </section>
-
-{/* ------------------------test------------------------ */}
-      
-      {/* <Zoom> */}
-      <section>
-        <Carousel fade interval={500} controls={false} indicators={false}>
-          <Carousel.Item>
-            <img className="d-block w-100" src="images/feuille1.png" alt="feuille-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src="images/animeek-mockup.png" alt="feuille-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src="images/feuille1.png" alt="feuille-image" />
-          </Carousel.Item>
-        </Carousel>
-    </section>
-    {/* </Zoom> */}
-{/* ------------------------test------------------------ */}
     </>
   )
 }
