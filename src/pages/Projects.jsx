@@ -113,7 +113,7 @@ function Projects() {
         <a href="https://megumikawa.github.io/coin-collector-game/">
           <Carousel fade interval={2000} controls={false} indicators={false}>
             <Carousel.Item>
-              <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
+              <img className="d-block project-images" src="images/coincollecter1.png" alt="kittchat-image" />
             </Carousel.Item>
           </Carousel>
         </a>
@@ -144,7 +144,16 @@ function Projects() {
         <a href="https://megumikawa.github.io/manabito-feuille/">
           <Carousel fade interval={2000} controls={false} indicators={false}>
             <Carousel.Item>
-              <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
+              <img className="d-block project-images" src="images/feuille1.png" alt="kittchat-image" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block project-images" src="images/feuille2.png" alt="kittchat-image" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block project-images" src="images/feuille3.png" alt="kittchat-image" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block project-images" src="images/feuille4.png" alt="kittchat-image" />
             </Carousel.Item>
           </Carousel>
         </a>
