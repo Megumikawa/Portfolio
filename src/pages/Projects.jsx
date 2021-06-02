@@ -142,7 +142,7 @@ function Projects() {
 {/* --------------------feuille-------------------- */}
       <section className="project-container">
         <a href="https://megumikawa.github.io/manabito-feuille/">
-          <Carousel fade interval={2000} controls={false} indicators={false}>
+          <Carousel fade interval={1200} controls={false} indicators={false}>
             <Carousel.Item>
               <img className="d-block project-images" src="images/feuille1.png" alt="kittchat-image" />
             </Carousel.Item>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Skills from './Skills';
 
 function About() {
 
@@ -18,6 +19,7 @@ function About() {
         <Link className="text-blue contact-me" to="/contact">Let's Talk</Link>
       </div>
 
+      <Skills />
       <h1>Hobbies</h1>
       <ul>
         <li>Traveling</li>
