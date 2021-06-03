@@ -1,5 +1,5 @@
-@media (min-width: 800px) {
-
+* {
+  list-style: none;
 }
 
 .main {
@@ -14,4 +14,11 @@
 .project-images {
   width: 40%;
   height: auto;
+}
+
+
+
+
+@media (min-width: 800px) {
+
 }
