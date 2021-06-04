@@ -13,14 +13,17 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="main">
-      <Header />
-      <Switch>
+      {/* <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        {/* <Route path="/skills" component={Skills} /> */}
+        <Route path="/skills" component={Skills} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
-      </Switch>
+      </Switch> */}
+      <Header />
+      <About />
+      <Projects />
+      <Contact />
       <Footer />
     </div>
   );
