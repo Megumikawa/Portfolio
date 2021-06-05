@@ -10,13 +10,13 @@ import Button from 'react-bootstrap/Button';
 const Contact = () => {
 
   return (
-    <>
+    <div id="contact">
       <h1>Questions?</h1>
       <h2>et in touch!!</h2>
       <Button variant="outline-primary"><LinkedInIcon />LinkedIn</Button>
       <Button variant="outline-dark"><GitHubIcon />Github</Button>
       <Button variant="outline-success"><EmailIcon />Email</Button>
-    </>
+    </div>
   )
 }
 export default Contact;

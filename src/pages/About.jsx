@@ -5,7 +5,7 @@ import Skills from './Skills';
 function About() {
 
   return (
-    <>
+    <div id="about">
       <h1>ABOUT</h1>
       <p>Hi There! I am Megumi Kawagoe based in Amsterdam, Netherlands.</p>
       <p>I'm a passionate Frontend developer, born and brought up in Japan.</p>
@@ -28,7 +28,7 @@ function About() {
         <li>Handicraft</li>
         <li>Japanese calligraphy</li>
       </ul>
-    </>
+    </div>
   )
 }
 export default About;
