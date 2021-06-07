@@ -6,6 +6,7 @@ function About() {
 
   return (
     <div id="about" className="about">
+    <setion className="about-article">
       <h1>ABOUT</h1>
       <p>Hello! I am Megumi Kawagoe based in Amsterdam, Netherlands.</p>
       <p>I'm a passionate Frontend developer, born and brought up in Japan.<br />
@@ -17,13 +18,13 @@ function About() {
       <p>Talking about personality, I’ve lived in different countries and worked at different types of companies and I enjoyed developing social, technical skills and communicating. 
           My time abroad has taught me to be a true team player and adaptive with those who have different backgrounds.
       </p>
-      <p>I love traveling, learning new languages and doing handicraft. <br />
+      <p>I love traveling, learning new languages, playing sports and doing handicraft. <br />
       Interestingly, my first solo trip was when I was 11 years old to join a summer school in Australia. Since then I have traveled to more than 20 countries. 
       </p>
-      <div>
+      </setion>
+      <section className="about-link">
         <Link className="text-blue contact-me" to="/contact">Let's Talk</Link>
-      </div>
-
+        </section>
       <Skills />
     </div>
   )

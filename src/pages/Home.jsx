@@ -4,8 +4,9 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <>
-    <section></section>
+    <div className="background" />
       {/* <img className="myPhoto" src="images/myillust.png" alt="myPhoto" /> */}
+      <section className=" background-inner home">
       <h1>Hello!<br /> I am Megumi Kawagoe.</h1>
       <Typewriter
         options={{
@@ -15,6 +16,7 @@ function Home() {
           delay: 50
         }}
       />
+      </section>
     </>
   )
 }

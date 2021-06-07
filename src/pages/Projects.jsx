@@ -8,7 +8,9 @@ import Carousel from 'react-bootstrap/Carousel'
 
 function Projects() {
   return (
-    <div id="projects">
+    <>
+    <div className="background project-bg" />
+    <div id="projects" className="projects">
       <h1>Projects</h1>
 
 {/* --------------------Kittchat-------------------- */}
@@ -177,6 +179,7 @@ function Projects() {
         </Card>
       </section>
     </div>
+    </>
   )
 }
 export default Projects;

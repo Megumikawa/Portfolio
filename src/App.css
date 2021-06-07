@@ -7,7 +7,7 @@
   /* margin-top: 100px; */
   margin: 100px auto 0;
   text-align: center;
-  padding: 0 4%;
+  /* padding: 0 4%; */
 }
 
 .logo {
@@ -28,6 +28,26 @@
 }
 
 /* ----------home---------- */
+
+.background {
+  position: absolute;
+  background: linear-gradient(135deg, #330867, #31a7bb);
+  transform: skewY(-5deg);
+  box-shadow: 0 0 50 rgb(60 117 162 / 40%);
+  top: -12vh;
+  width: 100%;
+  height: calc(100% + 12vh);
+}
+
+.background-inner {
+  position: absolute;
+  top: 300px;
+  right: 40%;
+  font-weight: 300;
+  color: #eee;
+
+}
+
 .myPhoto {
   width: 20%;
   height: auto;
@@ -37,6 +57,10 @@
 .about {
   text-align: left;
   padding: 0 20%;
+}
+
+.about-link {
+  margin: 40px 0;
 }
 
 .contact-me {
@@ -62,7 +86,10 @@
 
 
 
-
+/* ----------project---------- */
+.project-bg {
+  height: calc(200% + 12vh);
+}
 
 @media (min-width: 800px) {
 
