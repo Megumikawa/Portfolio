@@ -4,7 +4,10 @@
 }
 
 .main {
-  margin-top: 100px;
+  /* margin-top: 100px; */
+  margin: 100px auto 0;
+  text-align: center;
+  padding: 0 4%;
 }
 
 .logo {
@@ -17,9 +20,46 @@
   height: auto;
 }
 
+
+
+/* ----------header---------- */
 .navbar-nav {
   margin-right: 0;
 }
+
+/* ----------home---------- */
+.myPhoto {
+  width: 20%;
+  height: auto;
+}
+
+/* ----------about---------- */
+.about {
+  text-align: left;
+  padding: 0 20%;
+}
+
+.contact-me {
+  border: 1px solid;
+  padding: 1% 4%;
+  border-radius: 10px;
+}
+
+.contact-me:hover {
+  text-decoration: none;
+  background-color: blue;
+  color: aliceblue;
+}
+
+/* ----------skills---------- */
+.skills {
+  margin-top: 50px;
+}
+.skill-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 
