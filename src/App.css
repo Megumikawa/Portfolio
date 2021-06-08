@@ -113,6 +113,19 @@
   width: 50%;
 }
 
+/* ----------contact---------- */
+.contact-link {
+  margin: 40px 0;
+}
+
+.contact-link a {
+  margin: 0 20px;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 12px 18px;
+}
 
 
 
