@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 * {
   list-style: none;
   margin: 0 auto;
+  font-family: 'Nunito', sans-serif;
 }
 
 .main {
-  /* margin-top: 100px; */
   margin: 100px auto 0;
   text-align: center;
-  /* padding: 0 4%; */
 }
 
 .logo {
@@ -79,6 +80,7 @@
 .skills {
   margin-top: 50px;
 }
+
 .skill-container {
   display: flex;
   justify-content: space-between;
@@ -87,9 +89,33 @@
 
 
 /* ----------project---------- */
-.project-bg {
-  height: calc(200% + 12vh);
+.projects {
+  width: 90%;
+  margin: 0 2%;
 }
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.project-image {
+  width: 50%;
+}
+
+.project-image img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.my-project-card {
+  width: 50%;
+}
+
+
+
+
 
 @media (min-width: 800px) {
 

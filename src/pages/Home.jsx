@@ -1,10 +1,11 @@
 import React from 'react'
 import Typewriter from "typewriter-effect";
+import Background from '../components/Background'
 
 function Home() {
   return (
     <>
-    <div className="background" />
+    <Background />
       {/* <img className="myPhoto" src="images/myillust.png" alt="myPhoto" /> */}
       <section className=" background-inner home">
       <h1>Hello!<br /> I am Megumi Kawagoe.</h1>
