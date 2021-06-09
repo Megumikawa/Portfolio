@@ -4,11 +4,11 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Button from 'react-bootstrap/Button';
+import Footer from '../components/Footer';
 
 
 
 const Contact = () => {
-
   return (
     <div id="contact" className="contact">
       <h1>Questions?</h1>
@@ -18,6 +18,7 @@ const Contact = () => {
         <a href="https://github.com/Megumikawa"><Button variant="outline-dark"><GitHubIcon />Github</Button></a>
         <a href="mailto:megumikawagoe@gmail.com"><Button variant="outline-success"><EmailIcon />Email</Button></a>
       </div>
+      <Footer />
     </div>
   )
 }

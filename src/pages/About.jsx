@@ -6,7 +6,7 @@ function About() {
 
   return (
     <div id="about" className="about">
-    <setion className="about-article">
+    <section className="about-article">
       <h1>ABOUT</h1>
       <p>Hello! I am Megumi Kawagoe based in Amsterdam, Netherlands.</p>
       <p>I'm a passionate Frontend developer, born and brought up in Japan.<br />
@@ -21,7 +21,7 @@ function About() {
       <p>I love traveling, learning new languages, playing sports and doing handicraft. <br />
       Interestingly, my first solo trip was when I was 11 years old to join a summer school in Australia. Since then I have traveled to more than 20 countries. 
       </p>
-      </setion>
+      </section>
       <section className="about-link">
         <Link className="text-blue contact-me" to="/contact">Let's Talk</Link>
         </section>
