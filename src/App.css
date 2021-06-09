@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 * {
-  list-style: none;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: 'Nunito', sans-serif;
+}
+
+li {
+  list-style: none;
 }
 
 .main {
   margin: 100px auto 0;
   text-align: center;
+}
+
+.navbar-brand {
+  display: flex;
 }
 
 .logo {
@@ -20,8 +31,6 @@
   width: 40%;
   height: auto;
 }
-
-
 
 /* ----------header---------- */
 .navbar-nav {
@@ -42,16 +51,24 @@
 
 .background-inner {
   position: absolute;
-  top: 300px;
-  right: 40%;
+  top: 400px;
+  right: 30%;
   font-weight: 300;
   color: #eee;
 }
 
-/* .myPhoto {
-  width: 20%;
-  height: auto;
-} */
+.Typewriter__wrapper {
+  font-size: 30px;
+}
+
+.home h1 {
+  font-size: 50px;
+}
+
+.name {
+  font-size: 70px;
+  font-weight: 400;
+}
 
 /* ----------about---------- */
 .about {

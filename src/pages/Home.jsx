@@ -8,13 +8,14 @@ function Home() {
     <Background />
       {/* <img className="myPhoto" src="images/myillust.png" alt="myPhoto" /> */}
       <section className="background-inner home">
-      <h1>Hello!<br /> I am Megumi Kawagoe.</h1>
+      <h1>Hi, I'm <br /><span className="name">Megumi Kawagoe.</span></h1>
       <Typewriter
         options={{
           strings: ["Front-end Developer", "MERN Developer", "Learner"],
           autoStart: true,
           loop: true,
-          delay: 50
+          delay: 50,
+          fontSize: '90px'
         }}
       />
       </section>
