@@ -3,11 +3,11 @@ import React from 'react'
 const Skills = () => {
   return (
     <div id="skills" className="skills">
-      <h1>Skills</h1>
+      <h2>Skills</h2>
         <div className="skill-container">
           <section className="skill-topic">
-            <h2>Front End</h2>
-              <ul>
+            <h3>Front End</h3>
+              <ul className="skills-frontend">
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript</li>
@@ -21,20 +21,18 @@ const Skills = () => {
               </ul>
             </section>
             <section className="skill-topic">
-              <h2>BackEnd</h2>
+              <h3>BackEnd</h3>
                 <ul>
                   <li>Node.js</li>
                   <li>Express</li>
                   <li>MongoDB</li>
                   <li>PHP</li>
                 </ul>
-            </section>
-            <section className="skill-topic">
-            <h2>Version Control</h2>
-              <ul>
-                <li>Git</li>
-                <li>Github</li>
-              </ul>
+              <h3>Version Control</h3>
+                <ul>
+                  <li>Git</li>
+                  <li>Github</li>
+                </ul>
             </section>
         </div>
     </div>

@@ -76,8 +76,14 @@ li {
   padding: 0 20%;
 }
 
+.about-article p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
 .about-link {
   margin: 40px 0;
+  text-align: center;
 }
 
 .contact-me {
@@ -94,12 +100,34 @@ li {
 
 /* ----------skills---------- */
 .skills {
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .skill-container {
   display: flex;
   justify-content: space-between;
+}
+
+.skill-topic {
+  width: 40%;
+  font-size: 24px;
+}
+
+.skills h2 {
+  font-size: 50px;
+}
+
+.skills h3 {
+  text-decoration-line: underline;
+}
+
+.skill-container {
+  margin-top: 20px;
+}
+
+
+.skills-frontend {
+  margin-top: 20px;
 }
 
 
