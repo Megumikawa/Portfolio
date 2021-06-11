@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from '@material-ui/core/Card';
-// import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -18,7 +17,7 @@ function Projects() {
       <section className="project-container">
         <div className="project-image">
           <a href="https://kittchat.herokuapp.com/">
-          <Carousel fade interval={800} controls={false} indicators={false}>
+          <Carousel fade interval={1000} controls={false} indicators={false}>
           <Carousel.Item>
             <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
           </Carousel.Item>
@@ -40,15 +39,7 @@ function Projects() {
           <Carousel.Item>
             <img className="d-block project-images" src="images/kittchat7.png" alt="kittchat-image" />
           </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block project-images" src="images/kittchat8.png" alt="kittchat-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block project-images" src="images/kittchat9.png" alt="kittchat-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block project-images" src="images/kittchat10.png" alt="kittchat-image" />
-          </Carousel.Item>
+          
         </Carousel>
         </a>
         </div>
@@ -78,7 +69,7 @@ function Projects() {
       <section className="project-container">
         <div className="project-image">
           <a href="https://animeek.herokuapp.com/">
-            <Carousel fade interval={2000} controls={false} indicators={false}>
+            <Carousel fade interval={1200} controls={false} indicators={false}>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/animeek1.png" alt="animeek-image" />
               </Carousel.Item>
