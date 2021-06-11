@@ -110,9 +110,15 @@ function Projects() {
       <section className="project-container">
         <div className="project-image">
           <a href="https://megumikawa.github.io/coin-collector-game/">
-            <Carousel fade interval={2000} controls={false} indicators={false}>
+            <Carousel fade interval={1400} controls={false} indicators={false}>
               <Carousel.Item>
-                <img className="d-block project-images" src="images/coincollecter1.png" alt="coincollector-image" />
+                <img className="d-block project-images" src="images/coincollector1.png" alt="coincollector-image" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block project-images" src="images/coincollector2.png" alt="coincollector-image" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block project-images" src="images/coincollector3.png" alt="coincollector-image" />
               </Carousel.Item>
             </Carousel>
           </a>
