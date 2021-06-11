@@ -5,6 +5,19 @@
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-size: 50px;
+}
+
+hr {
+  border-bottom: 0;
+  height: 1px;
+  background-image: linear-gradient(90deg,transparent,rgba(0,0,0,.75),transparent);
+}
+
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -41,7 +54,7 @@ li {
 
 .background {
   position: absolute;
-  background: linear-gradient(135deg, #330867, #31a7bb);
+  background: linear-gradient(135deg, #5C0EBB, #31a7bb);
   transform: skewY(-5deg);
   box-shadow: 0 0 50 rgb(60 117 162 / 40%);
   top: -12vh;
@@ -61,10 +74,6 @@ li {
   font-size: 30px;
 }
 
-.home h1 {
-  font-size: 50px;
-}
-
 .name {
   font-size: 70px;
   font-weight: 400;
@@ -74,6 +83,10 @@ li {
 .about {
   text-align: left;
   padding: 0 20%;
+}
+
+.about-article h1 {
+  margin-bottom: 30px;
 }
 
 .about-article p {
@@ -88,19 +101,21 @@ li {
 
 .contact-me {
   border: 1px solid;
-  padding: 1% 4%;
+  padding: 1% 5%;
   border-radius: 10px;
+  font-size: 20px;
+  color: #64bcd7;
 }
 
 .contact-me:hover {
   text-decoration: none;
-  background-color: blue;
+  background-color: #64bcd7;
   color: aliceblue;
 }
 
 /* ----------skills---------- */
 .skills {
-  margin: 50px 0;
+  margin: 80px 0;
 }
 
 .skill-container {
@@ -113,13 +128,16 @@ li {
   font-size: 24px;
 }
 
-.skills h2 {
-  font-size: 50px;
+.skill-topic ul {
+  margin-bottom: 60px;
+  padding-left: 100px;
 }
 
 .skills h3 {
-  text-decoration-line: underline;
+  font-size: 30px;
 }
+
+
 
 .skill-container {
   margin-top: 20px;

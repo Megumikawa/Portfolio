@@ -7,6 +7,7 @@ const Skills = () => {
         <div className="skill-container">
           <section className="skill-topic">
             <h3>Front End</h3>
+            <hr />
               <ul className="skills-frontend">
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -22,13 +23,14 @@ const Skills = () => {
             </section>
             <section className="skill-topic">
               <h3>BackEnd</h3>
+              <hr />
                 <ul>
                   <li>Node.js</li>
                   <li>Express</li>
                   <li>MongoDB</li>
-                  <li>PHP</li>
                 </ul>
               <h3>Version Control</h3>
+              <hr />
                 <ul>
                   <li>Git</li>
                   <li>Github</li>
