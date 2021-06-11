@@ -112,7 +112,7 @@ function Projects() {
           <a href="https://megumikawa.github.io/coin-collector-game/">
             <Carousel fade interval={2000} controls={false} indicators={false}>
               <Carousel.Item>
-                <img className="d-block project-images" src="images/coincollecter1.png" alt="kittchat-image" />
+                <img className="d-block project-images" src="images/coincollecter1.png" alt="coincollector-image" />
               </Carousel.Item>
             </Carousel>
           </a>
