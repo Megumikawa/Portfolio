@@ -7,7 +7,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 function Feuille() {
   return (
-    <div>
+    <>
       <section className="project-container">
         <div className="project-image">
           <a href="https://megumikawa.github.io/manabito-feuille/" rel="noreferrer" target="_blank">
@@ -47,7 +47,7 @@ function Feuille() {
           </CardContent>
         </Card>
       </section>
-    </div>
+    </>
   )
 }
 
