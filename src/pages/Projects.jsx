@@ -16,36 +16,36 @@ function Projects() {
 {/* --------------------Kittchat-------------------- */}
       <section className="project-container">
         <div className="project-image">
-          <a href="https://kittchat.herokuapp.com/">
-          <Carousel fade interval={1000} controls={false} indicators={false}>
-          <Carousel.Item>
-            <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block project-images" src="images/kittchat2.png" alt="kittchat-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block project-images" src="images/kittchat3.png" alt="kittchat-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block project-images" src="images/kittchat4.png" alt="kittchat-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block project-images" src="images/kittchat5.png" alt="kittchat-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block project-images" src="images/kittchat6.png" alt="kittchat-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block project-images" src="images/kittchat7.png" alt="kittchat-image" />
-          </Carousel.Item>
-          
-        </Carousel>
-        </a>
+          <a href="https://kittchat.herokuapp.com/"　rel="noreferrer" target="_blank">
+            <Carousel fade interval={1000} controls={false} indicators={false}>
+              <Carousel.Item>
+                <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block project-images" src="images/kittchat2.png" alt="kittchat-image" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block project-images" src="images/kittchat3.png" alt="kittchat-image" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block project-images" src="images/kittchat4.png" alt="kittchat-image" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block project-images" src="images/kittchat5.png" alt="kittchat-image" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block project-images" src="images/kittchat6.png" alt="kittchat-image" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block project-images" src="images/kittchat7.png" alt="kittchat-image" />
+              </Carousel.Item>
+            </Carousel>
+          </a>
         </div>
-          <Card className="my-project-card">
+        <Card className="my-project-card">
           <CardContent>
-            <h2 className="project-title">Kittchat</h2><hr />
+            <h2 className="project-title">Kittchat</h2>
+            <hr />
             <p className="project-description">
             Kitchat is a cat cafe website that makes a reservation by choosing from 5 different locations in Berlin.<br/>
             Once you sign up, you can manage and check reservation history from your personal account.
@@ -68,7 +68,7 @@ function Projects() {
 {/* --------------------Animeek-------------------- */}
       <section className="project-container">
         <div className="project-image">
-          <a href="https://animeek.herokuapp.com/">
+          <a href="https://animeek.herokuapp.com/" rel="noreferrer" target="_blank">
             <Carousel fade interval={1200} controls={false} indicators={false}>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/animeek1.png" alt="animeek-image" />
@@ -87,7 +87,8 @@ function Projects() {
         </div>
         <Card className="my-project-card">
           <CardContent>
-            <h2 className="project-title">Animeek</h2><hr />
+            <h2 className="project-title">Animeek</h2>
+            <hr />
             <p className="project-description">
             Animeek is an app where you can search for your favorite anime and be able to add it to your watchlist. <br />
             You just type any anime you desire and Animeek will give you all the information you need.
@@ -109,7 +110,7 @@ function Projects() {
 {/* --------------------coin-collector-------------------- */}
       <section className="project-container">
         <div className="project-image">
-          <a href="https://megumikawa.github.io/coin-collector-game/">
+          <a href="https://megumikawa.github.io/coin-collector-game/" rel="noreferrer" target="_blank">
             <Carousel fade interval={1400} controls={false} indicators={false}>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/coincollector1.png" alt="coincollector-image" />
@@ -125,7 +126,8 @@ function Projects() {
         </div>
         <Card className="my-project-card">
           <CardContent>
-            <h2 className="project-title">Coin Collector</h2><hr />
+            <h2 className="project-title">Coin Collector</h2>
+            <hr />
             <p className="project-description">
             Coin-Collector is a game about collecting two types of coins which fall from top to bottom.<br />
             An enemy of the devil is also coming from the right side to reduce your points.<br />
@@ -148,7 +150,7 @@ function Projects() {
 {/* --------------------feuille-------------------- */}
       <section className="project-container">
         <div className="project-image">
-          <a href="https://megumikawa.github.io/manabito-feuille/">
+          <a href="https://megumikawa.github.io/manabito-feuille/" rel="noreferrer" target="_blank">
             <Carousel fade interval={1200} controls={false} indicators={false}>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/feuille1.png" alt="kittchat-image" />
@@ -167,7 +169,8 @@ function Projects() {
         </div>
         <Card className="my-project-card">
           <CardContent>
-            <h2 className="project-title">feuille</h2><hr />
+            <h2 className="project-title">feuille</h2>
+            <hr />
             <p className="project-description">
             This is a jewelry E-commercethe website landing page.<br />
             You can check the item detail when you click an image and when you scroll down, you can check shop detail with Google Maps.

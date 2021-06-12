@@ -15,10 +15,10 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="/About">About</Nav.Link>
-            {/* <Nav.Link href="/Skills">Skills</Nav.Link> */}
-            <Nav.Link href="/Projects">Projects</Nav.Link>
-            <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
+            {/* <Nav.Link href="/projectstest">ProjectsTest</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
