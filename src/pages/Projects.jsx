@@ -3,13 +3,13 @@ import Kittchat from '../components/Kittchat';
 import Animeek from '../components/Animeek';
 import Coingame from '../components/Coingame';
 import Feuille from '../components/Feuille';
-import Background from '../components/Background';
+import ProjectsBackground from '../components/ProjectsBackground';
 
 
-function ProjectsTest() {
+function Projects() {
   return (
     <>
-      <Background />
+      <ProjectsBackground />
       <div id="projects" className="projects">
         <h1>Projects</h1>
         <Kittchat />
@@ -20,4 +20,4 @@ function ProjectsTest() {
     </>
   )
 }
-export default ProjectsTest;
+export default Projects;

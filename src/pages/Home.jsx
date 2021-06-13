@@ -7,7 +7,7 @@ function Home() {
     <>
     <Background />
       {/* <img className="myPhoto" src="images/myillust.png" alt="myPhoto" /> */}
-      <section className="background-inner home">
+      <section className="home">
       <h1>Hi, I'm <br /><span className="name">Megumi Kawagoe.</span></h1>
       <Typewriter
         options={{

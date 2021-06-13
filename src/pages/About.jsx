@@ -15,10 +15,10 @@ function About() {
         Then I decided to move into Europe and joined <a href="https://www.ironhack.com/en">Ironhack</a> Fullstack Web Development Bootcamp in 2021.
       </p>
       <p>Since my developer career started, I’ve been obsessed with styling and JavaScript and JS frameworks, and passionate organising the code structures and problem solving.</p>
-      <p>Talking about personality, I’ve lived in different countries and worked at different types of companies and I enjoyed developing social, technical skills and communicating. 
+      <p>I’ve lived in different countries and worked at different types of companies and I enjoyed developing social, technical skills and communicating. 
           My time abroad has taught me to be a true team player and adaptive with those who have different backgrounds.
       </p>
-      <p>I love traveling, learning new languages, playing sports and doing handicraft. <br />
+      <p>Talking about personality, I love traveling, learning new languages, playing sports and doing handicraft. <br />
       Interestingly, my first solo trip was when I was 11 years old to join a summer school in Australia. Since then I have traveled to more than 20 countries. 
       </p>
       </section>
