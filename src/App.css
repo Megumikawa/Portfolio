@@ -67,7 +67,7 @@ li {
 }
 
 .projects-background {
-  height: calc(400% + 12vh);
+  height: calc(230% + 12vh);
 }
 
 .home {
@@ -156,6 +156,8 @@ li {
 /* ----------project---------- */
 .projects {
   padding: 0 10%;
+  position: absolute;
+  top: 100px;
 }
 
 .projects h1 {
