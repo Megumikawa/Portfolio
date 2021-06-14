@@ -54,7 +54,7 @@ li {
   margin-right: 0;
 }
 
-/* ----------home---------- */
+/* ----------background---------- */
 
 .background {
   position: absolute;
@@ -78,20 +78,21 @@ li {
   height: 100%;
 }
 
+/* ----------home---------- */
 .home {
   position: absolute;
-  top: 400px;
+  top: 360px;
   right: 30%;
   font-weight: 300;
   color: #eee;
 }
 
 .Typewriter__wrapper {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .name {
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 400;
 }
 
@@ -170,6 +171,7 @@ li {
 
 .projects h1 {
   margin-bottom: 30px;
+  color: #fff;
   /* font-size: 60px; */
 }
 
@@ -195,21 +197,13 @@ li {
 }
 
 .project-image img:hover{
-  filter: blur(1px);
-  transform: scale(0.9);
-  transition-duration: 0.8s;
-  /* box-shadow: 10px 10px 10px rgba(0,0,0,.5); */
-  /* transform: translateY(10px); */
-  /* transition-duration: 0.5s; */
+  filter: blur(2px);
+  /* opacity: .7; */
 }
 
 .my-project-card {
   width: 50%;
 }
-/* 
-.my-project-card h2 {
-  font-size: 30px;
-} */
 
 .my-project-card p {
   text-align: left;
