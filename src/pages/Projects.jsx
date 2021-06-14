@@ -3,7 +3,7 @@ import Kittchat from '../components/Kittchat';
 import Animeek from '../components/Animeek';
 import Coingame from '../components/Coingame';
 import Feuille from '../components/Feuille';
-import ProjectsBackground from '../components/ProjectsBackground';
+import ProjectsBackground from '../components/Background/ProjectsBackground';
 
 
 function Projects() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from "typewriter-effect";
-import Background from '../components/Background'
+import Background from '../components/Background/Background'
 
 function Home() {
   return (
