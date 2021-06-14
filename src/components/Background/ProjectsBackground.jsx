@@ -5,7 +5,7 @@ import { particlesOptions } from "./ParticlesOptions";
 function ProjectsBackground() {
   return (
     <div className="background projects-background">
-      <Particles className="particles particles-box" params={particlesOptions} />
+      <Particles className="particles particles-project" params={particlesOptions} />
     </div>
   )
 }

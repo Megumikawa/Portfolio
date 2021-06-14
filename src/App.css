@@ -70,6 +70,14 @@ li {
   height: calc(230% + 12vh);
 }
 
+.particles {
+  margin-top: 100px;
+}
+
+.particles-project {
+  height: 100%;
+}
+
 .home {
   position: absolute;
   top: 400px;
@@ -187,7 +195,9 @@ li {
 }
 
 .project-image img:hover{
-  opacity: 0.5;
+  /* opacity: 0.5; */
+  /* filter: blur(4px); */
+
 }
 
 .my-project-card {
