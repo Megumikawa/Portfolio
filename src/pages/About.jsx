@@ -10,9 +10,9 @@ function About() {
         <h1>ABOUT</h1>
         <p>Hello! I am Megumi Kawagoe based in Amsterdam, Netherlands.</p>
         <p>I'm a passionate Frontend developer, born and brought up in Japan.<br />
-          I started coding from HTML, CSS, jQuery and WordPress at <a href="https://manabito.biz/">Manabito.co</a> in 2020.
+          I started coding from HTML, CSS, jQuery and WordPress at <a href="https://manabito.biz/" rel="noreferrer" target="_blank">Manabito.co</a> in 2020.
           Through learning jQuery, I was eager to learn from fundamental to a wide range of JavaScript. 
-          Then I decided to move into Europe and joined <a href="https://www.ironhack.com/en">Ironhack</a> Fullstack Web Development Bootcamp in 2021.
+          Then I decided to move into Europe and joined <a href="https://www.ironhack.com/en" rel="noreferrer" target="_blank">Ironhack</a> Fullstack Web Development Bootcamp in 2021.
         </p>
         <p>Since my developer career started, I’ve been obsessed with styling and JavaScript and JS frameworks, and passionate organising the code structures and problem solving.</p>
         <p>I’ve lived in different countries and worked at different types of companies and I enjoyed developing social, technical skills and communicating. 

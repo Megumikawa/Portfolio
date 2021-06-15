@@ -41,8 +41,8 @@ function AnimeekProject() {
               <span>#Bootstrap</span>
             </div>
             <div className="project-link">
-              <a href="https://animeek.herokuapp.com/"><LanguageIcon />Checkout</a>
-              <a href="https://github.com/LuisaEgoavil/animeek"><GitHubIcon />Repository</a>
+              <a href="https://animeek.herokuapp.com/" rel="noreferrer" target="_blank"><LanguageIcon />Checkout</a>
+              <a href="https://github.com/LuisaEgoavil/animeek" rel="noreferrer" target="_blank"><GitHubIcon />Repository</a>
             </div>
           </CardContent>
         </Card>

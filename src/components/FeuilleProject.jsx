@@ -41,8 +41,8 @@ function FeuilleProject() {
               <span>#Responsive</span>
             </div>
             <div className="project-link">
-              <a href="https://megumikawa.github.io/manabito-feuille/"><LanguageIcon />Checkout</a>
-              <a href="https://github.com/Megumikawa/manabito-practice/tree/feature/feuille/feuille"><GitHubIcon />Repository</a>
+              <a href="https://megumikawa.github.io/manabito-feuille/" rel="noreferrer" target="_blank"><LanguageIcon />Checkout</a>
+              <a href="https://github.com/Megumikawa/manabito-practice/tree/feature/feuille/feuille" rel="noreferrer" target="_blank"><GitHubIcon />Repository</a>
             </div>
           </CardContent>
         </Card>

@@ -51,9 +51,9 @@ function KittchatProject() {
               <span>#MongoDB</span>
             </div>
             <div className="project-link">
-              <a href="https://kittchat.herokuapp.com/"><LanguageIcon />Checkout</a>
-              <a href="https://github.com/LuisaEgoavil/Kittchat-client"><GitHubIcon />Repository(client)</a>
-              <a href="https://github.com/LuisaEgoavil/Kittchat-server"><GitHubIcon />Repository(server)</a>
+              <a href="https://kittchat.herokuapp.com/" rel="noreferrer" target="_blank"><LanguageIcon />Checkout</a>
+              <a href="https://github.com/LuisaEgoavil/Kittchat-client" rel="noreferrer" target="_blank"><GitHubIcon />Repository(client)</a>
+              <a href="https://github.com/LuisaEgoavil/Kittchat-server" rel="noreferrer" target="_blank"><GitHubIcon />Repository(server)</a>
             </div>
           </CardContent>
         </Card>

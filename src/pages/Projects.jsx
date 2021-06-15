@@ -5,7 +5,6 @@ import CoingameProject from '../components/CoingameProject';
 import FeuilleProject from '../components/FeuilleProject';
 import ProjectsBackground from '../components/Background/ProjectsBackground';
 
-
 function Projects() {
   return (
     <div id="projects">

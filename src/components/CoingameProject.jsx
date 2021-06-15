@@ -39,8 +39,8 @@ function CoingameProject() {
               <span>#Canvas</span>
             </div>
             <div className="project-link">
-              <a href="https://megumikawa.github.io/coin-collector-game/"><LanguageIcon />Checkout</a>
-              <a href="https://github.com/Megumikawa/coin-collector-game"><GitHubIcon />Repository</a>
+              <a href="https://megumikawa.github.io/coin-collector-game/" rel="noreferrer" target="_blank"><LanguageIcon />Checkout</a>
+              <a href="https://github.com/Megumikawa/coin-collector-game" rel="noreferrer" target="_blank"><GitHubIcon />Repository</a>
             </div>
           </CardContent>
         </Card>
