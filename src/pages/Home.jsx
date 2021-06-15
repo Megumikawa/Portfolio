@@ -4,7 +4,7 @@ import Background from '../components/Background/Background'
 
 function Home() {
   return (
-    <>
+    <div id="home">
     <Background />
       {/* <img className="myPhoto" src="images/myillust.png" alt="myPhoto" /> */}
       <section className="home">
@@ -19,7 +19,7 @@ function Home() {
         }}
       />
       </section>
-    </>
+    </div>
   )
 }
 

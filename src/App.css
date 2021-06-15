@@ -68,7 +68,10 @@ li {
 
 .projects-background {
   height: calc(230% + 12vh);
+  position: absolute;
+  top: 2500px;
 }
+
 
 .particles {
   margin-top: 100px;
@@ -76,6 +79,7 @@ li {
 
 .particles-project {
   height: 100%;
+
 }
 
 /* ----------home---------- */
@@ -98,9 +102,12 @@ li {
 
 /* ----------about---------- */
 .about {
+  position: absolute;
+  top: 1000px;
   text-align: left;
   padding: 0 20%;
 }
+
 
 .about-article h1 {
   margin-bottom: 30px;
@@ -166,7 +173,7 @@ li {
 .projects {
   padding: 0 10%;
   position: absolute;
-  top: 100px;
+  top: 2600px;
 }
 
 .projects h1 {
@@ -237,9 +244,16 @@ li {
 }
 
 /* ----------contact---------- */
+.contact {
+  position: absolute;
+  top: 4800px;
+  right: 35%;
+}
+
 .contact-link {
   margin: 40px 0;
 }
+
 
 .contact-link a {
   margin: 0 20px;
@@ -251,13 +265,36 @@ li {
 }
 
 /* ----------footer---------- */
-/* .footer {
+.footer {
   position: absolute;
-  top: 300px;
-  right: 40%;
-  font-weight: 300;
-  color: #eee;
-} */
+  top: 5100px;
+  width: 100%;
+  /* height: calc(15% + 12vh); */
+}
+
+.particles-footer {
+  height: 50%;
+}
+
+.footer-background {
+  background: linear-gradient(90deg,#410a84,#31a7bb);
+  transform: skewY(-5deg);
+  height: calc(50% + 12vh);
+  box-shadow: 0 0 50 rgb(60 117 162 / 40%);
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.footer-background2 {
+  position: relative;
+  top: 100px;
+  color: #fff;
+  background: linear-gradient(90deg, #410a84, #31a7bb);;
+  height: calc(40% + 12vh);
+  padding: 140px 0 20px;
+  
+}
 
 
 

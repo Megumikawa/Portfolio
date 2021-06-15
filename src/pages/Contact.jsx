@@ -18,7 +18,6 @@ const Contact = () => {
         <a href="https://github.com/Megumikawa"><Button variant="outline-dark"><GitHubIcon />Github</Button></a>
         <a href="mailto:megumikawagoe@gmail.com"><Button variant="outline-success"><EmailIcon />Email</Button></a>
       </div>
-      <Footer />
     </div>
   )
 }

@@ -8,7 +8,7 @@ import ProjectsBackground from '../components/Background/ProjectsBackground';
 
 function Projects() {
   return (
-    <>
+    <div id="projects">
       <ProjectsBackground />
       <div id="projects" className="projects">
         <h1>Projects</h1>
@@ -17,7 +17,7 @@ function Projects() {
         <Coingame />
         <Feuille />
       </div>
-    </>
+    </div>
   )
 }
 export default Projects;
