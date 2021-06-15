@@ -5,7 +5,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Carousel from 'react-bootstrap/Carousel'
 
-function Animeek() {
+function AnimeekProject() {
   return (
     <>
       <section className="project-container">
@@ -51,4 +51,4 @@ function Animeek() {
     </>
   )
 }
-export default Animeek;
+export default AnimeekProject;
