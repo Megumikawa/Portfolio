@@ -5,7 +5,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Carousel from 'react-bootstrap/Carousel'
 
-function Feuille() {
+function FeuilleProject() {
   return (
     <>
       <section className="project-container">
@@ -51,4 +51,4 @@ function Feuille() {
   )
 }
 
-export default Feuille;
+export default FeuilleProject;

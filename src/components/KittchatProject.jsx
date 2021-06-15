@@ -5,7 +5,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Carousel from 'react-bootstrap/Carousel'
 
-function Kittchat() {
+function KittchatProject() {
   return (
     <>
       <section className="project-container">
@@ -62,4 +62,4 @@ function Kittchat() {
   )
 }
 
-export default Kittchat;
+export default KittchatProject;

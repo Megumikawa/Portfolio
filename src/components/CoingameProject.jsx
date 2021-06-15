@@ -5,7 +5,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Carousel from 'react-bootstrap/Carousel'
 
-function Coingame() {
+function CoingameProject() {
   return (
     <>
       <section className="project-container">
@@ -48,4 +48,4 @@ function Coingame() {
     </>
   )
 }
-export default Coingame;
+export default CoingameProject;

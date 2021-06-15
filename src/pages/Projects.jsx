@@ -1,8 +1,8 @@
 import React from 'react';
-import Kittchat from '../components/Kittchat';
+import KittchatProject from '../components/KittchatProject';
 import AnimeekProject from '../components/AnimeekProject';
-import Coingame from '../components/Coingame';
-import Feuille from '../components/Feuille';
+import CoingameProject from '../components/CoingameProject';
+import FeuilleProject from '../components/FeuilleProject';
 import ProjectsBackground from '../components/Background/ProjectsBackground';
 
 
@@ -12,10 +12,10 @@ function Projects() {
       <ProjectsBackground />
       <div id="projects" className="projects">
         <h1>Projects</h1>
-        <Kittchat />
+        <KittchatProject />
         <AnimeekProject />
-        <Coingame />
-        <Feuille />
+        <CoingameProject />
+        <FeuilleProject />
       </div>
     </div>
   )
