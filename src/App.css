@@ -20,7 +20,6 @@ p {
   font-size: 20px;
 }
 
-
 hr {
   border-bottom: 0;
   height: 1px;
@@ -36,7 +35,6 @@ li {
 }
 
 .main {
-  margin: 100px auto 0;
   text-align: center;
 }
 
@@ -52,6 +50,12 @@ li {
 /* ----------header---------- */
 .navbar-nav {
   margin-right: 0;
+}
+
+.nav-wrap {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
 }
 
 /* ----------background---------- */
@@ -74,7 +78,7 @@ li {
 
 
 .particles {
-  margin-top: 100px;
+  height: 100%;
 }
 
 .particles-project {

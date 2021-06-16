@@ -3,11 +3,10 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-
 function Header() {
   return (
-    <>
-      <Navbar bg="light" expand="lg" fixed="top">
+    <div className="nav-wrap">
+      <Navbar bg="light" expand="lg" >
         <Navbar.Brand href="#home">
           <img src="images/mklogo.png" className="logo" alt="logo" />
         </Navbar.Brand>
@@ -20,7 +19,7 @@ function Header() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </>
+    </div>
   )
 }
 export default Header;

@@ -8,7 +8,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import {Link} from 'react-scroll';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function App() {
   return (
