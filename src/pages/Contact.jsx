@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 const Contact = () => {
   return (
     <div id="contact" className="contact">
-      <h1>Questions?</h1>
+      <h1 >Questions?</h1>
       <h2>Get in touch!!</h2>
       <div className="contact-link">
         <a href="https://www.linkedin.com/in/megumi-kawagoe-88j/" rel="noreferrer" target="_blank"><Button variant="outline-primary"><LinkedInIcon />LinkedIn</Button></a>

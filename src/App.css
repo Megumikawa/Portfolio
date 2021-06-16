@@ -52,6 +52,12 @@ li {
   margin-right: 0;
 }
 
+.nav-link {
+  margin-right: 10px;
+  font-size: 22px;
+  padding: 0 6px;
+}
+
 .nav-wrap {
   position: absolute;
   z-index: 1;
@@ -252,6 +258,7 @@ li {
   position: absolute;
   top: 4800px;
   right: 35%;
+  margin-top: 50px;
 }
 
 .contact-link {
@@ -273,6 +280,7 @@ li {
   position: absolute;
   top: 5100px;
   width: 100%;
+  margin-top: 100px;
   /* height: calc(15% + 12vh); */
 }
 
