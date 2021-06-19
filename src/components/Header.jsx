@@ -46,7 +46,6 @@ function Header() {
 
   useEffect(() => {
     document.body.dir = currentLanguage.dir || 'ltr'
-    document.title = t('app_title')
   },[currentLanguage], t)
 
 
@@ -68,31 +67,32 @@ function Header() {
         </Navbar.Collapse>
 
         <div className="d-flex justify-content-end">
-      <div className="dropdown">
-        <button className="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        <LanguageIcon />
-        </button>
-        <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <li>
-          <span className="dropdown-item-text">{t('language')}</span>
-        </li>
-          {languages.map(({ code, name, country_code}) => (
-          <li key={country_code}>
-            <button 
-              className="dropdown-item" 
-              onClick={() => i18next.changeLanguage(code)}
-              disable={code === currentLanguageCode}
-            >
-            <span 
-              className={`flag-icon flag-icon-${country_code} mx-2`}
-              style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
-            ></span>
-              {name}
+          <div className="dropdown">
+            <button className="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <LanguageIcon />
             </button>
-          </li>
-        ))}
-        </ul>
-      </div>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <span className="dropdown-item-text">{t('language')}</span>
+            </li>
+            {languages.map(({ code, name, country_code}) => (
+              <li key={country_code}>
+                <button 
+                  className="dropdown-item" 
+                  onClick={() => i18next.changeLanguage(code)}
+                  disable={code === currentLanguageCode}
+                >
+                  <span 
+                    className={`flag-icon flag-icon-${country_code} mx-2`}
+                    style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
+                  >
+                  </span>
+                  {name}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
       </Navbar>
     </div>
