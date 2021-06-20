@@ -2,6 +2,7 @@ import React from 'react'
 import Typewriter from "typewriter-effect";
 import Background from '../components/Background/Background'
 import { useTranslation } from 'react-i18next';
+// import En from "public/assets/locales/en";
 
 
 
