@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import i18next from "i18next";
 import { useTranslation } from 'react-i18next';
-// import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
@@ -21,13 +20,16 @@ const languages = [
     country_code: 'gb'
   },
   {
+    code: 'de',
+    name: 'Deutsche',
+    country_code: 'de'
+  },
+  {
     code: 'ja',
     name: '日本語',
     country_code: 'jp'
   },
 ]
-
-
 
 
 function Header() {

@@ -13,8 +13,6 @@ function Home() {
     <div id="home">
       <Background />
       <section className="home">
-
-
         <h1>{t('greeting')}, I'm <br /><span className="name">Megumi Kawagoe.</span></h1>
         <Typewriter
           options={{

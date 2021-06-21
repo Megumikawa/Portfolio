@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Skills from './Skills';
+import { useTranslation } from 'react-i18next';
 
 function About() {
+  const { t, i18n } = useTranslation();
 
   return (
     <div id="about" className="about">
       <section className="about-article">
-        <h1>ABOUT</h1>
+        <h1>ABOUT{t('greeting')}</h1>
         <p>Hello! I am Megumi Kawagoe based in Amsterdam, Netherlands.</p>
         <p>I'm a passionate Frontend developer, born and brought up in Japan.<br />
           I started coding from HTML, CSS, jQuery and WordPress at <a href="https://manabito.biz/" rel="noreferrer" target="_blank">Manabito.co</a> in 2020.

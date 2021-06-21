@@ -1,0 +1,10 @@
+{
+  "greeting": "Hallo",
+  "title": "Titel",
+  "language": "Sprache",
+  "welcome_message": "herzlich willkommen",
+  "description": {
+    "part1": "Um loszulegen, andere",
+    "part2": "Andere die Sorachen zwischen"
+  }
+}
