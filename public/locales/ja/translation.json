@@ -1,0 +1,11 @@
+{
+  "greeting": "こんにちは",
+  "title": "タイトル",
+  "language": "言語",
+  "welcome_message": "ようこそ",
+  "description": {
+    "part1": "パート１",
+    "part2": "パート２"
+  }
+}
+

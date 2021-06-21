@@ -1,8 +1,8 @@
-// import React from "react";
-// // import ReactDOM from "react-dom";
-// import i18n from "i18next";
-// import { useTranslation, initReactI18next } from "react-i18next";
-// import LanguageDetector from 'i18next-browser-languagedetector';
+import i18n from "i18next";
+import Backend from 'i18next-http-backend'
+import LanguageDetector from 'i18next-browser-languagedetector';
+import { useTranslation, initReactI18next } from "react-i18next";
+
 // import HttpApi from 'i18next-http-backend';
 // import 'bootstrap/dist/js/bootstrap';
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,42 +11,28 @@
 
 
 
-// i18n
-//   .use(initReactI18next) // passes i18n down to react-i18next
-//   .use(LanguageDetector)
-//   .use(HttpApi)
-//   .init({
-//     supportedLngs: ['en', 'fr', 'ja'],
-//     fallbackLng: "en",
-//     detection: {
-//       order: ['cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],
-//       caches: ['cookie'],
-//     },
-//     backend: {
-//       loadPath: '/assets/locales/{{lng}}/translation.json',
-//     }
-//   });
+i18n
+  .use(Backend)
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    fallbackLng: 'en',
+    debag: true,
+    detection: {
+      order: ['queryString', 'cookie'],
+      cache: ['cookie']
+    },
+    interpolation: {
+      escapeValue: false
+    }
+  })
+
+export default i18n
+
 
 // function I18n() {
 //   const { t } = useTranslation();
 
-//   return <h2>{t('Welcome to React')}</h2>;
+//   return <h2>{t("welcome_message")}</h2>;
 // }
 
-
-// // const loadingMarkup = (
-// //   <div className="py-4 text-center">
-// //     <h2>Loading..</h2>
-// //   </div>
-// // )
-// // append app to dom
-// // ReactDOM.render(
-//   // <Suspense fallback={loadingMarkup}>
-//     // <React.StrictMode>
-//       // <App />,
-//     // </React.StrictMode>,
-//   // </Suspense>,
-//   // document.getElementById("root")
-// // );
-
-// export default i18n;

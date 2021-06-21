@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-// import i18next from "i18next";
-// import { useTranslation } from 'react-i18next';
+import i18next from "i18next";
+import { Trans, useTranslation } from 'react-i18next';
 // import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -14,23 +14,18 @@ import cookies from 'js-cookie';
 import { debounce } from '../utilities/helpers.js';
 
 
-// const languages = [
-//   {
-//     code: 'fr',
-//     name: 'Francais',
-//     country_code: 'fr'
-//   },
-//   {
-//     code: 'en',
-//     name: 'English',
-//     country_code: 'gb'
-//   },
-//   {
-//     code: 'ja',
-//     name: '日本語',
-//     country_code: 'jp'
-//   },
-// ]
+const languages = [
+  {
+    code: 'en',
+    name: 'English',
+    country_code: 'gb'
+  },
+  {
+    code: 'ja',
+    name: '日本語',
+    country_code: 'jp'
+  },
+]
 
 
 
@@ -61,14 +56,20 @@ function Header() {
       return () => window.removeEventListener('scroll', handleScroll)
         }, [prevScrollPos, visible, handleScroll])
 
-  // const currentLanguageCode = cookies.get('i18next') || 'en'
-  // const currentLanguage = languages.find(l => l.code === currentLanguageCode)
+  const currentLanguageCode = cookies.get('i18next') || 'en'
+  const currentLanguage = languages.find(l => l.code === currentLanguageCode)
 
   // const { t } = useTranslation()
 
   // useEffect(() => {
   //   document.body.dir = currentLanguage.dir || 'ltr'
   // },[currentLanguage], t)
+
+  const {t, i18n} = useTranslation()
+
+  // const changeLanguage = (language) => {
+  //   i18n.changeLanguage(language)
+  // }
 
 
   return (
@@ -88,15 +89,13 @@ function Header() {
           </Nav>
         </Navbar.Collapse>
 
-        {/* <div className="d-flex justify-content-end">
+        <div className="d-flex justify-content-end">
           <div className="dropdown">
             <button className="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
               <LanguageIcon />
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li>
-                <span className="dropdown-item-text">{t('language')}</span>
-              </li>
+              <li><span className="dropdown-item-text">{t('language')}</span></li>
               {languages.map(({ code, name, country_code}) => (
                 <li key={country_code}>
                   <button 
@@ -115,7 +114,7 @@ function Header() {
               ))}
             </ul>
           </div>
-        </div> */}
+        </div>
       </Navbar>
     </div>
   )

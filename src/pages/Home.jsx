@@ -1,20 +1,21 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import Typewriter from "typewriter-effect";
 import Background from '../components/Background/Background'
 import { useTranslation } from 'react-i18next';
-// import En from "public/assets/locales/en";
 
 
 
 function Home() {
-  const {t,i18n} = useTranslation()
+
+  const { t, i18n } = useTranslation();
+
   return (
     <div id="home">
       <Background />
       <section className="home">
 
 
-        <h1>{t,("greeting")}, I'm <br /><span className="name">Megumi Kawagoe.</span></h1>
+        <h1>{t('greeting')}, I'm <br /><span className="name">Megumi Kawagoe.</span></h1>
         <Typewriter
           options={{
             strings: ["Front-end Developer", "MERN Developer", "Learner"],

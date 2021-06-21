@@ -1,16 +1,22 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import './i18n';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
 // import './modules/i18n'
+import './i18n';
+
+
+
 
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Suspense fallback={<div>Loading...</div>}>
+        <App />
+      </Suspense>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
