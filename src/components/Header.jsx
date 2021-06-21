@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import i18next from "i18next";
-import { Trans, useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 // import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -32,44 +32,45 @@ const languages = [
 
 function Header() {
 
-    const [prevScrollPos, setPrevScrollPos] = useState(0)
-    const [visible, setVisible] = useState(true)
+// ----- navbar scroll animation ----- //
+  const [prevScrollPos, setPrevScrollPos] = useState(0)
+  const [visible, setVisible] = useState(true)
 
-    const navbarStyles = {
-      position: 'fixed',
-      height: '60px',
-      width: '100%',
-      backgroundColor: 'grey',
-      textAlign: 'center',
-      transition: 'top 0.6s',
-      zIndex: '11'
-    }
+  const navbarStyles = {
+    position: 'fixed',
+    height: '60px',
+    width: '100%',
+    backgroundColor: 'grey',
+    textAlign: 'center',
+    transition: 'top 0.6s',
+    zIndex: '11'
+  }
 
-    const handleScroll = debounce(() => {
-      const currentScrollPos = window.pageYOffset;
-      setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
-      setPrevScrollPos(currentScrollPos);
-    },100)
+  const handleScroll = debounce(() => {
+    const currentScrollPos = window.pageYOffset;
+    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
+    setPrevScrollPos(currentScrollPos);
+  },100)
 
-    useEffect(() => {
-      window.addEventListener('scroll', handleScroll)
-      return () => window.removeEventListener('scroll', handleScroll)
-        }, [prevScrollPos, visible, handleScroll])
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+      }, [prevScrollPos, visible, handleScroll])
 
+// ----- multiple language(i18n) ----- //
   const currentLanguageCode = cookies.get('i18next') || 'en'
   const currentLanguage = languages.find(l => l.code === currentLanguageCode)
 
-  // const { t } = useTranslation()
 
-  // useEffect(() => {
+  useEffect(() => {
   //   document.body.dir = currentLanguage.dir || 'ltr'
   // },[currentLanguage], t)
 
+    const changeLanguage = (language) => {
+      i18n.changeLanguage(language)
+    }
+  })
   const {t, i18n} = useTranslation()
-
-  // const changeLanguage = (language) => {
-  //   i18n.changeLanguage(language)
-  // }
 
 
   return (
