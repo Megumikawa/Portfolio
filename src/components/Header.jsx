@@ -40,7 +40,7 @@ function Header() {
 
   const navbarStyles = {
     position: 'fixed',
-    height: '60px',
+    height: '70px',
     width: '100%',
     backgroundColor: 'grey',
     textAlign: 'center',
@@ -64,14 +64,14 @@ function Header() {
   const currentLanguage = languages.find(l => l.code === currentLanguageCode)
   const { t } = useTranslation()
 
-  // useEffect(() => {
-  //   document.body.dir = currentLanguage.dir || 'ltr'
-  // }, [currentLanguage, t])
+  useEffect(() => {
+    document.body.dir = currentLanguage.dir || 'ltr'
+  }, [currentLanguage, t])
 
 
   return (
     <div className="nav-wrap">
-      <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-60px' }} bg="light" expand="lg" >
+      <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-70px' }} bg="light" expand="lg" >
         <Scroll to="home" smooth={true} offset={-130}>
           <Navbar.Brand href="#">
             <img src="images/mklogo.png" className="logo" alt="logo" />
@@ -107,6 +107,7 @@ function Header() {
                     className="dropdown-item" 
                     onClick={() => i18next.changeLanguage(code)}
                     disable={code === currentLanguageCode}
+                    style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
                   >
                     <span 
                       className={`flag-icon flag-icon-${country_code} mx-2`}

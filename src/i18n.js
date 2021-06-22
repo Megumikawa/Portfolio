@@ -16,8 +16,8 @@ i18n
     fallbackLng: ['en', 'de', 'ja'],
     debag: true,
     detection: {
-      order: ['path', 'cookie', 'htmlTag', 'localStorage', 'subdomain'],
-      cache: ['cookie']
+      order: ['cookie', 'path',  'htmlTag', 'localStorage', 'subdomain'],
+      caches: ['cookie'],
     },
     interpolation: {
       escapeValue: false
