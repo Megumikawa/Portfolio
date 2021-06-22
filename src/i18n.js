@@ -1,12 +1,8 @@
 import i18n from "i18next";
 import Backend from 'i18next-http-backend'
 import LanguageDetector from 'i18next-browser-languagedetector';
-import { useTranslation, initReactI18next } from "react-i18next";
-
-// import HttpApi from 'i18next-http-backend';
-// import 'bootstrap/dist/js/bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// // import 'flag-icon-css/css/flag-icon.min.css';
+import { initReactI18next } from "react-i18next";
+import HttpApi from 'i18next-http-backend';
 
 
 
@@ -15,11 +11,12 @@ i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
+  .use(HttpApi)
   .init({
-    fallbackLng: 'en',
+    fallbackLng: ['en', 'de', 'ja'],
     debag: true,
     detection: {
-      order: ['queryString', 'cookie'],
+      order: ['path', 'cookie', 'htmlTag', 'localStorage', 'subdomain'],
       cache: ['cookie']
     },
     interpolation: {
@@ -28,11 +25,3 @@ i18n
   })
 
 export default i18n
-
-
-// function I18n() {
-//   const { t } = useTranslation();
-
-//   return <h2>{t("welcome_message")}</h2>;
-// }
-

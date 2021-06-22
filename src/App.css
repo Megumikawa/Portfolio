@@ -65,6 +65,19 @@ li {
   width: 100%;
 } */
 
+.dropdown-toggle,
+.dropdown-toggle::after {
+  color: rgba(0,0,0,.55);
+}
+.btn-link:hover {
+  opacity: .5;
+  color: rgba(0,0,0,.55);
+}
+
+.btn-check:focus+.btn, .btn:focus {
+  box-shadow: none;
+}
+
 /* ----------background---------- */
 
 .background {

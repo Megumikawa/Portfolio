@@ -62,17 +62,11 @@ function Header() {
 // ----- multiple language(i18n) ----- //
   const currentLanguageCode = cookies.get('i18next') || 'en'
   const currentLanguage = languages.find(l => l.code === currentLanguageCode)
+  const { t } = useTranslation()
 
-
-  useEffect(() => {
+  // useEffect(() => {
   //   document.body.dir = currentLanguage.dir || 'ltr'
-  // },[currentLanguage], t)
-
-    const changeLanguage = (language) => {
-      i18n.changeLanguage(language)
-    }
-  })
-  const {t, i18n} = useTranslation()
+  // }, [currentLanguage, t])
 
 
   return (
@@ -84,21 +78,29 @@ function Header() {
           </Navbar.Brand>
         </Scroll>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" style={{flexGrow: '0'}}>
           <Nav>
           <Scroll to="about" smooth={true} offset={-130}><Nav.Link href="#about">About</Nav.Link></Scroll>
           <Scroll to="projects" smooth={true} offset={-120}><Nav.Link href="#projects">Projects</Nav.Link></Scroll>
           <Scroll to="contact" smooth={true} ><Nav.Link href="#contact">Contact</Nav.Link></Scroll>
           </Nav>
-        </Navbar.Collapse>
+          </Navbar.Collapse>
 
-        <div className="d-flex justify-content-end">
+        <div className="d-flex justify-content-end align-items-center language-select-root">
           <div className="dropdown">
-            <button className="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <button 
+              className="btn btn-link dropdown-toggle" 
+              type="button" 
+              id="dropdownMenuButton1" 
+              data-bs-toggle="dropdown" 
+              aria-expanded="false"
+            >
               <LanguageIcon />
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><span className="dropdown-item-text">{t('language')}</span></li>
+              <li>
+                <span className="dropdown-item-text">{t('language')}</span>
+              </li>
               {languages.map(({ code, name, country_code}) => (
                 <li key={country_code}>
                   <button 
@@ -118,6 +120,7 @@ function Header() {
             </ul>
           </div>
         </div>
+        
       </Navbar>
     </div>
   )
