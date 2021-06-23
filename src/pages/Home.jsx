@@ -13,7 +13,7 @@ function Home() {
     <div id="home">
       <Background />
       <section className="home">
-        <h1>{t('greeting')}, I'm <br /><span className="name">Megumi Kawagoe.</span></h1>
+        <h1>{t('home_greeting')}, I'm <br /><span className="name">Megumi Kawagoe.</span></h1>
         <Typewriter
           options={{
             strings: ["Front-end Developer", "MERN Developer", "Learner"],

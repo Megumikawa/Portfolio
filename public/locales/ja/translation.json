@@ -1,11 +1,24 @@
 {
-  "greeting": "こんにちは",
   "title": "タイトル",
   "language": "言語",
   "welcome_message": "ようこそ",
-  "description": {
-    "part1": "パート１",
-    "part2": "パート２"
+  "home_greeting": "ようこそ, 私は",
+  "nav": {
+    "nav_about": "About",
+    "nav_projects": "Projects",
+    "nav_contact": "Contact"
+  },
+  "about": {
+    "h1": "自己紹介",
+    "part1": "Hello! I am Megumi Kawagoe based in Amsterdam, Netherlands.",
+    "part2": "I'm a passionate Frontend developer, born and brought up in Japan.",
+    "part3": "2021年に<1>まなびと</1>でHTMLとCSS、jQuery, WordPressからコーディングの勉強を始めました。",
+    "part4": "Through learning jQuery, I was eager to learn from fundamental to a wide range of JavaScript.",
+    "part5": "Then I decided to move into Europe and joined <2>Ironhack</2> Fullstack Web Development Bootcamp in 2021.",
+    "part6": "Since my developer career started, I’ve been obsessed with styling and JavaScript and JS frameworks, and passionate organising the code structures and problem solving.",
+    "part7": "I’ve lived in different countries and worked at different types of companies and I enjoyed developing social, technical skills and communicating.My time abroad has taught me to be a true team player and adaptive with those who have different backgrounds.",
+    "part8": "Talking about personality, I love traveling, learning new languages, playing sports and doing handicraft.",
+    "part9": "Interestingly, my first solo trip was when I was 11 years old to join a summer school in Australia. Since then I have traveled to more than 20 countries.",
+    "part10": ""
   }
 }
-
