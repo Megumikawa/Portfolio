@@ -18,10 +18,7 @@ function About() {
           Then I decided to move into Europe and joined <a href="https://www.ironhack.com/en" rel="noreferrer" target="_blank">Ironhack</a> Fullstack Web Development Bootcamp in 2021.</Trans>
         <p>{t('about.part3')}</p>
         <p>{t('about.part4')}</p>
-        <Trans i18nKey="about.part5">
-        Talking about personality, I love traveling, learning new languages, playing sports and doing handicraft. <br />
-        Interestingly, my first solo trip was when I was 11 years old to join a summer school in Australia. Since then I have traveled to more than 20 countries. 
-        </Trans>
+        <p>{t('about.part5')}</p>
       </section>
       <section className="about-link">
       <Scroll to="contact" smooth={true} ><a className="contact-me" href="#contact">more...</a></Scroll>
