@@ -11,7 +11,7 @@ function KittchatProject() {
       <section className="project-container">
         <div className="project-image">
           <a href="https://kittchat.herokuapp.com/"　rel="noreferrer" target="_blank">
-            <Carousel fade interval={1500} controls={false} indicators={false}>
+            <Carousel fade interval={2000} controls={false} indicators={false}>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
               </Carousel.Item>
