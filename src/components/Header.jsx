@@ -20,15 +20,10 @@ const languages = [
     country_code: 'gb'
   },
   {
-    code: 'de',
-    name: 'Deutsche',
-    country_code: 'de'
-  },
-  {
     code: 'ja',
     name: '日本語',
     country_code: 'jp'
-  },
+  }
 ]
 
 
@@ -80,48 +75,42 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{flexGrow: '0'}}>
           <Nav>
-          <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#about">{t('nav.nav_about')}</Nav.Link></Scroll>
-          <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects">{t('nav.nav_projects')}</Nav.Link></Scroll>
-          <Scroll to="contact" smooth={true} ><Nav.Link href="#contact">{t('nav.nav_contact')}</Nav.Link></Scroll>
-          </Nav>
-          </Navbar.Collapse>
-
-        <div className="d-flex justify-content-end align-items-center language-select-root">
-          <div className="dropdown">
+            <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#about">{t('nav.nav_about')}</Nav.Link></Scroll>
+            <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects">{t('nav.nav_projects')}</Nav.Link></Scroll>
+            <Scroll to="contact" smooth={true} ><Nav.Link href="#contact">{t('nav.nav_contact')}</Nav.Link></Scroll>
             <button 
-              className="btn btn-link dropdown-toggle" 
+              className="btn btn-link dropdown-toggle language-btn" 
               type="button" 
               id="dropdownMenuButton1" 
               data-bs-toggle="dropdown" 
               aria-expanded="false"
             >
-              <LanguageIcon />
+            <LanguageIcon />
             </button>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li>
-                <span className="dropdown-item-text">{t('language')}</span>
-              </li>
-              {languages.map(({ code, name, country_code}) => (
-                <li key={country_code}>
-                  <button 
-                    className="dropdown-item" 
-                    onClick={() => i18next.changeLanguage(code)}
-                    disable={code === currentLanguageCode}
-                    style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
-                  >
-                    <span 
-                      className={`flag-icon flag-icon-${country_code} mx-2`}
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <span className="dropdown-item-text">{t('language')}</span>
+                </li>
+                {languages.map(({ code, name, country_code}) => (
+                  <li key={country_code}>
+                    <button 
+                      className="dropdown-item" 
+                      onClick={() => i18next.changeLanguage(code)}
+                      disable={code === currentLanguageCode}
                       style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
                     >
-                    </span>
-                    {name}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-        
+                      <span 
+                        className={`flag-icon flag-icon-${country_code} mx-2`}
+                        style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
+                      >
+                      </span>
+                      {name}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
     </div>
   )

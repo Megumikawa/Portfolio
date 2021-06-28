@@ -59,12 +59,6 @@ li {
   padding: 0 6px;
 }
 
-/* .nav-wrap {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-} */
-
 .dropdown-toggle,
 .dropdown-toggle::after {
   color: rgba(0,0,0,.55);
@@ -76,6 +70,11 @@ li {
 
 .btn-check:focus+.btn, .btn:focus {
   box-shadow: none;
+}
+
+.language-btn {
+  padding: 0;
+  margin-left: 10px;
 }
 
 /* ----------background---------- */
@@ -287,7 +286,7 @@ li {
   margin: 0 20px;
 }
 
-.btn {
+.contact-link-btn {
   font-size: 20px;
   padding: 12px 18px;
 }
