@@ -79,8 +79,8 @@ function Header() {
             <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects">{t('nav.nav_projects')}</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact">{t('nav.nav_contact')}</Nav.Link></Scroll>
             <button 
-              className="btn btn-link dropdown-toggle language-btn" 
-              type="button" 
+              className="btn btn-link dropdown-toggle language-btn"
+              type="button"
               id="dropdownMenuButton1" 
               data-bs-toggle="dropdown" 
               aria-expanded="false"

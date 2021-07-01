@@ -15,7 +15,7 @@ function KittchatProject() {
               <Carousel.Item>
                 <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img className="d-block project-images" src="images/kittchat2.png" alt="kittchat-image" />
               </Carousel.Item>
               <Carousel.Item>
@@ -32,7 +32,7 @@ function KittchatProject() {
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/kittchat7.png" alt="kittchat-image" />
-              </Carousel.Item>
+              </Carousel.Item> */}
             </Carousel>
           </a>
         </div>
