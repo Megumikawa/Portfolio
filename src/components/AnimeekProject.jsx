@@ -15,7 +15,7 @@ function AnimeekProject() {
               <Carousel.Item>
                 <img className="d-block project-images" src="images/animeek1.png" alt="animeek-image" />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img className="d-block project-images" src="images/animeek2.png" alt="animeek-image" />
               </Carousel.Item>
               <Carousel.Item>
@@ -23,7 +23,7 @@ function AnimeekProject() {
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/animeek4.png" alt="animeek-image" />
-              </Carousel.Item>
+              </Carousel.Item> */}
             </Carousel>
           </a>
         </div>

@@ -15,7 +15,7 @@ function FeuilleProject() {
               <Carousel.Item>
                 <img className="d-block project-images" src="images/feuille1.png" alt="kittchat-image" />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img className="d-block project-images" src="images/feuille2.png" alt="kittchat-image" />
               </Carousel.Item>
               <Carousel.Item>
@@ -23,7 +23,7 @@ function FeuilleProject() {
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/feuille4.png" alt="kittchat-image" />
-              </Carousel.Item>
+              </Carousel.Item> */}
             </Carousel>
           </a>
         </div>
