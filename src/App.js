@@ -8,7 +8,6 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 
 
@@ -16,6 +15,7 @@ import { useTranslation } from "react-i18next";
 
 function App() {
   const {t} = useTranslation()
+  
   return (
     <div className="main">
     <h1>{t("greeting")}</h1>
