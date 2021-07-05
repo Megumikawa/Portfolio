@@ -3,9 +3,12 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import { Trans, useTranslation } from 'react-i18next';
 
 function AnimeekProject() {
+  const { t, i18n } = useTranslation();
+
   return (
     <>
       <section className="project-container">
@@ -30,10 +33,14 @@ function AnimeekProject() {
         <Card className="my-project-card">
           <CardContent>
             <h2 className="project-title">Animeek</h2><hr />
-            <p className="project-description">
+            {/* <p className="project-description">
             Animeek is an app where you can search for your favorite anime and be able to add it to your watchlist. <br />
             You just type any anime you desire and Animeek will give you all the information you need.
-            </p>
+            </p> */}
+            <Trans i18nKey="project_animeek.description">
+            Animeek is an app where you can search for your favorite anime and be able to add it to your watchlist. <br />
+            You just type any anime you desire and Animeek will give you all the information you need.
+            </Trans>
             <div className="tech-skills">
               <span>#Handlebars</span>
               <span>#MongoDB</span>

@@ -69,6 +69,7 @@ function Header() {
       <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-70px' }} bg="light" expand="lg" >
         <Scroll to="home" smooth={true} offset={-130}>
           <Navbar.Brand href="#">
+            {/* <img src="images/myillust.png" className="logo" alt="logo" /> */}
             <img src="images/mklogo.png" className="logo" alt="logo" />
           </Navbar.Brand>
         </Scroll>
