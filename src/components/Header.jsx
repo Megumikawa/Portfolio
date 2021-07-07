@@ -76,9 +76,9 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{flexGrow: '0'}}>
           <Nav>
-            <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#about">{t('nav.nav_about')}</Nav.Link></Scroll>
-            <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects">{t('nav.nav_projects')}</Nav.Link></Scroll>
-            <Scroll to="contact" smooth={true} ><Nav.Link href="#contact">{t('nav.nav_contact')}</Nav.Link></Scroll>
+            <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#about">About</Nav.Link></Scroll>
+            <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects">Projects</Nav.Link></Scroll>
+            <Scroll to="contact" smooth={true} ><Nav.Link href="#contact">Contact</Nav.Link></Scroll>
             <button 
               className="btn btn-link dropdown-toggle language-btn"
               type="button"

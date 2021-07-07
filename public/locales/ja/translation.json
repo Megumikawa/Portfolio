@@ -1,21 +1,22 @@
 {
-  
-  "title": "Title",
-  "language": "Language",
-  "welcome_message": "Welcome",
-  "home_greeting": "Hi, I'm",
-  "nav": {
-    "nav_about": "About",
-    "nav_projects": "Projects",
-    "nav_contact": "Contact"
-  },
   "about": {
-    "h1": "ABOUT",
     "part1": "初めまして。フロントエンドエンジニアの川越恵です。日本で生まれ育ち現在はオランダのアムステルダムに在住しています。",
     "part2": "私が本格的にプログラミングを始めたのは2020年になります。宮崎県の<1>株式会社まなびと</1>でweb制作を目的にHTML, CSS, jQueryそしてWordPressを勉強しました。",
     "part3": "その時からもっと本格的にプログラミングを勉強したいと思うようになり<2>Ironhack</2>というウェブディベロッパーのブートキャンプに2021年、アムステルダムで参加しました。ブートキャンプではMERN developerになるべくJavaScriptの基本からNodejs, Reactjsを学びました。",
     "part4": "またこれまでに日本のみだけでなくマレーシアでも2年ほど仕事をしました。そのためバックグラウンドが異なる人と働くことや新しいコミュニティを築くことを好きですし、また日々技術の向上にも勤めています。",
     "part5": "プライベートでは、旅行が大好きでこれまでに２０ヵ国以上旅行をしてきました。またその他にもスポーツやハンディクラフトが得意で特にモノづくりをするのが好きです。"
+  },
+  "project_kittchat": {
+    "description": "Kitchat is a cat cafe website that makes a reservation by choosing from 5 different locations in Berlin.<1 />Once you sign up, you can manage and check reservation history from your personal account."
+  },
+  "project_animeek": {
+    "description": "Animeek is an app where you can search for your favorite anime and be able to add it to your watchlist. <1 />You just type any anime you desire and Animeek will give you all the information you need."
+  },
+  "project_coingame": {
+    "description": "Coin-Collector is a game about collecting two types of coins which fall from top to bottom.<1/>An enemy of the devil is also coming from the right side to reduce your points.<3 />When you cannot avoid rocks, the game is over."
+  },
+  "project_feuille": {
+    "description": "This is a jewelry E-commercethe website landing page.<1 />You can check the item detail when you click an image and when you scroll down, you can check shop detail with Google Maps."
   }
 }
 

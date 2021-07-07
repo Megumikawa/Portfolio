@@ -1,16 +1,5 @@
 {
-  
-  "title": "Title",
-  "language": "Language",
-  "welcome_message": "Welcome",
-  "home_greeting": "Hi, I'm",
-  "nav": {
-    "nav_about": "About",
-    "nav_projects": "Projects",
-    "nav_contact": "Contact"
-  },
   "about": {
-    "h1": "ABOUT",
     "part1": "Hello! I am Megumi Kawagoe who is a passionate front-end developer, born and brought up in Japan and currently based in Amsterdam, Netherlands.",
     "part2": "I started coding from HTML, CSS, jQuery and WordPress at <1>Manabito.co</1> in 2020. Through learning jQuery, I was eager to learn from fundamental to a wide range of JavaScript. Then I decided to move into Europe and joined <3>Ironhack</3> Fullstack Web Development Bootcamp in 2021.",
     "part3": "Since my developer career started, I’ve been obsessed with styling and JavaScript and JS frameworks, and passionate organising the code structures and problem solving.",

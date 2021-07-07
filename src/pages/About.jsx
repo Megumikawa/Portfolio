@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Skills from './Skills';
 import { Trans, useTranslation } from 'react-i18next';
 import { Link as Scroll } from 'react-scroll';
@@ -10,7 +10,7 @@ function About() {
   return (
     <div id="about" className="about">
       <section className="about-article">
-        <h1>{t('about.h1')}</h1>
+        <h1>About</h1>
         <p>{t('about.part1')}</p>
         <p>
           <Trans i18nKey="about.part2">
