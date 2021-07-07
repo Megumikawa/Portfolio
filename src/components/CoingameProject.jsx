@@ -3,7 +3,8 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import { Trans, useTranslation } from 'react-i18next';
 
 function CoingameProject() {
   return (
@@ -28,9 +29,11 @@ function CoingameProject() {
           <CardContent>
             <h2 className="project-title">Coin Collector</h2><hr />
             <p className="project-description">
-            Coin-Collector is a game about collecting two types of coins which fall from top to bottom.<br />
-            An enemy of the devil is also coming from the right side to reduce your points.<br />
-            When you cannot avoid rocks, the game is over.
+              <Trans i18nKey="project_coingame.description">
+              Coin-Collector is a game about collecting two types of coins which fall from top to bottom.<br />
+              An enemy of the devil is also coming from the right side to reduce your points.<br />
+              When you cannot avoid rocks, the game is over.
+              </Trans>
             </p>
             <div className="tech-skills">
               <span>#HTML5</span>

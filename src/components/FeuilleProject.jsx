@@ -3,7 +3,8 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import { Trans, useTranslation } from 'react-i18next';
 
 function FeuilleProject() {
   return (
@@ -31,8 +32,10 @@ function FeuilleProject() {
           <CardContent>
             <h2 className="project-title">feuille</h2><hr />
             <p className="project-description">
-            This is a jewelry E-commercethe website landing page.<br />
-            You can check the item detail when you click an image and when you scroll down, you can check shop detail with Google Maps.
+              <Trans i18nKey="project_.description">
+                This is a jewelry E-commercethe website landing page.<br />
+                You can check the item detail when you click an image and when you scroll down, you can check shop detail with Google Maps.
+              </Trans>
             </p>
             <div className="tech-skills">
               <span>#HTML5</span>

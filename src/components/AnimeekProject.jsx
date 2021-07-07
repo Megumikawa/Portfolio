@@ -33,14 +33,12 @@ function AnimeekProject() {
         <Card className="my-project-card">
           <CardContent>
             <h2 className="project-title">Animeek</h2><hr />
-            {/* <p className="project-description">
-            Animeek is an app where you can search for your favorite anime and be able to add it to your watchlist. <br />
-            You just type any anime you desire and Animeek will give you all the information you need.
-            </p> */}
-            <Trans i18nKey="project_animeek.description">
-            Animeek is an app where you can search for your favorite anime and be able to add it to your watchlist. <br />
-            You just type any anime you desire and Animeek will give you all the information you need.
-            </Trans>
+            <p className="project-description">
+              <Trans i18nKey="project_animeek.description">
+              Animeek is an app where you can search for your favorite anime and be able to add it to your watchlist. <br />
+              You just type any anime you desire and Animeek will give you all the information you need.
+              </Trans>
+            </p>
             <div className="tech-skills">
               <span>#Handlebars</span>
               <span>#MongoDB</span>
