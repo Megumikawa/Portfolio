@@ -43,7 +43,7 @@ function KittchatProject() {
             <hr />
             <p className="project-description">
               <Trans i18nKey="project_kittchat.description">
-              Kitchat is a cat cafe website that makes a reservation by choosing from 5 different locations in Berlin.<br/>
+              Kittchat is a cat cafe website that makes a reservation by choosing from 5 different locations in Berlin.<br/>
               Once you sign up, you can manage and check reservation history from your personal account.
               </Trans>
             </p>
