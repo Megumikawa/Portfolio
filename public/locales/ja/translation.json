@@ -13,7 +13,7 @@
     "description": "Animeek(アニミーク)はアニメを検索し、自分のオリジナルのプレイリストを作成できるアプリになります。<1 />検索ページではキーワード検索で該当するアニメを調べることができ簡単にマイページに追加及び削除することができます。"
   },
   "project_coingame": {
-    "description": "Coin-Collector is a game about collecting two types of coins which fall from top to bottom.<1/>An enemy of the devil is also coming from the right side to reduce your points.<3 />When you cannot avoid rocks, the game is over."
+    "description": "Coin-Collectorゲームは２種類のコインを集めて点数を獲得するクラッシックなコインゲームです。<1 />定期的に転がってくる岩にぶつかるとゲームオーバーになります。またランダムで悪魔が飛んできて獲得した点数を減点するのでキャラクターを動かして避けないといけません。"
   },
   "project_feuille": {
     "description": "This is a jewelry E-commercethe website landing page.<1 />You can check the item detail when you click an image and when you scroll down, you can check shop detail with Google Maps."
