@@ -12,7 +12,7 @@ function FeuilleProject() {
       <section className="project-container">
         <div className="project-image">
           <a href="https://megumikawa.github.io/manabito-feuille/" rel="noreferrer" target="_blank">
-            <Carousel fade interval={1200} controls={false} indicators={false}>
+            <Carousel controls={false}>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/feuille1.png" alt="kittchat-image" />
               </Carousel.Item>

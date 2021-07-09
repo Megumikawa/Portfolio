@@ -12,28 +12,10 @@ function KittchatProject() {
       <section className="project-container">
         <div className="project-image">
           <a href="https://kittchat.herokuapp.com/"　rel="noreferrer" target="_blank">
-            <Carousel fade interval={2000} controls={false} indicators={false}>
+            <Carousel controls={false}>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
               </Carousel.Item>
-              {/* <Carousel.Item>
-                <img className="d-block project-images" src="images/kittchat2.png" alt="kittchat-image" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block project-images" src="images/kittchat3.png" alt="kittchat-image" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block project-images" src="images/kittchat4.png" alt="kittchat-image" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block project-images" src="images/kittchat5.png" alt="kittchat-image" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block project-images" src="images/kittchat6.png" alt="kittchat-image" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block project-images" src="images/kittchat7.png" alt="kittchat-image" />
-              </Carousel.Item> */}
             </Carousel>
           </a>
         </div>
@@ -43,7 +25,7 @@ function KittchatProject() {
             <hr />
             <p className="project-description">
               <Trans i18nKey="project_kittchat.description">
-              Kittchat is a cat cafe website that makes a reservation by choosing from 5 different locations in Berlin.<br/>
+              Kitchat is a cat cafe website that makes a reservation by choosing from 5 different locations in Berlin.<br/>
               Once you sign up, you can manage and check reservation history from your personal account.
               </Trans>
             </p>

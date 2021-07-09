@@ -14,19 +14,10 @@ function AnimeekProject() {
       <section className="project-container">
         <div className="project-image">
           <a href="https://animeek.herokuapp.com/" rel="noreferrer" target="_blank">
-            <Carousel fade interval={1200} controls={false} indicators={false}>
+            <Carousel controls={false}>
               <Carousel.Item>
                 <img className="d-block project-images" src="images/animeek1.png" alt="animeek-image" />
               </Carousel.Item>
-              {/* <Carousel.Item>
-                <img className="d-block project-images" src="images/animeek2.png" alt="animeek-image" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block project-images" src="images/animeek3.png" alt="animeek-image" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block project-images" src="images/animeek4.png" alt="animeek-image" />
-              </Carousel.Item> */}
             </Carousel>
           </a>
         </div>
