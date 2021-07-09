@@ -16,15 +16,6 @@ function FeuilleProject() {
               <Carousel.Item>
                 <img className="d-block project-images" src="images/feuille1.png" alt="kittchat-image" />
               </Carousel.Item>
-              {/* <Carousel.Item>
-                <img className="d-block project-images" src="images/feuille2.png" alt="kittchat-image" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block project-images" src="images/feuille3.png" alt="kittchat-image" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block project-images" src="images/feuille4.png" alt="kittchat-image" />
-              </Carousel.Item> */}
             </Carousel>
           </a>
         </div>
@@ -32,7 +23,7 @@ function FeuilleProject() {
           <CardContent>
             <h2 className="project-title">feuille</h2><hr />
             <p className="project-description">
-              <Trans i18nKey="project_.description">
+              <Trans i18nKey="project_feuille.description">
                 This is a jewelry E-commercethe website landing page.<br />
                 You can check the item detail when you click an image and when you scroll down, you can check shop detail with Google Maps.
               </Trans>
