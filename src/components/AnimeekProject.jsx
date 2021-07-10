@@ -4,11 +4,9 @@ import CardContent from '@material-ui/core/CardContent';
 import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Carousel from 'react-bootstrap/Carousel';
-import { Trans, useTranslation } from 'react-i18next';
+import { Trans } from 'react-i18next';
 
 function AnimeekProject() {
-  const { t, i18n } = useTranslation();
-
   return (
     <>
       <section className="project-container">

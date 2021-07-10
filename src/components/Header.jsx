@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import { Link as Scroll } from 'react-scroll';
+import { Link as Scroll, Link } from 'react-scroll';
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'flag-icon-css/css/flag-icon.min.css';
@@ -76,7 +76,7 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{flexGrow: '0'}}>
           <Nav>
-            <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#about">About</Nav.Link></Scroll>
+            <Link to="about" smooth={true} offset={-120}><Nav.Link href="#about">About</Nav.Link></Link>
             <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects">Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact">Contact</Nav.Link></Scroll>
             <button 

@@ -16,7 +16,7 @@ function About() {
           <Trans i18nKey="about.part2">
           I started coding from HTML, CSS, jQuery and WordPress at <a href="https://manabito.biz/" rel="noreferrer" target="_blank">Manabito.co</a> in 2020.
           Through learning jQuery, I was eager to learn from fundamental to a wide range of JavaScript. 
-          Then I decided to move into Europe and joined <a href="https://www.ironhack.com/en" rel="noreferrer" target="_blank">Ironhack</a> Fullstack Web Development Bootcamp in 2021.
+          {/* Then I decided to move into Europe and joined <a href="https://www.ironhack.com/en" rel="noreferrer" target="_blank">Ironhack</a> Fullstack Web Development Bootcamp in 2021. */}
           </Trans>
         </p>
         <p>{t('about.part3')}</p>
