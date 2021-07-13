@@ -11,7 +11,7 @@ import 'flag-icon-css/css/flag-icon.min.css';
 import LanguageIcon from '@material-ui/icons/Language';
 import cookies from 'js-cookie';
 import { debounce } from '../utilities/helpers.js';
-import { width } from '@material-ui/system';
+// import { width } from '@material-ui/system';
 
 
 const languages = [
@@ -46,7 +46,7 @@ function Header() {
 
   const handleScroll = debounce(() => {
     const currentScrollPos = window.pageYOffset;
-    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
+    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10 );
     setPrevScrollPos(currentScrollPos);
   }, 100)
 
@@ -57,7 +57,7 @@ function Header() {
 
 // ----- multiple language(i18n) ----- //
   const currentLanguageCode = cookies.get('i18next') || 'en'
-  const currentLanguage = languages.find(l => l.code === currentLanguageCode)
+  // const currentLanguage = languages.find(l => l.code === currentLanguageCode)
   const { t } = useTranslation()
 
   // useEffect(() => {
