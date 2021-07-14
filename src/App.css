@@ -48,15 +48,13 @@ li {
 }
 
 /* ----------header---------- */
-
-.navbar-nav {
-  margin-right: 0;
+.navbar-inner {
+  padding: 0 2%;
 }
 
-.nav-link {
-  margin-right: 10px;
-  font-size: 22px;
-  padding: 0 6px;
+.logo-image {
+  width: 50px;
+  height: auto;
 }
 
 .dropdown-toggle,
@@ -321,7 +319,46 @@ li {
 }
 
 
-
-@media (min-width: 800px) {
-
+/* ---------RESPONSIVE---------- */
+/* @media (min-width: 500px) and (orientation: landscape) {
+  .collapsedNavbar {
+    flex-direction: row;
+  }
 }
+
+@media (max-width: 1050px) and (orientation: landscape) {
+  .my-card-project {
+    margin-bottom: 70px;
+  }
+
+  section:first-of-type {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 600px) and (max-height: 655px) {
+  h1,
+  h2 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 290px) {
+
+  .home-background img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    height: auto;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
+
+  .my-contact {
+    flex-direction: column;
+  }
+} */

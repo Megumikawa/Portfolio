@@ -67,17 +67,17 @@ function Header() {
 
   return (
     <div className="nav-wrap">
-      <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-70px' }} collapseOnSelect bg="light" expand="lg" >
+      <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-70px' }} className="navbar-inner" collapseOnSelect bg="light" expand="lg" >
         <Scroll to="home" smooth={true} offset={-130}>
           <Navbar.Brand href="#">
-            {/* <img src="images/myillust.png" className="logo" alt="logo" /> */}
-            <img src="images/mklogo.png" className="logo" alt="logo" />
+            <img src="images/myillust.png" className="logo-image" alt="logo" />
+            {/* <img src="images/mklogo.png" className="logo" alt="logo" /> */}
           </Navbar.Brand>
         </Scroll>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" style={{flexGrow: '0'}}>
           <Nav clasName="ml-auto nac=container">
-            <Link to="about" smooth={true} offset={-120}><Nav.Link href="#about">About</Nav.Link></Link>
+            <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#projects">About</Nav.Link></Scroll>
             <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects">Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact">Contact</Nav.Link></Scroll>
             <button 
