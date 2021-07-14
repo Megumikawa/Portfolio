@@ -320,45 +320,113 @@ li {
 
 
 /* ---------RESPONSIVE---------- */
-/* @media (min-width: 500px) and (orientation: landscape) {
-  .collapsedNavbar {
-    flex-direction: row;
+/* @media (max-width: 970px){
+  .project-section{
+    line-height: 1.5rem;
   }
+
+  .my-project-card{
+    width: 500px;
+  }
+
+  .project-card{
+    width: 500px;
+  }
+
+  .techstack{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-link a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 }
 
-@media (max-width: 1050px) and (orientation: landscape) {
-  .my-card-project {
-    margin-bottom: 70px;
+@media(max-width: 850px){
+  .my-project-card{
+    width: 300px;
   }
 
-  section:first-of-type {
-    margin-top: 30px;
-  }
-}
-
-@media (max-width: 600px) and (max-height: 655px) {
-  h1,
-  h2 {
-    font-size: 2.5em;
-  }
-}
-
-@media (max-width: 290px) {
-
-  .home-background img {
-    width: 200px;
-  }
-}
-
-@media (max-width: 500px) {
-  .about {
-    height: auto;
-  }
-  h3 {
-    font-size: 1.3em;
+  .project-card{
+    width: 300px;
   }
 
-  .my-contact {
+  .contact-img {
+    width: 500px;
+  }
+
+  .my-group-btn{
+    display: flex;
     flex-direction: column;
   }
+
+  .my-link{
+    margin: auto;
+  }
+
+}
+
+@media (max-width: 700px){
+  .fake-code{
+    padding: 20px;
+    text-align: center;
+  }
+
+  .section{
+    padding: 15px;
+  }
+
+  .hobbies-section{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+  }
+
+  .project-screenshot{
+    width: 100px;
+  }
+
+  .my-project-card{
+    width: 500px;
+  }
+
+  .project-card{
+    width: 500px;
+  }
+
+  .techstack{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-link a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact-img {
+    width: 300px;
+  }
+
+}
+
+@media(max-width: 600px){
+  .my-project-card{
+    width: 300px;
+  }
+
+  .project-card{
+    width: 300px;
+  }
+
 } */
