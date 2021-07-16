@@ -34,6 +34,10 @@ li {
   list-style: none;
 }
 
+ul {
+  padding: 0;
+}
+
 .main {
   text-align: center;
 }
@@ -88,9 +92,9 @@ li {
 }
 
 .projects-background {
-  height: calc(230% + 12vh);
+  height: calc(220% + 12vh);
   position: absolute;
-  top: 2500px;
+  top: 2230px;
 }
 
 
@@ -165,11 +169,11 @@ li {
 
 .skill-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .skill-topic {
-  /* width: 40%; */
+  margin: 0 50px;
   font-size: 24px;
   
 }
@@ -191,7 +195,7 @@ li {
 .projects {
   padding: 0 10%;
   position: absolute;
-  top: 2600px;
+  top: 2300px;
 }
 
 .projects h1 {
@@ -266,9 +270,9 @@ li {
 /* ----------contact---------- */
 .contact {
   position: absolute;
-  top: 4800px;
+  top: 4460px;
   right: 35%;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .contact-link {
@@ -288,7 +292,7 @@ li {
 /* ----------footer---------- */
 .footer {
   position: absolute;
-  top: 5100px;
+  top: 4760px;
   width: 100%;
   margin-top: 100px;
   /* height: calc(15% + 12vh); */
@@ -301,7 +305,7 @@ li {
 .footer-background {
   background: linear-gradient(90deg,#410a84,#31a7bb);
   transform: skewY(-5deg);
-  height: calc(50% + 12vh);
+  height: calc(50px + 12vh);
   box-shadow: 0 0 50 rgb(60 117 162 / 40%);
   width: 100%;
   position: absolute;
@@ -310,7 +314,7 @@ li {
 
 .footer-background2 {
   position: relative;
-  top: 100px;
+  top: 76px;
   color: #fff;
   background: linear-gradient(90deg, #410a84, #31a7bb);;
   height: calc(40% + 12vh);

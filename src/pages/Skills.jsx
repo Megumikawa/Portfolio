@@ -1,5 +1,10 @@
 import React from 'react'
 
+const useStyle = {
+  
+}
+
+
 const Skills = () => {
   return (
     <div id="skills" className="skills">
@@ -12,6 +17,8 @@ const Skills = () => {
             <li>Express.js</li>
             <li>APIs</li>
             <li>MongoDB</li>
+          </ul>
+          <ul className="skill-topic">
             <li>Mongoose</li>
             <li>WordPress</li>
             <li>jQuery</li>

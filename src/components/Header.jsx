@@ -78,7 +78,7 @@ function Header() {
         <Navbar.Collapse id="responsive-navbar-nav" style={{flexGrow: '0'}}>
           <Nav clasName="ml-auto nac=container">
             <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#projects">About</Nav.Link></Scroll>
-            <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects">Projects</Nav.Link></Scroll>
+            <Scroll to="projects" smooth={true} offset={-90}><Nav.Link href="#projects">Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact">Contact</Nav.Link></Scroll>
             <button 
               className="btn btn-link dropdown-toggle language-btn"
