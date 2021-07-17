@@ -61,6 +61,13 @@ ul {
   height: auto;
 }
 
+.header-link-name {
+  font-size: 20px;
+}
+.header-link-name:hover {
+  opacity: .5;
+}
+
 .dropdown-toggle,
 .dropdown-toggle::after {
   color: rgba(0,0,0,.55);
