@@ -76,7 +76,7 @@ function Header() {
         </Scroll>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" style={{flexGrow: '0'}}>
-          <Nav clasName="ml-auto nac=container">
+          <Nav clasName="mr-auto">
             <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#projects" className="header-link-name">About</Nav.Link></Scroll>
             <Scroll to="projects" smooth={true} offset={-90}><Nav.Link href="#projects" className="header-link-name">Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name">Contact</Nav.Link></Scroll>
