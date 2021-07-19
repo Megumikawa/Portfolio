@@ -1,0 +1,24 @@
+.background {
+  position: absolute;
+  background: linear-gradient(135deg, #410a84, #31a7bb);
+  transform: skewY(-5deg);
+  box-shadow: 0 0 50 rgb(60 117 162 / 40%);
+  top: -12vh;
+  width: 100%;
+  height: calc(100% + 12vh);
+}
+
+.projects-background {
+  height: calc(220% + 12vh);
+  position: absolute;
+  top: 2230px;
+}
+
+
+.particles {
+  height: 100%;
+}
+
+.particles-project {
+  height: 100%;
+}
