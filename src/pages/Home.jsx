@@ -11,16 +11,19 @@ function Home() {
     <div id="home">
       <Background />
       <section className="home">
-        <h1>Hi I'm<br /><span className="name">Megumi Kawagoe</span></h1>
-        <Typewriter
-          options={{
-            strings: ["Front-end Developer", "MERN Developer", "Learner", "Challenger"],
-            autoStart: true,
-            loop: true,
-            delay: 50,
-            fontSize: '90px'
-          }}
-        />
+        <h1>Hi I'm<br />
+          <span className="name">Megumi Kawagoe.</span>
+        </h1>
+        <p style={{fontSize:'50px'}}>
+          <Typewriter
+            options={{
+              strings: ["Front-end Developer", "MERN Developer", "Learner", "Challenger"],
+              autoStart: true,
+              loop: true,
+              delay: 50
+            }}
+          />
+        </p>
       </section>
     </div>
   )
