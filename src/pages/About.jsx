@@ -11,8 +11,8 @@ function About() {
     <div id="about" className="about">
       <section className="about-article">
         <h1>About</h1>
-        <p>{t('about.part1')}</p>
-        <p>{t('about.part2')}</p>
+        <p>{t('about.part1')} {t('about.part2')}</p>
+        {/* <p>{t('about.part2')}</p> */}
         <p>{t('about.part3')}</p>
         <p>{t('about.part4')}</p>
         <p>{t('about.part5')}</p>
