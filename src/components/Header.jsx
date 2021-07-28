@@ -4,15 +4,18 @@ import { useTranslation } from 'react-i18next';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
+import { IoIosGlobe } from "react-icons/io";
 
 import { Link as Scroll, Link } from 'react-scroll';
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'flag-icon-css/css/flag-icon.min.css';
-import LanguageIcon from '@material-ui/icons/Language';
+// import LanguageIcon from '@material-ui/icons/Language';
 import cookies from 'js-cookie';
 import { debounce } from '../utilities/helpers.js';
 // import { width } from '@material-ui/system';
+
+// import languageIcon from '../global.png';
 
 
 const languages = [
@@ -27,6 +30,8 @@ const languages = [
     country_code: 'jp'
   }
 ]
+
+
 
 
 function Header() {
@@ -44,6 +49,7 @@ function Header() {
     transition: 'top 0.6s',
     zIndex: '11'
   }
+
 
   const handleScroll = debounce(() => {
     const currentScrollPos = window.pageYOffset;
@@ -82,9 +88,10 @@ function Header() {
             <Scroll to="projects" smooth={true} offset={-90}><Nav.Link href="#projects" className="header-link-name">Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name">Contact</Nav.Link></Scroll>
             
-            <NavDropdown  title=<LanguageIcon /> id="basic-nav-dropdown">
+              <NavDropdown eventKey={3} title={<span><i className="fa fa-user fa-fw"></i></span>}
+                            id="basic-nav-dropdown">
             {languages.map(({ code, name, country_code}) => (
-              <NavDropdown.Item href="#action/3.1" key={country_code}
+              <NavDropdown.Item key={country_code}
                       onClick={() => i18next.changeLanguage(code)}
                       disable={code === currentLanguageCode}
                       style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}>
