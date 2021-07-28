@@ -118,6 +118,7 @@ ul {
 
 .about-article p {
   margin-bottom: 40px;
+  font-size: 1.4rem;
 }
 
 .about-link {
@@ -156,10 +157,6 @@ ul {
   
 }
 
-.skills h3 {
-  font-size: 30px;
-}
-
 .skill-container {
   margin-top: 20px;
 }
@@ -173,7 +170,7 @@ ul {
 .projects {
   padding: 0 10%;
   position: absolute;
-  top: 2300px;
+  top: 2200px;
 }
 
 .projects h1 {
@@ -248,7 +245,7 @@ ul {
 /* ----------contact---------- */
 .contact {
   position: absolute;
-  top: 4460px;
+  top: 4350px;
   right: 35%;
   margin: 50px 0;
 }
@@ -270,9 +267,9 @@ ul {
 /* ----------footer---------- */
 .footer {
   position: absolute;
-  top: 4760px;
+  top: 4700px;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 60px;
   /* height: calc(15% + 12vh); */
 }
 

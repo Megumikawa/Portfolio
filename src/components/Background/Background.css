@@ -9,9 +9,9 @@
 }
 
 .projects-background {
-  height: calc(220% + 12vh);
+  height: calc(230% + 12vh);
   position: absolute;
-  top: 2230px;
+  top: 2100px;
 }
 
 .particles {
