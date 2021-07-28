@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import i18next from "i18next";
 import { useTranslation } from 'react-i18next';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
 
 import { Link as Scroll, Link } from 'react-scroll';
@@ -36,7 +37,7 @@ function Header() {
 
   const navbarStyles = {
     position: 'fixed',
-    height: '70px',
+    height: '60px',
     width: '100%',
     backgroundColor: 'grey',
     textAlign: 'center',
@@ -80,15 +81,33 @@ function Header() {
             <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#projects" className="header-link-name">About</Nav.Link></Scroll>
             <Scroll to="projects" smooth={true} offset={-90}><Nav.Link href="#projects" className="header-link-name">Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name">Contact</Nav.Link></Scroll>
-            <button 
+            
+            <NavDropdown  title=<LanguageIcon /> id="basic-nav-dropdown">
+            {languages.map(({ code, name, country_code}) => (
+              <NavDropdown.Item href="#action/3.1" key={country_code}
+                      onClick={() => i18next.changeLanguage(code)}
+                      disable={code === currentLanguageCode}
+                      style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}>
+                      <span 
+                        className={`flag-icon flag-icon-${country_code} mx-2`}
+                        style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
+                      >
+                      </span>
+                      {name}
+                      
+                      </NavDropdown.Item>
+                      ))}
+            </NavDropdown>
+            
+            {/* <button 
               className="btn btn-link dropdown-toggle language-btn"
               type="button"
               id="dropdownMenuButton1" 
               data-bs-toggle="dropdown" 
               aria-expanded="false"
-            >
-            <LanguageIcon />
-            </button>
+            > */}
+            {/* <LanguageIcon /> */}
+            {/* </button>
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
                   <span className="dropdown-item-text">{t('language')}</span>
@@ -110,7 +129,7 @@ function Header() {
                     </button>
                   </li>
                 ))}
-              </ul>
+              </ul> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
