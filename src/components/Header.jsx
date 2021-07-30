@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
 import { IoIosGlobe } from "react-icons/io";
+import global from '../global.png';
 
 import { Link as Scroll, Link } from 'react-scroll';
 import 'bootstrap/dist/js/bootstrap';
@@ -16,6 +17,7 @@ import { debounce } from '../utilities/helpers.js';
 // import { width } from '@material-ui/system';
 
 // import languageIcon from '../global.png';
+// import { AiOutlineGlobal } from "react-icons/ai";
 
 
 const languages = [
@@ -87,9 +89,12 @@ function Header() {
             <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#projects" className="header-link-name">About</Nav.Link></Scroll>
             <Scroll to="projects" smooth={true} offset={-90}><Nav.Link href="#projects" className="header-link-name">Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name">Contact</Nav.Link></Scroll>
-            
-              <NavDropdown eventKey={3} title={<span><i className="fa fa-user fa-fw"></i></span>}
-                            id="basic-nav-dropdown">
+            <NavDropdown eventKey={3} 
+              title={
+                <img className="thumbnail-image" src={global} style={{width:'30px'}} alt="language-icon" />
+              } 
+              id="basic-nav-dropdown">
+
             {languages.map(({ code, name, country_code}) => (
               <NavDropdown.Item key={country_code}
                       onClick={() => i18next.changeLanguage(code)}
