@@ -4,20 +4,15 @@ import { useTranslation } from 'react-i18next';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
-import { IoIosGlobe } from "react-icons/io";
 import global from '../global.png';
 
 import { Link as Scroll, Link } from 'react-scroll';
-import 'bootstrap/dist/js/bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import 'flag-icon-css/css/flag-icon.min.css';
-// import LanguageIcon from '@material-ui/icons/Language';
 import cookies from 'js-cookie';
 import { debounce } from '../utilities/helpers.js';
-// import { width } from '@material-ui/system';
 
-// import languageIcon from '../global.png';
-// import { AiOutlineGlobal } from "react-icons/ai";
 
 
 const languages = [
@@ -85,64 +80,32 @@ function Header() {
         </Scroll>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" style={{flexGrow: '0'}}>
-          <Nav clasName="mr-auto">
+          <Nav clasName="me-auto">
             <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#projects" className="header-link-name">About</Nav.Link></Scroll>
             <Scroll to="projects" smooth={true} offset={-90}><Nav.Link href="#projects" className="header-link-name">Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name">Contact</Nav.Link></Scroll>
-            <NavDropdown eventKey={3} 
+            <NavDropdown aria-expanded="false"
               title={
                 <img className="thumbnail-image" src={global} style={{width:'30px'}} alt="language-icon" />
-              } 
+              }
               id="basic-nav-dropdown">
 
-            {languages.map(({ code, name, country_code}) => (
-              <NavDropdown.Item key={country_code}
-                      onClick={() => i18next.changeLanguage(code)}
-                      disable={code === currentLanguageCode}
-                      style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}>
-                      <span 
-                        className={`flag-icon flag-icon-${country_code} mx-2`}
-                        style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
-                      >
-                      </span>
-                      {name}
-                      
-                      </NavDropdown.Item>
-                      ))}
+              {languages.map(({ code, name, country_code}) => (
+                <NavDropdown.Item key={country_code}
+                  onClick={() => i18next.changeLanguage(code)}
+                  disable={code === currentLanguageCode}
+                  style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}>
+                  <span 
+                    className={`flag-icon flag-icon-${country_code} mx-2`}
+                    style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
+                  >
+                  </span>
+                  {name}
+                </NavDropdown.Item>
+              ))}
+              
             </NavDropdown>
-            
-            {/* <button 
-              className="btn btn-link dropdown-toggle language-btn"
-              type="button"
-              id="dropdownMenuButton1" 
-              data-bs-toggle="dropdown" 
-              aria-expanded="false"
-            > */}
-            {/* <LanguageIcon /> */}
-            {/* </button>
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li>
-                  <span className="dropdown-item-text">{t('language')}</span>
-                </li>
-                {languages.map(({ code, name, country_code}) => (
-                  <li key={country_code}>
-                    <button 
-                      className="dropdown-item" 
-                      onClick={() => i18next.changeLanguage(code)}
-                      disable={code === currentLanguageCode}
-                      style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
-                    >
-                      <span 
-                        className={`flag-icon flag-icon-${country_code} mx-2`}
-                        style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
-                      >
-                      </span>
-                      {name}
-                    </button>
-                  </li>
-                ))}
-              </ul> */}
-          </Nav>
+            </Nav>
         </Navbar.Collapse>
       </Navbar>
     </div>
