@@ -103,9 +103,9 @@ function Header() {
                   {name}
                 </NavDropdown.Item>
               ))}
-              
             </NavDropdown>
-            </Nav>
+
+          </Nav>
         </Navbar.Collapse>
       </Navbar>
     </div>
