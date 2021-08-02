@@ -39,12 +39,13 @@ function Header() {
 
   const navbarStyles = {
     position: 'fixed',
-    height: '60px',
+    height: '45px',
     width: '100%',
-    backgroundColor: 'grey',
+    // backgroundColor: 'grey',
     textAlign: 'center',
     transition: 'top 0.6s',
-    zIndex: '11'
+    zIndex: '11',
+    paddingTop: '20px'
   }
 
 
@@ -71,7 +72,7 @@ function Header() {
 
   return (
     <div className="nav-wrap">
-      <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-70px' }} className="navbar-inner" collapseOnSelect bg="light" expand="lg" >
+      <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-70px' }} className="navbar-inner" collapseOnSelect expand="lg" >
         <Scroll to="home" smooth={true} offset={-130}>
           <Navbar.Brand href="#">
             <img src="images/myillust.png" className="logo-image" alt="logo" />

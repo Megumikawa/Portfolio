@@ -56,6 +56,10 @@ ul {
 /* ----------header---------- */
 .navbar-inner {
   padding: 0 2%;
+  /* background-color: #fff; */
+  background-color: rgba(140, 217, 248, 0.452);
+  /* background: #fff; */
+  box-shadow: -5px 10px 10px 10px rgba(140, 217,248, 0.452);
 }
 
 .logo-image {
