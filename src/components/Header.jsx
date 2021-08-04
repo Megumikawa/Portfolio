@@ -41,7 +41,6 @@ function Header() {
     position: 'fixed',
     height: '45px',
     width: '100%',
-    // backgroundColor: 'grey',
     textAlign: 'center',
     transition: 'top 0.6s',
     zIndex: '11',
@@ -79,8 +78,8 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" style={{flexGrow: '0'}}>
           <Nav clasName="me-auto">
-            <Scroll to="about" smooth={true} offset={-120}><Nav.Link href="#projects" className="header-link-name">About</Nav.Link></Scroll>
-            <Scroll to="projects" smooth={true} offset={-90}><Nav.Link href="#projects" className="header-link-name">Projects</Nav.Link></Scroll>
+            <Scroll to="about" smooth={true} offset={-160}><Nav.Link href="#projects" className="header-link-name">About</Nav.Link></Scroll>
+            <Scroll to="projects" smooth={true} offset={-176}><Nav.Link href="#projects" className="header-link-name">Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name">Contact</Nav.Link></Scroll>
             <NavDropdown aria-expanded="false"
               title={
