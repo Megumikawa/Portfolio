@@ -4,11 +4,9 @@ import { useTranslation } from 'react-i18next';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
-import global from '../global.png';
+import { AiOutlineGlobal } from "react-icons/ai";
 
 import { Link as Scroll, Link } from 'react-scroll';
-// import 'bootstrap/dist/js/bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import 'flag-icon-css/css/flag-icon.min.css';
 import cookies from 'js-cookie';
 import { debounce } from '../utilities/helpers.js';
@@ -90,7 +88,7 @@ function Header() {
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name" style={{...navLinkStyles}}>Contact</Nav.Link></Scroll>
             <NavDropdown aria-expanded="false"
               title={
-                <img className="thumbnail-image" src={global} style={{width:'30px'}} alt="language-icon" />
+                <AiOutlineGlobal size={20} color={'#fff'} />
               }
               id="basic-nav-dropdown">
 
