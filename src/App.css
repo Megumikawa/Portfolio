@@ -60,12 +60,6 @@ ul {
   box-shadow: -5px 10px 10px 10px rgba(140, 217,248, 0.452);
 }
 
-/* .logo-image {
-  width: 40px;
-  height: auto;
-} */
-
-
 .header-link-name:hover {
   opacity: .5;
   /* text-decoration: underline; */

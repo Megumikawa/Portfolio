@@ -12,7 +12,7 @@ function Home() {
       <Background />
       <section className="home">
         <h1>Hi I'm<br />
-          <span className="name">Megumi Kawagoe.</span>
+          <span className="name">Megumi Kawagoe</span>
         </h1>
         <p style={{fontSize:'50px'}}>
           <Typewriter

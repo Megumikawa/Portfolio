@@ -27,8 +27,6 @@ const languages = [
 ]
 
 
-
-
 function Header() {
 
 // ----- navbar scroll animation ----- //
@@ -69,22 +67,20 @@ function Header() {
   // const currentLanguage = languages.find(l => l.code === currentLanguageCode)
   const { t } = useTranslation()
 
-  
 
   return (
     <div className="nav-wrap">
       <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-70px' }} className="navbar-inner" collapseOnSelect expand="lg" >
         <Scroll to="home" smooth={true} offset={-130}>
           <Navbar.Brand href="#">
-            {/* <img src="images/myillust.png" className="logo-image" alt="logo" /> */}
             <img src="images/mklogo.png" className="logo" alt="logo" />
           </Navbar.Brand>
         </Scroll>
         <Navbar.Toggle aria-controls="responsive-navbar-nav mr-1" />
         <Navbar.Collapse id="responsive-navbar-nav" style={{flexGrow: '0'}}>
           <Nav className="mr-auto">
-            <Scroll to="about" smooth={true} offset={-160}><Nav.Link href="#projects" className="header-link-name" style={{...navLinkStyles}}>About</Nav.Link></Scroll>
-            <Scroll to="projects" smooth={true} offset={-176}><Nav.Link href="#projects" className="header-link-name" style={{...navLinkStyles}}>Projects</Nav.Link></Scroll>
+            <Scroll to="about" smooth={true} offset={-160}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>About</Nav.Link></Scroll>
+            <Scroll to="projects" smooth={true} offset={-176}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name" style={{...navLinkStyles}}>Contact</Nav.Link></Scroll>
             <NavDropdown aria-expanded="false"
               title={
