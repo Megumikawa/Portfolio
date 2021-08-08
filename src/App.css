@@ -56,13 +56,13 @@ ul {
 /* ----------header---------- */
 .navbar-inner {
   padding: 0 2%;
-  background-color: rgba(140, 217, 248, 0.452);
-  box-shadow: -5px 10px 10px 10px rgba(140, 217,248, 0.452);
+  background-color: rgba(107,107, 206, 0.45);
+  box-shadow: -5px 10px 10px 10px rgba(107,107, 206, 0.45);
 }
 
 .header-link-name:hover {
   opacity: .5;
-  /* text-decoration: underline; */
+  text-decoration: underline;
 }
 
 
@@ -70,6 +70,11 @@ ul {
   color: rgb(255 255 255);
   position: relative;
   top: 4px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 1px;
 }
 
 .btn-link:hover {

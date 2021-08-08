@@ -81,7 +81,7 @@ function Header() {
           <Nav className="mr-auto">
             <Scroll to="about" smooth={true} offset={-160}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>About</Nav.Link></Scroll>
             <Scroll to="projects" smooth={true} offset={-176}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>Projects</Nav.Link></Scroll>
-            <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name" style={{...navLinkStyles}}>Contact</Nav.Link></Scroll>
+            <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name" style={navLinkStyles}>Contact</Nav.Link></Scroll>
             <NavDropdown aria-expanded="false"
               title={
                 <AiOutlineGlobal size={20} color={'#fff'} />
@@ -92,10 +92,12 @@ function Header() {
                 <NavDropdown.Item key={country_code}
                   onClick={() => i18next.changeLanguage(code)}
                   disable={code === currentLanguageCode}
-                  style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}>
+                  style={{ opacity: code === currentLanguageCode ? 0.5 : 1}}
+                >
                   <span 
                     className={`flag-icon flag-icon-${country_code} mx-2`}
-                    style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}
+                    style={{ opacity: code === currentLanguageCode ? 0.5 : 1}}
+                    
                   >
                   </span>
                   {name}
