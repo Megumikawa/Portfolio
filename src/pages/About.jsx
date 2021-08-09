@@ -8,16 +8,10 @@ import { Link as Scroll } from 'react-scroll';
 function About() {
   const { t } = useTranslation();
 
-  const aboutImg = {
-    width: '70px'
-  }
-
-
   return (
     <div id="about" className="about">
       <section className="about-article">
           <h1>About</h1>
-          {/* <img src="images/myillust.png" className="about-image" alt="about-image" style={aboutImg} /> */}
         <p>{t('about.part1')} {t('about.part2')}</p>
         <p>{t('about.part3')}</p>
         <p>{t('about.part4')}</p>

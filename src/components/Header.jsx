@@ -5,12 +5,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
 import { AiOutlineGlobal } from "react-icons/ai";
-
 import { Link as Scroll, Link } from 'react-scroll';
 import 'flag-icon-css/css/flag-icon.min.css';
 import cookies from 'js-cookie';
 import { debounce } from '../utilities/helpers.js';
-
 
 
 const languages = [
@@ -29,10 +27,11 @@ const languages = [
 
 function Header() {
 
-// ----- navbar scroll animation ----- //
+  // ----- navbar scroll animation ----- //
   const [prevScrollPos, setPrevScrollPos] = useState(0)
   const [visible, setVisible] = useState(true)
 
+  // ----- style ------ //
   const navbarStyles = {
     position: 'fixed',
     height: '45px',
@@ -50,7 +49,7 @@ function Header() {
     fontSize: '20px'
   }
 
-
+  // -----scroll events ----- //
   const handleScroll = debounce(() => {
     const currentScrollPos = window.pageYOffset;
     setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10 );
@@ -62,9 +61,8 @@ function Header() {
     return () => window.removeEventListener('scroll', handleScroll)
       }, [prevScrollPos, visible, handleScroll])
 
-// ----- multiple language(i18n) ----- //
+  // ----- multiple language(i18n) ----- //
   const currentLanguageCode = cookies.get('i18next') || 'en'
-  // const currentLanguage = languages.find(l => l.code === currentLanguageCode)
   const { t } = useTranslation()
 
 
@@ -104,7 +102,6 @@ function Header() {
                 </NavDropdown.Item>
               ))}
             </NavDropdown>
-
           </Nav>
         </Navbar.Collapse>
       </Navbar>
