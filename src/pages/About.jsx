@@ -18,7 +18,7 @@ function About() {
         <p>{t('about.part5')}</p>
       </section>
       <section className="about-link">
-      <Scroll to="contact" smooth={true} ><a className="contact-me" href="#contact">more...</a></Scroll>
+      <Scroll to="contact" smooth={true} ><a className="contact-me" href="#contact">↓</a></Scroll>
       </section>
       <Skills />
     </div>

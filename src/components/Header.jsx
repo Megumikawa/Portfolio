@@ -71,7 +71,8 @@ function Header() {
       <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-70px' }} className="navbar-inner" collapseOnSelect expand="lg" >
         <Scroll to="home" smooth={true} offset={-130}>
           <Navbar.Brand href="#">
-            <img src="images/mklogo.png" className="logo" alt="logo" />
+            {/* <img src="images/mklogo.png" className="logo" alt="logo" /> */}
+            <img src="images/myillust.png" style={{width:'40px', height:'auto'}} alt="logo" />
           </Navbar.Brand>
         </Scroll>
         <Navbar.Toggle aria-controls="responsive-navbar-nav mr-1" />
