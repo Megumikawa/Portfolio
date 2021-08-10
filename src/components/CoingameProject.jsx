@@ -12,11 +12,7 @@ function CoingameProject() {
       <section className="project-container">
         <div className="project-image">
           <a href="https://megumikawa.github.io/coin-collector-game/" rel="noreferrer" target="_blank">
-            <Carousel controls={false}>
-              <Carousel.Item>
-                <img className="d-block project-images" src="images/coincollector1.png" alt="coincollector-image" />
-              </Carousel.Item>
-            </Carousel>
+            <img className="d-block project-images" src="images/coincollector1.png" alt="coincollector-image" />
           </a>
         </div>
         <Card className="my-project-card">
