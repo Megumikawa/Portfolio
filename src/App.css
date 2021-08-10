@@ -175,11 +175,11 @@ ul {
 .projects {
   padding: 0 10%;
   position: absolute;
-  top: 2200px;
+  top: 2300px;
 }
 
 .projects h1 {
-  margin-bottom: 30px;
+  margin-bottom: 10%;
   color: #fff;
 }
 
@@ -190,24 +190,23 @@ ul {
 .project-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 6%;
 }
 
 .project-image {
-  width: 50%;
-  margin-right: 20px;
+  width: 40%;
+  margin-right: 6%;
   padding-top: 30px;
 }
 
-.project-image img {
+.project-images {
   width: 100%;
   margin: 0 auto;
 }
 
-.project-image img:hover{
+.project-images:hover{
   filter: blur(2px);
 }
-
 
 .my-project-card {
   width: 50%;
@@ -248,7 +247,7 @@ ul {
 /* ----------contact---------- */
 .contact {
   position: absolute;
-  top: 4350px;
+  top: 4550px;
   right: 35%;
   margin: 50px 0;
 }
@@ -270,7 +269,7 @@ ul {
 /* ----------footer---------- */
 .footer {
   position: absolute;
-  top: 4700px;
+  top: 4900px;
   width: 100%;
   margin-top: 60px;
   /* height: calc(15% + 12vh); */
