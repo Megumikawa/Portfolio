@@ -1,0 +1,22 @@
+.skills {
+  margin: 80px 0;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-topic {
+  margin: 0 50px;
+  font-size: 24px;
+  
+}
+
+.skill-container {
+  margin-top: 20px;
+}
+
+.skills-frontend {
+  margin-top: 20px;
+}

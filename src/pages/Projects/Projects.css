@@ -1,0 +1,72 @@
+/* ----------project---------- */
+.projects {
+  padding: 0 10%;
+  position: absolute;
+  top: 2300px;
+}
+
+.projects h1 {
+  margin-bottom: 10%;
+  color: #fff;
+}
+
+.project-title {
+  font-size: 34px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6%;
+}
+
+.project-image {
+  width: 40%;
+  margin-right: 6%;
+  padding-top: 30px;
+}
+
+.project-images {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project-images:hover{
+  filter: blur(2px);
+}
+
+.my-project-card {
+  width: 50%;
+}
+
+.my-project-card p {
+  text-align: left;
+  padding: 0 30px;
+}
+
+.tech-skills {
+  margin: 40px 0;
+}
+
+.tech-skills span {
+  border: 1px solid #64bcd7;
+  border-radius: 40px;
+  margin: 0 10px;
+  padding: 2px 6px;
+  color: #fff;
+  background-color: #64bcd7;
+}
+
+.project-link a {
+  margin: 0 20px 0 0;
+  padding: 3px 4px;
+  font-size: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.project-link a:hover {
+  background-color: #027bfe;
+  color: #fff;
+  border-radius: 40px;
+}

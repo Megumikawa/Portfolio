@@ -1,9 +1,10 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import Skills from './Skills';
+import Skills from '../Skills/Skills';
 import { useTranslation } from 'react-i18next';
 import { Link as Scroll } from 'react-scroll';
 // import { aboutImage } from '../images/myillust.png'
+import './About.css';
 
 function About() {
   const { t } = useTranslation();

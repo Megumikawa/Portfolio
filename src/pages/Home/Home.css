@@ -1,0 +1,12 @@
+.home {
+  position: absolute;
+  top: 360px;
+  right: 30%;
+  font-weight: 300;
+  color: #eee;
+}
+
+.name {
+  font-size: 80px;
+  font-weight: 400;
+}

@@ -1,0 +1,35 @@
+.about {
+  position: absolute;
+  top: 1000px;
+  text-align: left;
+  padding: 0 20%;
+}
+
+.about-article h1 {
+  margin-bottom: 30px;
+}
+
+.about-article p {
+  margin-bottom: 40px;
+  font-size: 1.4rem;
+}
+
+.about-link {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.contact-me {
+  border: 1px solid;
+  padding: 1% 5%;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #64bcd7;
+  text-decoration: none;
+}
+
+.contact-me:hover {
+  text-decoration: none;
+  background-color: #64bcd7;
+  color: aliceblue;
+}

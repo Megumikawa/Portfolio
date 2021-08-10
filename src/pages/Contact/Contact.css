@@ -1,0 +1,20 @@
+.contact {
+  position: absolute;
+  top: 4550px;
+  right: 35%;
+  margin: 50px 0;
+}
+
+.contact-link {
+  margin: 40px 0;
+}
+
+
+.contact-link a {
+  margin: 0 20px;
+}
+
+.contact-link-btn {
+  font-size: 20px;
+  padding: 12px 18px;
+}

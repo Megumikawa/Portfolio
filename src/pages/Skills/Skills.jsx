@@ -1,8 +1,5 @@
-import React from 'react'
-
-const useStyle = {
-  
-}
+import React from 'react';
+import './Skills.css';
 
 
 const Skills = () => {

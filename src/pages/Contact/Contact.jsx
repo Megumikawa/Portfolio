@@ -3,6 +3,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Button from 'react-bootstrap/Button';
+import './Contact.css';
 
 const Contact = () => {
   return (
