@@ -1,9 +1,9 @@
 import React from 'react';
-import KittchatProject from '../../components/KittchatProject';
-import AnimeekProject from '../../components/AnimeekProject';
-import CoingameProject from '../../components/CoingameProject';
-import FeuilleProject from '../../components/FeuilleProject';
-import ProjectsBackground from '../../components/Background/ProjectsBackground';
+import KittchatProject from './KittchatProject';
+import AnimeekProject from './AnimeekProject';
+import CoingameProject from './CoingameProject';
+import FeuilleProject from './FeuilleProject';
+import ProjectsBackground from './ProjectsBackground';
 import './Projects.css';
 
 function Projects() {

@@ -7,15 +7,15 @@
 }
 
 h1 {
+  font-size: 45px;
   margin-bottom: 30px;
   text-align: center;
-  font-size: 45px;
 }
 
 h2,
 h3 {
-  text-align: center;
   font-size: 45px;
+  text-align: center;
 }
 
 p {
@@ -23,9 +23,9 @@ p {
 }
 
 hr {
+  background-image: linear-gradient(90deg,transparent,rgba(0,0,0,.75),transparent);
   border-bottom: 0;
   height: 1px;
-  background-image: linear-gradient(90deg,transparent,rgba(0,0,0,.75),transparent);
 }
 
 body {
@@ -49,22 +49,21 @@ ul {
 }
 
 .logo {
-  width: 30%;
   height: auto;
+  width: 30%;
 }
 
 /* ----------header---------- */
 .navbar-inner {
-  padding: 0 2%;
   background-color: rgba(107,107, 206, 0.45);
   box-shadow: -5px 10px 10px 10px rgba(107,107, 206, 0.45);
+  padding: 0 2%;
 }
 
 .header-link-name:hover {
   opacity: .5;
   text-decoration: underline;
 }
-
 
 .dropdown-toggle::after {
   color: rgb(255 255 255);
@@ -78,8 +77,8 @@ ul {
 }
 
 .btn-link:hover {
-  opacity: .5;
   color: rgba(0,0,0,.55);
+  opacity: .5;
 }
 
 .btn-check:focus+.btn, .btn:focus {
@@ -95,27 +94,13 @@ ul {
   opacity: .5;
 }
 
-/* ----------home---------- */
-/* .home {
-  position: absolute;
-  top: 360px;
-  right: 30%;
-  font-weight: 300;
-  color: #eee;
-}
-
-.name {
-  font-size: 80px;
-  font-weight: 400;
-}
- */
 
 /* ----------footer---------- */
 .footer {
+  margin-top: 60px;
   position: absolute;
   top: 4900px;
   width: 100%;
-  margin-top: 60px;
   /* height: calc(15% + 12vh); */
 }
 
@@ -125,22 +110,21 @@ ul {
 
 .footer-background {
   background: linear-gradient(90deg,#410a84,#31a7bb);
-  transform: skewY(-5deg);
-  height: calc(50px + 12vh);
   box-shadow: 0 0 50 rgb(60 117 162 / 40%);
-  width: 100%;
+  height: calc(50px + 12vh);
   position: absolute;
   left: 0;
+  transform: skewY(-5deg);
+  width: 100%;
 }
 
 .footer-background2 {
-  position: relative;
-  top: 76px;
   color: #fff;
   background: linear-gradient(90deg, #410a84, #31a7bb);;
   height: calc(40% + 12vh);
   padding: 140px 0 20px;
-  
+  position: relative;
+  top: 76px;
 }
 
 
