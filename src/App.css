@@ -142,15 +142,11 @@ ul {
 
 
 /* ---------RESPONSIVE---------- */
-@media (max-width: 599px){
+@media (max-width: 519px){
   h1,
   h2,
   h3 {
     font-size: 40px;
-  }
-  
-  .navbar-inner {
-    /* width: 98%; */
   }
 
   .footer {

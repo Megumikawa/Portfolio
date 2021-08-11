@@ -15,7 +15,7 @@
   font-size: 50px;
 }
 
-@media (max-width: 599px){
+@media (max-width: 519px){
   .home {
     right: 24%;
     text-align: center;

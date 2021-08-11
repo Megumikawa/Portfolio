@@ -72,9 +72,10 @@
 }
 
 /* ----- smartphone ----- */
-@media (max-width: 599px){
+@media (max-width: 519px){
   .projects {
     top: 2400px;
+    padding: 0;
   }
 
   .project-container {

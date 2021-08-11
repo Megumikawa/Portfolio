@@ -19,7 +19,7 @@
 }
 
 /* ---smart phone */
-@media (max-width: 599px){
+@media (max-width: 519px){
   .projects-background {
     top: 2330px;
   }
