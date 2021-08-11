@@ -70,3 +70,29 @@
   color: #fff;
   border-radius: 40px;
 }
+
+/* ----- smartphone ----- */
+@media (max-width: 599px){
+  .projects {
+    top: 2400px;
+  }
+
+  .project-container {
+    display: block;
+    /* justify-content: center;
+    margin-bottom: 6%; */
+  }
+  .project-image {
+    width: 80%;
+    margin: 12% auto 4%;
+  }
+
+  .my-project-card {
+    width: 98%;
+  }
+
+  .my-project-card p {
+    padding: 0 1%;
+    text-align: center;
+  }
+}

@@ -55,9 +55,13 @@ ul {
 
 /* ----------header---------- */
 .navbar-inner {
+  position: fixed;
+  height: 45px;
+  width: 100%;
+  padding-top: 20px;
   background-color: rgba(107,107, 206, 0.45);
   box-shadow: -5px 10px 10px 10px rgba(107,107, 206, 0.45);
-  padding: 0 2%;
+  padding: 1% 2% 0;
 }
 
 .header-link-name:hover {
@@ -130,7 +134,15 @@ ul {
 
 /* ---------RESPONSIVE---------- */
 @media (max-width: 599px){
-  
+  h1,
+  h2,
+  h3 {
+    font-size: 40px;
+  }
+
+  .footer {
+    top:5900px;
+  }
 }
 /* @media (max-width: 970px){
   

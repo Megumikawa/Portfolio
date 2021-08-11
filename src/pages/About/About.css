@@ -37,6 +37,7 @@
 @media (max-width: 599px){
   .about {
     padding: 0 10%;
+    top: 860px;
     
   }
 }

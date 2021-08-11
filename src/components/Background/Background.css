@@ -20,7 +20,11 @@
 
 /* ---smart phone */
 @media (max-width: 599px){
-  .background {
-    /* width: 100%; */
+  .projects-background {
+    top: 2330px;
+  }
+
+  .projects-background {
+    height: calc(390% + 12vh);
   }
 }

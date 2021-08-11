@@ -33,13 +33,13 @@ function Header() {
 
   // ----- style ------ //
   const navbarStyles = {
-    position: 'fixed',
-    height: '45px',
-    width: '100%',
+    // position: 'fixed',
+    // height: '45px',
+    // width: '100%',
     textAlign: 'center',
     transition: 'top 0.6s',
     zIndex: '11',
-    paddingTop: '20px',
+    // paddingTop: '20px',
     justifyContent: 'space-between'
   }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import { particlesOptions } from "../../components/Background/ParticlesOptions";
+import '../../components/Background/Background.css';
 
 function ProjectsBackground() {
   return (
