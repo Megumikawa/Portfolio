@@ -130,112 +130,18 @@ ul {
 
 /* ---------RESPONSIVE---------- */
 /* @media (max-width: 970px){
-  .project-section{
-    line-height: 1.5rem;
-  }
-
-  .my-project-card{
-    width: 500px;
-  }
-
-  .project-card{
-    width: 500px;
-  }
-
-  .techstack{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .project-link a {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
+  
 }
 
 @media(max-width: 850px){
-  .my-project-card{
-    width: 300px;
-  }
-
-  .project-card{
-    width: 300px;
-  }
-
-  .contact-img {
-    width: 500px;
-  }
-
-  .my-group-btn{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .my-link{
-    margin: auto;
-  }
-
+  
 }
 
 @media (max-width: 700px){
-  .fake-code{
-    padding: 20px;
-    text-align: center;
-  }
-
-  .section{
-    padding: 15px;
-  }
-
-  .hobbies-section{
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .project-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: normal;
-  }
-
-  .project-screenshot{
-    width: 100px;
-  }
-
-  .my-project-card{
-    width: 500px;
-  }
-
-  .project-card{
-    width: 500px;
-  }
-
-  .techstack{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .project-link a {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .contact-img {
-    width: 300px;
-  }
-
+  
 }
 
 @media(max-width: 600px){
-  .my-project-card{
-    width: 300px;
-  }
-
-  .project-card{
-    width: 300px;
-  }
+  
 
 } */
