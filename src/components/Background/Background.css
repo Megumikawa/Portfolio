@@ -17,3 +17,10 @@
 .particles, .particles-project {
   height: 100%;
 }
+
+/* ---smart phone */
+@media (max-width: 599px){
+  .background {
+    /* width: 100%; */
+  }
+}

@@ -16,7 +16,6 @@ function App() {
   
   return (
     <div className="main">
-    <h1>{t("greeting")}</h1>
       <Header />
       <Home />
       <About />

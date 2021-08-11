@@ -1,6 +1,6 @@
 .home {
   position: absolute;
-  top: 360px;
+  top: 40%;
   right: 30%;
   font-weight: 300;
   color: #eee;
@@ -9,4 +9,25 @@
 .name {
   font-size: 80px;
   font-weight: 400;
+}
+
+.typewriter {
+  font-size: 50px;
+}
+
+@media (max-width: 599px){
+  .home {
+    right: 24%;
+    text-align: center;
+  }
+
+
+  .home h1,
+  .name {
+    font-size: 40px;
+  }
+
+  .typewriter {
+    font-size: 30px;
+  }
 }

@@ -15,7 +15,7 @@ function Home() {
         <h1>Hi I'm<br />
           <span className="name">Megumi Kawagoe</span>
         </h1>
-        <p style={{fontSize:'50px'}}>
+        <p className="typewriter">
           <Typewriter
             options={{
               strings: ["Front-end Developer", "MERN Developer", "Learner", "Challenger"],

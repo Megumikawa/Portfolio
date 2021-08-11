@@ -33,3 +33,10 @@
   background-color: #64bcd7;
   color: aliceblue;
 }
+
+@media (max-width: 599px){
+  .about {
+    padding: 0 10%;
+    
+  }
+}
