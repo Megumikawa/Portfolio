@@ -58,10 +58,19 @@ ul {
   position: fixed;
   height: 45px;
   width: 100%;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   background-color: rgba(107,107, 206, 0.45);
   box-shadow: -5px 10px 10px 10px rgba(107,107, 206, 0.45);
-  padding: 1% 2% 0;
+  padding: 1% 1% 0;
+}
+.hamburgerBtn,
+.languageBtn {
+  margin-right: 2%;
+}
+
+.hamburgerInside {
+  flex-grow: 0;
+  text-align: right;
 }
 
 .header-link-name:hover {
@@ -139,9 +148,27 @@ ul {
   h3 {
     font-size: 40px;
   }
+  
+  .navbar-inner {
+    /* width: 98%; */
+  }
 
   .footer {
     top:5900px;
+  }
+
+  .hamburgerInside {
+    text-align: rigth;
+    background-color: rgba(107,107, 206, 0.45);
+    box-shadow: -5px 10px 10px 10px rgba(107,107, 206, 0.45);
+  }
+
+  .languageBtn {
+    margin-left: 70%;
+  }
+
+  .header-link-name {
+    margin-right: 2%;
   }
 }
 /* @media (max-width: 970px){

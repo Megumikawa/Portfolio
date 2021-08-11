@@ -75,8 +75,8 @@ function Header() {
             <img src="images/myillust.png" style={{width:'40px', height:'auto'}} alt="logo" />
           </Navbar.Brand>
         </Scroll>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav mr-1" />
-        <Navbar.Collapse id="responsive-navbar-nav" style={{flexGrow: '0'}}>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav mr-1" className="hamburgerBtn" />
+        <Navbar.Collapse id="responsive-navbar-nav" className="hamburgerInside" style={{flexGrow: '0', textAlign: 'right'}}>
           <Nav className="mr-auto">
             <Scroll to="about" smooth={true} offset={-160}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>About</Nav.Link></Scroll>
             <Scroll to="projects" smooth={true} offset={-176}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>Projects</Nav.Link></Scroll>
@@ -85,7 +85,8 @@ function Header() {
               title={
                 <AiOutlineGlobal size={20} color={'#fff'} />
               }
-              id="basic-nav-dropdown">
+              id="basic-nav-dropdown"
+              className="languageBtn">
 
               {languages.map(({ code, name, country_code}) => (
                 <NavDropdown.Item key={country_code}
