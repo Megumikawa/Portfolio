@@ -34,8 +34,18 @@
   color: aliceblue;
 }
 
-/* ---Smartphone--- */
-@media(max-width: 599px){
+/* ---Smartphone--- */ 
+@media (max-width: 479px) {
+  .about {
+    top: 1100px;
+    padding: 0 2%;
+  }
+}
+
+
+
+/* --- Smartphone (width)--- */
+@media screen and (min-width:480px) and (max-width: 599px) {
   .about {
     top: 1140px;
     padding: 0 12%;

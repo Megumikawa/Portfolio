@@ -14,14 +14,20 @@
 .typewriter {
   font-size: 50px;
 }
-
-/* ---Smartphone--- */
-@media(max-width: 599px){
+/* --- Smartphone --- */ 
+/* @media (max-width: 479px) {
   .home {
     right: 24%;
     text-align: center;
   }
+} */
 
+/* --- Smartphone(width) --- */
+@media (max-width: 599px) {
+  .home {
+    right: 24%;
+    text-align: center;
+  }
 
   .home h1,
   .name {

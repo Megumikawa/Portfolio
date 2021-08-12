@@ -19,8 +19,31 @@
   padding: 12px 18px;
 }
 
-/* ---Smartphone--- */
-@media(max-width: 599px){
+
+/* --- Smartphone --- */ 
+@media (max-width: 479px) {
+  .contact {
+    top: 6000px;
+    right: 28%;
+  }
+
+  .contact-link a {
+    display: block;
+    margin-bottom: 6%;
+  }
+  .github-btn {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .email-btn {
+    padding-left: 14%;
+    padding-right: 14%;
+  }
+}
+
+/* --- Smartphone(width) --- */
+@media screen and (min-width:480px) and (max-width: 599px) {
   .contact {
     top: 6300px;
     right: 10%;

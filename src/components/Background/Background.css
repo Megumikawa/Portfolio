@@ -18,13 +18,25 @@
   height: 100%;
 }
 
-/* ---Smartphone--- */
-@media(max-width: 599px){
+/* --- Smartphone --- */
+@media (max-width: 479px) {
+  .background {
+    height: 1100px;
+  }
+
+  .projects-background {
+    height: 2400px;
+    top: 2700px;
+  }
+}
+
+/* --- Smartphone(width) --- */
+@media screen and (min-width:480px) and (max-width: 599px) {
   .projects-background {
     top: 2800px;
   }
 
   .projects-background {
-    height: calc(310% + 12vh);
+    /* height: calc(310% + 12vh); */
   }
 }

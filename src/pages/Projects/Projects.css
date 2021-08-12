@@ -71,8 +71,32 @@
   border-radius: 40px;
 }
 
-/* ---Smartphone--- */
-@media(max-width: 599px){
+/* --- Smartphone --- */ 
+@media (max-width: 479px) {
+  .projects {
+    padding: 0;
+    top: 2760px;
+  }
+
+  .project-container {
+    display: block;
+  }
+
+  .project-image {
+    width: 70%;
+    margin: 12% auto 4%;
+  }
+
+  .my-project-card {
+    width: 96%;
+    margin: 0 auto;
+  }
+}
+
+
+
+/* --- Smartphone(width) --- */
+@media screen and (min-width:480px) and (max-width: 599px) {
   .projects {
     top: 2860px;
     padding: 0;
@@ -80,9 +104,8 @@
 
   .project-container {
     display: block;
-    /* justify-content: center;
-    margin-bottom: 6%; */
   }
+
   .project-image {
     width: 80%;
     margin: 12% auto 4%;
