@@ -34,11 +34,11 @@
   color: aliceblue;
 }
 
-/* --- Tablet --- */
-@media screen and (min-width:600px) and (max-width:959px) {
+/* ---Smartphone--- */
+@media not all and (min-width: 600px) {
   .about {
-    padding: 0;
     top: 860px;
+    padding: 0 2%;
     
   }
 }

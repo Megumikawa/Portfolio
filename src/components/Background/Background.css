@@ -18,8 +18,8 @@
   height: 100%;
 }
 
-/* --- Tablet --- */
-@media screen and (min-width:600px) and (max-width:959px) {
+/* ---Smartphone--- */
+@media not all and (min-width: 600px) {
   .projects-background {
     top: 2330px;
   }

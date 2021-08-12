@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -143,8 +144,8 @@ ul {
 
 /* ---------RESPONSIVE---------- */
 
-/* ---Tablet--- */
-@media screen and (min-width:600px) and (max-width:959px) {
+/* ---Smartphone--- */
+@media not all and (min-width: 600px) {
   h1,
   h2,
   h3 {
