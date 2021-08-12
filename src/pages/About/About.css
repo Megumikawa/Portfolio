@@ -35,10 +35,10 @@
 }
 
 /* ---Smartphone--- */
-@media not all and (min-width: 600px) {
+@media(max-width: 599px){
   .about {
-    top: 860px;
-    padding: 0 2%;
+    top: 1140px;
+    padding: 0 12%;
     
   }
 }

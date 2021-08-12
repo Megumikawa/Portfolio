@@ -72,9 +72,9 @@
 }
 
 /* ---Smartphone--- */
-@media not all and (min-width: 600px) {
+@media(max-width: 599px){
   .projects {
-    top: 2400px;
+    top: 2860px;
     padding: 0;
   }
 
@@ -89,7 +89,8 @@
   }
 
   .my-project-card {
-    width: 98%;
+    width: 96%;
+    margin: 0 auto;
   }
 
   .my-project-card p {

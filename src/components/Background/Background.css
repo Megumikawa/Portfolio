@@ -19,12 +19,12 @@
 }
 
 /* ---Smartphone--- */
-@media not all and (min-width: 600px) {
+@media(max-width: 599px){
   .projects-background {
-    top: 2330px;
+    top: 2800px;
   }
 
   .projects-background {
-    height: calc(390% + 12vh);
+    height: calc(310% + 12vh);
   }
 }

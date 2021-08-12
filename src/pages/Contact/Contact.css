@@ -20,9 +20,9 @@
 }
 
 /* ---Smartphone--- */
-@media not all and (min-width: 600px) {
+@media(max-width: 599px){
   .contact {
-    top: 5600px;
+    top: 6300px;
     right: 10%;
   }
 }

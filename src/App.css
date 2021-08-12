@@ -145,7 +145,7 @@ ul {
 /* ---------RESPONSIVE---------- */
 
 /* ---Smartphone--- */
-@media not all and (min-width: 600px) {
+@media(max-width: 599px){
   h1,
   h2,
   h3 {
@@ -153,7 +153,7 @@ ul {
   }
 
   .footer {
-    top:5900px;
+    top:6600px;
   }
 
   .hamburgerInside {

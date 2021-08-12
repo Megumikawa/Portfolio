@@ -16,7 +16,7 @@
 }
 
 /* ---Smartphone--- */
-@media not all and (min-width: 600px) {
+@media(max-width: 599px){
   .home {
     right: 24%;
     text-align: center;
