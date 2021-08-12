@@ -21,11 +21,11 @@
 /* --- Smartphone --- */
 @media (max-width: 479px) {
   .background {
-    height: 1100px;
+    height: 104%;
   }
 
   .projects-background {
-    height: 2400px;
+    height: 310%;
     top: 2700px;
   }
 }

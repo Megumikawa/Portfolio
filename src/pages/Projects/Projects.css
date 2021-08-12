@@ -76,6 +76,8 @@
   .projects {
     padding: 0;
     top: 2760px;
+    width: 98%;
+    margin: 0 auto;
   }
 
   .project-container {
@@ -90,6 +92,10 @@
   .my-project-card {
     width: 96%;
     margin: 0 auto;
+  }
+
+  .tech-skills span {
+    margin: 0 1%;
   }
 }
 
