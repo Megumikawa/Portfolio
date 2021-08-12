@@ -142,7 +142,9 @@ ul {
 
 
 /* ---------RESPONSIVE---------- */
-@media (max-width: 519px){
+
+/* ---Tablet--- */
+@media screen and (min-width:600px) and (max-width:959px) {
   h1,
   h2,
   h3 {

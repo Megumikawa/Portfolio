@@ -19,8 +19,8 @@
   padding: 12px 18px;
 }
 
-
-@media (max-width: 519px) {
+/* --- Tablet --- */
+@media screen and (min-width:600px) and (max-width:959px) {
   .contact {
     top: 5600px;
     right: 10%;

@@ -71,8 +71,8 @@
   border-radius: 40px;
 }
 
-/* ----- smartphone ----- */
-@media (max-width: 519px){
+/* ----- Tablet ----- */
+@media screen and (min-width:600px) and (max-width:959px) {
   .projects {
     top: 2400px;
     padding: 0;

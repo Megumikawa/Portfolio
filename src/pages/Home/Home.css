@@ -15,7 +15,8 @@
   font-size: 50px;
 }
 
-@media (max-width: 519px){
+/* --- Tablet --- */
+@media screen and (min-width:600px) and (max-width:959px) {
   .home {
     right: 24%;
     text-align: center;
