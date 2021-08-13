@@ -34,6 +34,7 @@
 @media screen and (min-width:480px) and (max-width: 599px) {
   .projects-background {
     top: 2800px;
+    /* width: 100%; */
   }
 
   .projects-background {
