@@ -106,11 +106,14 @@
   .projects {
     top: 2860px;
     padding: 0;
-    width: 96%;
   }
 
   .project-container {
     display: block;
+    /* overflow-x: hidden; */
+    width: 96%;
+    /* margin: 0 auto;; */
+    padding: 0 2%;
   }
 
   .project-image {
@@ -126,5 +129,9 @@
   .my-project-card p {
     padding: 0 1%;
     text-align: left;
+  }
+
+  .tech-skills span {
+    margin: 0 1%;
   }
 }
