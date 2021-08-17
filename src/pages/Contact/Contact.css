@@ -49,3 +49,13 @@
     right: 10%;
   }
 }
+
+/* --- Tablet ---*/
+@media (min-width: 768px) {
+  
+}
+
+/* --- Desktop ---*/
+@media (min-width:1280px) {
+
+}

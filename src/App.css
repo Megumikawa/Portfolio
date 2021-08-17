@@ -194,16 +194,15 @@ ul {
 
 
 /* --- Tablet --- */
-@media screen and (min-width:600px) and (max-width:959px) {
+/* @media (min-width: 768px) {
 
 }
+
+@media (max-width: 970px){} */
 /* @media (max-width: 970px){
   
 }
-@media (max-width: 900px) {}
-@media (max-width: 900px) and (max-height: 1000px) {}
-  @media (max-width: 1050px) and (min-height: 900px) {ipda}
-//sofia's
+
 
 @media(max-width: 850px){
   
@@ -217,3 +216,8 @@ ul {
   
 
 } */
+
+/* @media (max-width: 900px) {}
+@media (max-width: 900px) and (max-height: 1000px) {}
+  @media (max-width: 1050px) and (min-height: 900px) {ipda}
+//sofia's */

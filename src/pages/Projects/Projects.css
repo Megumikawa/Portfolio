@@ -135,3 +135,7 @@
     margin: 0 1%;
   }
 }
+/* --- Tablet ---*/
+@media (min-width: 768px) {
+  
+}

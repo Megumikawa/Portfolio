@@ -41,3 +41,8 @@
     /* height: calc(310% + 12vh); */
   }
 }
+
+/* --- Tablet ---*/
+@media (min-width: 768px) {
+  
+}
