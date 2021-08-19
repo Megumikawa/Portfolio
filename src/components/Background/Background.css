@@ -10,12 +10,19 @@
 
 .projects-background {
   height: calc(230% + 12vh);
-  position: absolute;
+  position: absolute; 
   top: 2240px;
 }
 
 .particles, .particles-project {
   height: 100%;
+}
+
+.particles {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 /* --- Smartphone --- */
