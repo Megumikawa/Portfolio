@@ -72,7 +72,7 @@
 }
 
 /* --- Smartphone --- */ 
-@media screen and (min-width:320px) and (max-width: 767px) {
+@media (max-width: 479px) {
   .projects {
     padding: 0;
     top: 2760px;
@@ -102,21 +102,21 @@
 
 
 /* --- Smartphone(width) --- */
-/* @media screen and (min-width:480px) and (max-width: 599px) {
+@media screen and (min-width:480px) and (max-width: 599px) {
   .projects {
     top: 2860px;
     padding: 0;
-  } */
+  }
 
-  /* .project-container {
+  .project-container {
     display: block;
     /* overflow-x: hidden; */
-    /* width: 96%; */
+    width: 96%;
     /* margin: 0 auto;; */
-    /* padding: 0 2%; */
-  /* }  */
+    padding: 0 2%;
+  }
 
-  /* .project-image {
+  .project-image {
     width: 80%;
     margin: 12% auto 4%;
   }
@@ -134,7 +134,7 @@
   .tech-skills span {
     margin: 0 1%;
   }
-} */
+}
 /* --- Tablet ---*/
 @media (min-width: 768px) {
   

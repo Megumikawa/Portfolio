@@ -1,7 +1,7 @@
 .home {
-  position: absolute;
+  /* position: absolute;
   top: 40%;
-  right: 30%;
+  right: 30%; */
   font-weight: 300;
   color: #eee;
 }
@@ -23,7 +23,7 @@
 } */
 
 /* --- Smartphone(width) --- */
-/* @media (max-width: 599px) {
+@media (max-width: 599px) {
   .home {
     right: 20%;
     text-align: center;
@@ -37,4 +37,4 @@
   .typewriter {
     font-size: 30px;
   }
-} */
+}
