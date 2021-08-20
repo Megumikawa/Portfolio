@@ -146,7 +146,25 @@ ul {
 /* ---------RESPONSIVE---------- */
 
 /* ---Smartphone--- */ 
-@media (max-width: 479px) {
+/* @media (max-width: 479px) {
+  .hamburgerInside {
+    text-align: rigth;
+    background-color: rgba(107,107, 206, 0.45);
+    box-shadow: -5px 10px 10px 10px rgba(107,107, 206, 0.45);
+  }
+  .footer {
+    top:6500px;
+  }
+
+  .languageBtn {
+    margin-left: 70%;
+  }
+
+  .header-link-name {
+    margin-right: 2%;
+  }
+} */
+@media screen and (min-width:320px) and (max-width: 767px) {
   .hamburgerInside {
     text-align: rigth;
     background-color: rgba(107,107, 206, 0.45);
@@ -166,7 +184,7 @@ ul {
 }
 
 /* ---Smartphone(width)--- */ 
-@media screen and (min-width:480px) and (max-width: 599px) {
+/* @media screen and (min-width:480px) and (max-width: 599px) {
   h1,
   h2,
   h3 {
@@ -190,7 +208,7 @@ ul {
   .header-link-name {
     margin-right: 2%;
   }
-}
+} */
 
 
 /* --- Tablet --- */

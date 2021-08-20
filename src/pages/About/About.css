@@ -35,7 +35,7 @@
 }
 
 /* ---Smartphone--- */ 
-@media (max-width: 479px) {
+@media screen and (min-width:320px) and (max-width: 767px) {
   .about {
     top: 1100px;
     padding: 0 2%;
@@ -45,15 +45,15 @@
 
 
 /* --- Smartphone (width)--- */
-@media screen and (min-width:480px) and (max-width: 599px) {
+/* @media screen and (min-width:480px) and (max-width: 599px) {
   .about {
     top: 1140px;
     padding: 0 2%;
     width: 96%;
   }
-}
+} */
 
 /* --- Tablet ---*/
 @media (min-width: 768px) {
-  
+
 }
