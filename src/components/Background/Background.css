@@ -5,7 +5,7 @@
   position: absolute;
   top: -12vh;
   transform: skewY(-5deg);
-  width: 120%;
+  width: 100%;
 }
 
 .projects-background {
@@ -44,7 +44,9 @@
     /* width: 100%; */
   }
 
-  
+  .background {
+    width: 100%;
+  }
 }
 
 /* --- Tablet ---*/
