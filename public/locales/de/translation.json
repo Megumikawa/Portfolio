@@ -1,0 +1,21 @@
+{
+  "about": {
+    "part1": "Hallo! Ich bin Megumi Kawagoe, eine leidenschaftliche Webentwicklerin, die in Japan geboren und aufgewachsen ist und derzeit in Amsterdam, Niederlande, lebt.",
+    "part2": "I'm an enthusiastic web developer with an eye for detail and learning new technologies especially JavaScript frameworks and libraries.",
+    "part3": "I started my career as a Markup engineer at web designing and consulting company in Japan in 2020 then joined the Ironhack Web Development Bootcamp in Amsterdam in 2021.",
+    "part4": "I've lived multiple countries for studing and working and I enjoyed developing social, technical skills and communicating. My time abroad has taught me to be a true team player and adaptive with those who have different backgrounds.",
+    "part5": "Talking about personality, I love traveling, learning new languages, playing sports and doing handicraft. Interestingly, my first solo trip was when I was 11 years old to join a summer school in Australia. Since then I have traveled to more than 20 countries."
+  },
+  "project_kittchat": {
+    "description": "Kittchat is a cat cafe website that makes a reservation by choosing from 5 different locations in Berlin.<1 />Once you sign up, you can manage and check reservation history from your personal account."
+  },
+  "project_animeek": {
+    "description": "Animeek is an app where you can search for your favorite anime and be able to add it to your watchlist. <1 />You just type any anime you desire and Animeek will give you all the information you need."
+  },
+  "project_coingame": {
+    "description": "Coin-Collector is a game about collecting two types of coins which fall from top to bottom.<1/>An enemy of the devil is also coming from the right side to reduce your points.<3 />When you cannot avoid rocks, the game is over."
+  },
+  "project_feuille": {
+    "description": "This is a jewelry E-commercethe website landing page.<1 />You can check the item detail when you click an image and when you scroll down, you can check shop detail with Google Maps."
+  }
+}

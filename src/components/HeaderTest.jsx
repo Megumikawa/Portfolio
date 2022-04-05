@@ -18,11 +18,6 @@ const languages = [
     country_code: 'gb'
   },
   {
-    code: 'de',
-    name: 'Deutsche',
-    country_code: 'de'
-  },
-  {
     code: 'ja',
     name: '日本語',
     country_code: 'jp'
@@ -30,7 +25,12 @@ const languages = [
 ]
 
 
-function Header() {
+function HeaderTest() {
+
+  // const handleMobileMenuOpen = (event) => {
+	// 	setMobileMoreClick(event.currentTarget);
+	// };
+
 
   // ----- navbar scroll animation ----- //
   const [prevScrollPos, setPrevScrollPos] = useState(0)
@@ -82,6 +82,9 @@ function Header() {
             <Scroll to="about" smooth={true} offset={-160}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>About</Nav.Link></Scroll>
             <Scroll to="projects" smooth={true} offset={-176}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>Projects</Nav.Link></Scroll>
             <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name" style={navLinkStyles}>Contact</Nav.Link></Scroll>
+            {/* <Scroll to="about" smooth={true} offset={-160}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>About</Nav.Link></Scroll>
+            <Scroll to="projects" smooth={true} offset={-176}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>Projects</Nav.Link></Scroll>
+            <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name" style={navLinkStyles}>Contact</Nav.Link></Scroll> */}
             <NavDropdown aria-expanded="false"
               title={
                 <AiOutlineGlobal size={20} color={'#fff'} />
@@ -111,4 +114,4 @@ function Header() {
     </div>
   )
 }
-export default Header;
+export default HeaderTest;

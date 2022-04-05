@@ -7,10 +7,10 @@
 // }
 
 
-export default {
-  ja: {
-    translation: {
-      'Hello' : 'こんにちは',
-    }
-  },
-}
+// export default {
+//   ja: {
+//     translation: {
+//       'Hello' : 'こんにちは',
+//     }
+//   },
+// }
