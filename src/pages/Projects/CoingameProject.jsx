@@ -15,7 +15,7 @@ function CoingameProject() {
             <img className="d-block project-images" src="images/coincollector1.png" alt="coincollector-image" />
           </a>
         </div>
-        <Card className="my-project-card">
+        {/* <Card className="my-project-card">
           <CardContent>
             <h2 className="project-title">Coin Collector</h2><hr />
             <p className="project-description">
@@ -36,7 +36,7 @@ function CoingameProject() {
               <a href="https://github.com/Megumikawa/coin-collector-game" rel="noreferrer" target="_blank"><GitHubIcon />Repository</a>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
       </section>
     </>
   )

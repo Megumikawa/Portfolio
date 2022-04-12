@@ -14,7 +14,7 @@ function AnimeekProject() {
             <img className="d-block project-images" src="images/animeek1.png" alt="animeek-image" />
           </a>
         </div>
-        <Card className="my-project-card">
+        {/* <Card className="my-project-card">
           <CardContent>
             <h2 className="project-title">Animeek</h2><hr />
             <p className="project-description">
@@ -34,7 +34,7 @@ function AnimeekProject() {
               <a href="https://github.com/LuisaEgoavil/animeek" rel="noreferrer" target="_blank"><GitHubIcon />Repository</a>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
       </section>
 
     </>

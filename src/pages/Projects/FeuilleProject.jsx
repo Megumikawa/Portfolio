@@ -15,7 +15,7 @@ function FeuilleProject() {
             <img className="d-block project-images" src="images/feuille1.png" alt="kittchat-image" />
           </a>
         </div>
-        <Card className="my-project-card">
+        {/* <Card className="my-project-card">
           <CardContent>
             <h2 className="project-title">feuille</h2><hr />
             <p className="project-description">
@@ -35,7 +35,7 @@ function FeuilleProject() {
               <a href="https://github.com/Megumikawa/manabito-practice/tree/feature/feuille/feuille" rel="noreferrer" target="_blank"><GitHubIcon />Repository</a>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
       </section>
     </>
   )

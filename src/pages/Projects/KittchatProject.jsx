@@ -15,7 +15,7 @@ function KittchatProject() {
             <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
           </a>
         </div>
-        <Card className="my-project-card">
+        {/* <Card className="my-project-card">
           <CardContent>
             <h2 className="project-title">Kittchat</h2>
             <hr />
@@ -37,7 +37,7 @@ function KittchatProject() {
               <a href="https://github.com/LuisaEgoavil/Kittchat-server" rel="noreferrer" target="_blank"><GitHubIcon />Repository(server)</a>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
       </section>
     </>
   )

@@ -1,15 +1,15 @@
 .background {
   background: linear-gradient(135deg, #410a84, #31a7bb);
   box-shadow: 0 0 50 rgb(60 117 162 / 40%);
-  height: calc(100% + 12vh);
+  height: calc(100% + 11vh);
   position: absolute;
-  top: -12vh;
-  transform: skewY(-5deg);
+  top: -20vh;
+  transform: skewY(-6deg);
   width: 100%;
 }
 
 .projects-background {
-  height: calc(230% + 12vh);
+  height: calc(120% + 12vh);
   position: absolute; 
   top: 2240px;
 }
@@ -20,6 +20,7 @@
 
 .particles {
   position: absolute;
+  width: 100%;
   z-index: 1;
   top: 0;
   left: 0;

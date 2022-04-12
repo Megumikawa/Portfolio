@@ -41,7 +41,7 @@ function Header() {
     textAlign: 'center',
     transition: 'top 0.6s',
     zIndex: '11',
-    justifyContent: 'space-between'
+    justifyContent: 'center'
   }
 
   const navLinkStyles = {
@@ -79,9 +79,9 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav mr-1" className="hamburgerBtn" />
         <Navbar.Collapse id="responsive-navbar-nav" className="hamburgerInside" style={{flexGrow: '0', textAlign: 'right'}}>
           <Nav className="mr-auto">
-            <Scroll to="about" smooth={true} offset={-160}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>About</Nav.Link></Scroll>
-            <Scroll to="projects" smooth={true} offset={-176}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>Projects</Nav.Link></Scroll>
-            <Scroll to="contact" smooth={true} ><Nav.Link href="#contact" className="header-link-name" style={navLinkStyles}>Contact</Nav.Link></Scroll>
+            <Scroll to="about" smooth={true} offset={-260}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>About</Nav.Link></Scroll>
+            <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>Projects</Nav.Link></Scroll>
+            <Scroll to="contact" smooth={true} offset={-196}><Nav.Link href="#contact" className="header-link-name" style={navLinkStyles}>Contact</Nav.Link></Scroll>
             <NavDropdown aria-expanded="false"
               title={
                 <AiOutlineGlobal size={20} color={'#fff'} />
