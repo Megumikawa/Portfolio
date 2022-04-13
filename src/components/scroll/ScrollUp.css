@@ -1,0 +1,17 @@
+.scrollUp-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 60px;
+  width: 40px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #64bcd7;
+  border-color: #64bcd7;
+  border-radius: 30px;
+}
+
+.scrollUp-btn:hover {
+  background-color: #64bcd7;
+  color: #fff;
+}
