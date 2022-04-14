@@ -18,7 +18,8 @@ function ScrollUp() {
     })
   },[])
 
-  const scrollUp = () => {
+  const scrollUp = (event) => {
+    event.preventDefault();
     window.scrollTo({
       top: 0,
       behaviort: 'smooth'
@@ -27,13 +28,11 @@ function ScrollUp() {
 
   return(
     <div>
-      {BackToTopButton}
+      {BackToTopButton && (
         <button className="scrollUp-btn"
-          style={{
-            
-          }} onClick={scrollUp}
+          onClick={scrollUp}
         >+</button>
-      
+      )}
       
     </div>
   )

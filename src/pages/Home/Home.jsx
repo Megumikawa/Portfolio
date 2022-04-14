@@ -13,8 +13,8 @@ function Home() {
     <div id="home">
       <Background />
       <section className="home">
-        <h1>Hi I'm<br />
-          <span className="name">Megumi Kawagoe</span>
+        <h1>Hello, I'm Megumi!<br />
+          <img style={{width: '30%'}}src="images/myanime.png" alt="myillust" />
         </h1>
         <p className="typewriter">
           <Typewriter
