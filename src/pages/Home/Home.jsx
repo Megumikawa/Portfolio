@@ -14,15 +14,15 @@ function Home() {
       <Background />
       <section className="home">
         <h1>Hello, I'm Megumi!<br />
-          <img style={{width: '30%'}}src="images/myanime.png" alt="myillust" />
+          <img style={{width: '25%', marginTop: '10%'}} src="images/myanime.png" alt="myillust" />
         </h1>
         <p className="typewriter">
           <Typewriter
             options={{
-              strings: ["Front-end Developer", "MERN Developer", "Learner", "Challenger"],
+              strings: ["Frontend Developer", "MERN Developer", "Challenger", "Learner"],
               autoStart: true,
               loop: true,
-              delay: 50
+              delay: 70
             }}
           />
         </p>
