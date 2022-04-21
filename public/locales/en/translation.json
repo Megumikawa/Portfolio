@@ -1,10 +1,12 @@
 {
   "about": {
-    "part1": "Hello! I'm Megumi Kawagoe, a passionate web developer, born and brought up in Japan and currently based in Amsterdam, Netherlands.",
-    "part2": "I'm an enthusiastic web developer with an eye for detail and learning new technologies especially JavaScript frameworks and libraries.",
-    "part3": "I started my career as a Markup engineer at web designing and consulting company in Japan in 2020 then joined the Ironhack Web Development Bootcamp in Amsterdam in 2021.",
-    "part4": "I've lived multiple countries for studing and working and I enjoyed developing social, technical skills and communicating. My time abroad has taught me to be a true team player and adaptive with those who have different backgrounds.",
-    "part5": "Talking about personality, I love traveling, learning new languages, playing sports and doing handicraft. Interestingly, my first solo trip was when I was 11 years old to join a summer school in Australia. Since then I have traveled to more than 20 countries."
+    "introduction": "Hello! I'm Megumi, a passionate Frontend developer, born and brought up in Japan and based in Germany.",
+    "development1": "I'm an enthusiastic web developer with an eye for detail and I specialize in JavaScript and React and I can easily familiarize myself with any programming language or framework.",
+    "development2": "I started my career as a Frontend engineer at web designing and consulting company in Japan in 2020 then joined the Ironhack Web Development Bootcamp in Amsterdam in 2021.",
+    "development3": "My extensive programming experience makes me comfortable to develop and work on both Frontend and Backend build product from scratch.",
+    "twist1": "I've lived multiple countries for studing and working and I enjoyed developing social and communicating. My time abroad has taught me to be a true team player and adaptive with those who have different backgrounds.",
+    "twist2": "Talking about personality, I love traveling, handicraft, calligraphy and learning German and Korean.",
+    "conclusion": "Checkout my <1>Resume<1/>, my <3>Github<3/>, or let's chat on <5>Linkedin<5/>."
   },
   "project_kittchat": {
     "description": "Kittchat is a cat cafe website that makes a reservation by choosing from 5 different locations in Berlin.<1 />Once you sign up, you can manage and check reservation history from your personal account."
@@ -19,4 +21,3 @@
     "description": "This is a jewelry E-commercethe website landing page.<1 />You can check the item detail when you click an image and when you scroll down, you can check shop detail with Google Maps."
   }
 }
-

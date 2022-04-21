@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: Cabin, "Open Sans", sans-serif; */
 }
 
 h1 {
@@ -32,6 +33,9 @@ hr {
 
 body {
   font-family: 'Nunito', sans-serif;
+  /* font-family: Cabin,
+  "Open Sans",
+  sans-serif; */
 }
 
 li {
