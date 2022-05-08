@@ -10,19 +10,26 @@ const Skills = () => {
           <ul className="skill-topic">
             <li>JavaScript</li>
             <li>ReactJS</li>
+            <li>Typescript</li>
             <li>Node.js</li>
             <li>Express.js</li>
             <li>APIs</li>
-            <li>MongoDB</li>
-          </ul>
-          <ul className="skill-topic">
-            <li>Mongoose</li>
+          <li>MongoDB</li>
+          <li>Mongoose</li>
             <li>WordPress</li>
             <li>jQuery</li>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Bootstrap</li>
           </ul>
+          {/* <ul className="skill-topic"> */}
+            {/* <li>Mongoose</li>
+            <li>WordPress</li>
+            <li>jQuery</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap</li> */}
+          {/* </ul> */}
         </div>
     </div>
   )

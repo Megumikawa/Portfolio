@@ -30,6 +30,11 @@
 .project-images {
   width: 100%;
   margin: 0 auto;
+  /* background-color: #fff; */
+}
+
+.project-image {
+  background-color: #fff;
 }
 
 .project-images:hover{
@@ -88,6 +93,7 @@
   .project-image {
     width: 70%;
     margin: 12% auto 4%;
+    background-color: rgb(248, 237, 223);
   }
 
   .my-project-card {

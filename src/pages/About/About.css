@@ -2,16 +2,32 @@
   position: absolute;
   top: 1000px;
   text-align: left;
-  padding: 0 260px;
+  padding: 0 6%;
 }
 
-.about-article h1 {
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about h1 {
   margin-bottom: 30px;
 }
+.about-article {
+  width: 60%;
+}
+.about-image {
+  width: 15%;
+  height: auto;
+  /* margin-top: 10%; */
+  margin: auto;
+}
 
-.about-article p {
-  margin-bottom: 40px;
-  font-size: 1.4rem;
+.about p {
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
 }
 
 .about-link {

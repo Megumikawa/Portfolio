@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-background">
         <Particles className="particles particles-footer " params={particlesOptions} />
       </div>
-      <div className="footer-background2"><small >&copy;2021 Created by Megumi Kawagoe</small></div>
+      <div className="footer-background2"><small >&copy;2022 Created by Megumi Kawagoe</small></div>
     </div>
   )
 }
