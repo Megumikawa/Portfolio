@@ -32,26 +32,6 @@ function About() {
         </article>
         <img src="images/myanime.png" className="about-image" alt="myillust" />
 
-      <section className="about-skills">
-      <h2>Skills</h2><hr />
-        <div className="skill-container">
-          <ul className="skill-topic">
-            <li>JavaScript</li>
-            <li>ReactJS</li>
-            <li>Typescript</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>APIs</li>
-          <li>MongoDB</li>
-          <li>Mongoose</li>
-            <li>WordPress</li>
-            <li>jQuery</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Bootstrap</li>
-          </ul>
-        </div>
-        </section>
         </section>
       {/* <Skills /> */}
       {/* <section className="about-link"> */}

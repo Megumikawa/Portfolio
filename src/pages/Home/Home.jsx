@@ -13,7 +13,7 @@ function Home() {
     <div id="home">
       <Background />
       <section className="home">
-        <h1>Hello, I'm Megumi!<br />
+        <h1>Hello, I'm Megumi<br />
           <img style={{width: '25%', marginTop: '10%'}} src="images/myanime.png" alt="myillust" />
         </h1>
         <p className="typewriter">
