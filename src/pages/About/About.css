@@ -16,11 +16,10 @@
 }
 .about-article {
   width: 60%;
+  margin-right: 6%;
 }
 .about-image {
-  width: 15%;
-  height: auto;
-  /* margin-top: 10%; */
+  width: 20%;
   margin: auto;
 }
 
@@ -29,7 +28,9 @@
   font-size: 1.3rem;
   line-height: 1.6rem;
 }
-
+.about-skills {
+  margin: 6% auto;
+}
 .about-link {
   margin: 40px 0;
   text-align: center;

@@ -31,7 +31,7 @@ function ScrollUp() {
       {BackToTopButton && (
         <button className="scrollUp-btn"
           onClick={scrollUp}
-        >+</button>
+        >^</button>
       )}
       
     </div>
