@@ -1,23 +1,16 @@
 {
   "about": {
-    "introduction": "Hello! I'm Megumi, a passionate Frontend developer, born and brought up in Japan and based in Germany.",
-    "development1": "I'm an enthusiastic web developer with an eye for detail and I specialize in JavaScript and React and I can easily familiarize myself with any programming language or framework.",
-    "development2": "I started my career as a Frontend engineer at web designing and consulting company in Japan in 2020 then joined the Ironhack Web Development Bootcamp in Amsterdam in 2021.",
-    "development3": "My extensive programming experience makes me comfortable to develop and work on both Frontend and Backend build product from scratch.",
+    "introduction1": "Hello! I'm Megumi, born and brought up in Japan and based in Germany.",
+    "introduction2": "I'm an enthusiastic web developer with an eye for detail and design and I specialize in JavaScript and React and I can easily familiarize myself with any programming language or framework.",
+    "development1": "I started my frontend engineer career at web designing and consulting company in Japan in 2020 then joined the Ironhack Fullstack Web Development Bootcamp in Amsterdam in 2021.",
+    "development2": "My extensive programming experience makes me comfortable to develop and work on both Frontend and Backend build product from scratch.",
     "twist1": "I've lived multiple countries for studing and working and I enjoyed developing social and communicating. My time abroad has taught me to be a true team player and adaptive with those who have different backgrounds.",
-    "twist2": "Talking about personality, I love traveling, handicraft, calligraphy and learning German and Korean.",
-    "conclusion": "Checkout my <1>Resume<1/>, my <3>Github<3/>, or let's chat on <5>Linkedin<5/>."
-  },
-  "project_kittchat": {
-    "description": "Kittchat is a cat cafe website that makes a reservation by choosing from 5 different locations in Berlin.<1 />Once you sign up, you can manage and check reservation history from your personal account."
-  },
-  "project_animeek": {
-    "description": "Animeek is an app where you can search for your favorite anime and be able to add it to your watchlist. <1 />You just type any anime you desire and Animeek will give you all the information you need."
-  },
-  "project_coingame": {
-    "description": "Coin-Collector is a game about collecting two types of coins which fall from top to bottom.<1/>An enemy of the devil is also coming from the right side to reduce your points.<3 />When you cannot avoid rocks, the game is over."
-  },
-  "project_feuille": {
-    "description": "This is a jewelry E-commercethe website landing page.<1 />You can check the item detail when you click an image and when you scroll down, you can check shop detail with Google Maps."
+    "twist2": "Talking about personality, I love traveling,runnning, handicraft, calligraphy and learning German and Korean.",
+    "conclusionPart": {
+      "part1": "Checkout my",
+      "part2": ", my ",
+      "part3": " , or let's chat on ",
+      "part4": "."
+    }
   }
 }

@@ -19,10 +19,11 @@ function Home() {
         <p className="typewriter">
           <Typewriter
             options={{
-              strings: ["Frontend Developer", "MERN Developer", "Challenger", "Learner"],
+              strings: ["Frontend Developer", "MERN Developer", "Deep Learner", "Challenger"],
               autoStart: true,
               loop: true,
-              delay: 70
+              delay: 100,
+              pauseFor: 2100
             }}
           />
         </p>
