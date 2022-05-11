@@ -14,9 +14,8 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-// import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Projects() {
   return (
@@ -32,10 +31,10 @@ function Projects() {
         <Typography variant="body2" color="text.secondary">#React #React #React</Typography>
         </CardContent>
         <CardActions>
-            {/* <Button size="small"> startIcon={<GitHubIcon />}</Button> */}
-            {/* <GitHubIcon /> */}
-        <Button size="small">github</Button>
-        <Button size="small">Link</Button>
+            
+            <a href="https://github.com/Megumikawa/Kittchat-client" target="_blank"><GitHubIcon /></a>
+            <a href="https://github.com/Megumikawa/Kittchat-client" target="_blank"><GitHubIcon /></a>
+        
       </CardActions>
         <CardMedia
         component="img"
