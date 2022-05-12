@@ -1,8 +1,10 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
-import Background from '../../components/Background/Background';
+import { particlesOptions } from "../../components/Background/ParticlesOptions";
+import Particles from 'react-particles-js';
 import { useTranslation } from 'react-i18next';
 import './Home.css';
+
 
 
 
@@ -10,8 +12,8 @@ function Home() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div id="home">
-      <Background />
+    <div id="home" className="background">
+      <Particles className="particles" params={particlesOptions} />
       <section className="home">
         <h1>Hello, I'm Megumi<br />
           <img style={{width: '25%', marginTop: '10%'}} src="images/myanime.png" alt="myillust" />

@@ -1,30 +1,44 @@
 /* ----------project---------- */
 .projects {
-  padding: 0 10%;
+  padding: 0 auto;
+}
+
+.projects-outline {
+  transform: skewY(+6deg);
   position: absolute;
-  top: 1700px;
+  top: 100px;
+  padding: 0 2%;
 }
 
 .projects h1 {
   margin-bottom: 10%;
   color: #fff;
+} 
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.projects-outline {
+.card {
+  max-width: 30%;
+  margin-bottom: 2%;
+}
+
+.card-header {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
-.project-title {
-  font-size: 34px;
+.card-header h2 {
+  font-size: 20px;
 }
 
-.project-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 6%;
-  width: 33%;
+.card p {
+  text-align: right;
+  background-color: #dcd8d8;
+  margin: 0;
 }
 
 .project-images {
@@ -37,44 +51,21 @@
   background-color: #fff;
 }
 
-.project-images:hover{
-  filter: blur(2px);
+/* --- Project background --- */
+.projects-background {
+  background: linear-gradient(135deg, #410a84, #31a7bb);
+  box-shadow: 0 0 50 rgb(60 117 162 / 40%);
+  height: calc(100% + 11vh);
+  position: absolute;
+  top: -20vh;
+  transform: skewY(-6deg);
+  width: 100%;
 }
 
-.my-project-card {
-  width: 50%;
-}
-
-.my-project-card p {
-  text-align: left;
-  padding: 0 30px;
-}
-
-.tech-skills {
-  margin: 40px 0;
-}
-
-.tech-skills span {
-  border: 1px solid #64bcd7;
-  border-radius: 40px;
-  margin: 0 10px;
-  padding: 2px 6px;
-  color: #fff;
-  background-color: #64bcd7;
-}
-
-.project-link a {
-  margin: 0 20px 0 0;
-  padding: 3px 4px;
-  font-size: 20px;
-  font-weight: 500;
-  white-space: nowrap;
-}
-
-.project-link a:hover {
-  background-color: #027bfe;
-  color: #fff;
-  border-radius: 40px;
+.projects-background {
+  height: calc(100% + 12vh);
+  position: absolute;
+  top: 1700px;
 }
 
 /* --- Smartphone --- */ 

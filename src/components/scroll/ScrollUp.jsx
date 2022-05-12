@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import './ScrollUp.css';
+import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 
 
 function ScrollUp() {
@@ -31,7 +32,7 @@ function ScrollUp() {
       {BackToTopButton && (
         <button className="scrollUp-btn"
           onClick={scrollUp}
-        >^</button>
+        ><KeyboardDoubleArrowUpIcon/></button>
       )}
       
     </div>

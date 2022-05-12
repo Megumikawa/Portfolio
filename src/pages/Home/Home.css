@@ -1,6 +1,6 @@
 .home {
   position: absolute;
-  top: 200px;
+  top: 400px;
   right: 30%;
   font-weight: 300;
   color: #eee;
@@ -8,6 +8,7 @@
 
 .home {
   font-size: 80px;
+  transform: skewY(+6deg);
 }
 
 .home h1 {
@@ -19,6 +20,36 @@
   font-size: 50px;
   font-weight: 700;
 }
+
+/* --- Home background --- */
+.background {
+  background: linear-gradient(135deg, #410a84, #31a7bb);
+  box-shadow: 0 0 50 rgb(60 117 162 / 40%);
+  height: calc(100% + 11vh);
+  position: absolute;
+  top: -20vh;
+  transform: skewY(-6deg);
+  width: 100%;
+}
+/* 
+.projects-background {
+  height: calc(120% + 12vh);
+  position: absolute;
+  top: 1600px;
+} */
+
+/* .particles,
+.particles-project {
+  height: 100%;
+} */
+
+/* .particles {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+} */
 
 /* --- Smartphone --- */ 
 @media (max-width: 479px) {
