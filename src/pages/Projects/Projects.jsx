@@ -23,7 +23,7 @@ function Projects() {
                 <a href="https://kittchat.herokuapp.com/" target="_blank"><LaunchIcon /></a>
               </span>
             </section>
-            <img className="d-block project-images" src="images/kittchat1.png" alt="kittchat-image" />
+            <img className="project-images" src="images/kittchat1.png" alt="kittchat-image" />
             <p>#React</p>
           </article>
 
@@ -35,7 +35,7 @@ function Projects() {
                 <a href="https://animeek.herokuapp.com/" rel="noreferrer" target="_blank"><LaunchIcon /></a>
               </span>
             </section>
-            <img className="d-block project-images" src="images/animeek1.png" alt="animeek-image" />
+            <img className="project-images" src="images/animeek1.png" alt="animeek-image" />
             <p >#Node.js</p>
           </article>
 
@@ -47,7 +47,7 @@ function Projects() {
                 <a href="https://megumikawa.github.io/coin-collector-game/" rel="noreferrer" target="_blank"><LaunchIcon /></a>
               </span>
             </section>
-            <img className="d-block project-images" src="images/coincollector1.png" alt="coincollector-image" />
+            <img className="project-images" src="images/coincollector1.png" alt="coincollector-image" />
             <p>#Canvas</p>
           </article>
 
@@ -59,7 +59,7 @@ function Projects() {
                 <a href="https://cryptocurrency-price-searcher.herokuapp.com/" rel="noreferrer" target="_blank"><LaunchIcon /></a>
               </span>
             </section>
-            <img className="d-block project-images" src="images/cypto.png" alt="cypto-image" />
+            <img className="project-images" src="images/cypto.png" alt="cypto-image" />
             <p>#React</p>
           </article>
 
@@ -71,7 +71,7 @@ function Projects() {
                 <a href="https://todo-list-react-app-practice.herokuapp.com/" rel="noreferrer" target="_blank"><LaunchIcon /></a>
               </span>
             </section>
-            <img className="d-block project-images" src="images/todo.png" alt="todo-image" />
+            <img className="project-images" src="images/todo.png" alt="todo-image" />
             <p>#JS</p>
           </article>
 
@@ -83,7 +83,7 @@ function Projects() {
                 <a href="https://megumikawa.github.io/manabito-feuille/" rel="noreferrer" target="_blank"><LaunchIcon /></a>
               </span>
             </section>
-            <img className="d-block project-images" src="images/feuille1.png" alt="kittchat-image" />
+            <img className="project-images" src="images/feuille1.png" alt="kittchat-image" />
             <p>#Landing page</p>
           </article>
           </span>

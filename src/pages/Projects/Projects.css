@@ -11,7 +11,7 @@
 }
 
 .projects h1 {
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   color: #fff;
 } 
 
@@ -29,6 +29,7 @@
 .card-header {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 4%;
 }
 
 .card-header h2 {
@@ -42,13 +43,16 @@
 }
 
 .project-images {
-  width: 100%;
+  width: 80%;
+  height: auto;
+  padding: 2%;
   margin: 0 auto;
   /* background-color: #fff; */
 }
 
 .project-image {
   background-color: #fff;
+  
 }
 
 /* --- Project background --- */
