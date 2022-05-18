@@ -18,7 +18,7 @@ function Projects() {
           <article className="card">
             <section className="card-header">
               <h2>Cat cafe booking app</h2>
-              <span>
+              <span className="card-link">
                 <a href="https://github.com/LuisaEgoavil/Kittchat-client" target="_blank"><GitHubIcon /></a>
                 <a href="https://kittchat.herokuapp.com/" target="_blank"><LaunchIcon /></a>
               </span>
@@ -84,7 +84,7 @@ function Projects() {
               </span>
             </section>
             <img className="project-images" src="images/feuille1.png" alt="kittchat-image" />
-            <p>#Landing page</p>
+            <p>#Landing Page</p>
           </article>
           </span>
           </div>
