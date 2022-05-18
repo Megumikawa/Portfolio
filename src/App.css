@@ -79,6 +79,9 @@ ul {
   text-align: right;
 }
 
+.header-link-name {
+  white-space: nowrap;
+}
 .header-link-name:hover {
   opacity: .5;
   text-decoration: underline;

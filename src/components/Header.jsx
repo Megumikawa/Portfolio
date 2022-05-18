@@ -31,7 +31,7 @@ const languages = [
 
 
 function Header() {
-
+  
   // ----- navbar scroll animation ----- //
   const [prevScrollPos, setPrevScrollPos] = useState(0)
   const [visible, setVisible] = useState(true)
@@ -79,9 +79,9 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav mr-1" className="hamburgerBtn" />
         <Navbar.Collapse id="responsive-navbar-nav" className="hamburgerInside" style={{flexGrow: '0', textAlign: 'right'}}>
           <Nav className="mr-auto">
-            <Scroll to="about" smooth={true} offset={-260}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>About</Nav.Link></Scroll>
-            <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>Projects</Nav.Link></Scroll>
-            <Scroll to="contact" smooth={true} offset={-196}><Nav.Link href="#contact" className="header-link-name" style={navLinkStyles}>Contact</Nav.Link></Scroll>
+            <Scroll to="about" smooth={true} offset={-260}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>{t('header.about')}</Nav.Link></Scroll>
+            <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>{t('header.projects')}</Nav.Link></Scroll>
+            <Scroll to="contact" smooth={true} offset={-196}><Nav.Link href="#contact" className="header-link-name" style={navLinkStyles}>{t('header.contact')}</Nav.Link></Scroll>
             <NavDropdown aria-expanded="false"
               title={
                 <AiOutlineGlobal size={20} color={'#fff'} />

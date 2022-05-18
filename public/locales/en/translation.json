@@ -12,5 +12,15 @@
       "part3": " , or let's chat on ",
       "part4": "."
     }
+  },
+  "header": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "homeTop": "Hello, I'm Megumi"
+  },
+  "contact": {
+    "sentence1": "Questions?",
+    "sentence2": "Get in touch!!"
   }
 }

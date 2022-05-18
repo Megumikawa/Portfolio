@@ -4,8 +4,12 @@ import LaunchIcon from '@mui/icons-material/Launch';
 import { particlesOptions } from "../../components/Background/ParticlesOptions";
 import Particles from 'react-particles-js';
 import './Projects.css';
+import { useTranslation } from 'react-i18next';
 
 function Projects() {
+
+  const { t } = useTranslation()
+
   return (
     <>
       {/* <ProjectsBackground /> */}
@@ -13,7 +17,7 @@ function Projects() {
       <div id="projects" className="projects projects-background">
         <Particles className="particles" params={particlesOptions} />
         <div className="projects-outline">
-        <h1>Projects</h1>
+        <h1>{t('header.projects')}</h1>
         <span className="card-container">
           <article className="card">
             <section className="card-header">

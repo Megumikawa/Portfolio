@@ -1,9 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-import Skills from '../Skills/Skills';
 import { useTranslation } from 'react-i18next';
 import { Link as Scroll } from 'react-scroll';
-// import { aboutImage } from '../images/myillust.png'
 import { Trans } from 'react-i18next';
 import './About.css';
 
@@ -12,7 +9,7 @@ function About() {
 
   return (
     <div id="about" className="about">
-      <h1>About</h1>
+      <h1>{t('header.about')}</h1>
       <section className="about-container">
         <article className="about-article">
           <p>

@@ -12,5 +12,15 @@
       "part3": " oder lass uns ",
       "part4": " chatten."
     }
+  },
+  "header": {
+    "about": "Vorstellen",
+    "projects": "Projekte",
+    "contact": "Kontakt",
+    "homeTop": "Hallo, Ich bin Megumi"
+  },
+  "contact": {
+    "sentence1": "Fragen?",
+    "sentence2": "in Kontakt kommen!!"
   }
 }
