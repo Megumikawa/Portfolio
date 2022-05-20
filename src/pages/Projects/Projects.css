@@ -25,7 +25,11 @@
 .card {
   max-width: 30%;
   margin-bottom: 2%;
-  transform: translateX(20%) rotate(1turn);
+  transition: transform 250ms;
+}
+
+.card:hover {
+  transform: translateY(-10px);
 }
 
 .card-header {
@@ -35,13 +39,14 @@
 }
 
 .card-header h2 {
-  font-size: 22px;
-  border-bottom: solid 3px #31a7bb;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: solid 5px #7550B6;
 }
 
 .card p {
   display: inline-block;
-  background-color: #dcd8d8;
+  background-color: #dedede;
   margin: 0;
   padding: 1% 3% 1% 6%;
   position: absolute;
@@ -67,10 +72,48 @@
 
 .card-link {
   white-space: nowrap;
+  position: relative;
 }
 .card-link a {
-  margin: 0 2%;
+  margin: 0 8% 0 0;
+  color: #7550B6;
 }
+
+.card-link a:hover {
+  color: rgb(233,233,233);
+}
+
+.github-remark,
+.web-remark {
+  display: none;
+}
+
+.card-link a:hover .github-remark {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  background-color: #7550B6;
+  color: #fff;
+  border: 2px solid #7550B6;
+  border-radius: 5px;
+  padding: 0 1%;
+  font-size: 14px;
+}
+
+.card-link a:hover .web-remark {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  background-color: #7550B6;
+  color: #fff;
+  border: 2px solid #7550B6;
+  border-radius: 5px;
+  padding: 0 1%;
+  font-size: 14px;
+}
+
 
 /* --- Project background --- */
 .projects-background {

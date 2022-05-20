@@ -1,6 +1,7 @@
 import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
+import LanguageIcon from '@mui/icons-material/Language';
 import { particlesOptions } from "../../components/Background/ParticlesOptions";
 import Particles from 'react-particles-js';
 import './Projects.css';
@@ -21,10 +22,10 @@ function Projects() {
         <span className="card-container">
           <article className="card">
             <section className="card-header">
-              <h2>Cat cafe booking app</h2>
+              <h2>{t('projects.title1')}</h2>
               <span className="card-link">
-                <a href="https://github.com/LuisaEgoavil/Kittchat-client" target="_blank"><GitHubIcon /></a>
-                <a href="https://kittchat.herokuapp.com/" target="_blank"><LaunchIcon /></a>
+                <a href="https://github.com/LuisaEgoavil/Kittchat-client" target="_blank"><GitHubIcon /><span className="github-remark">Repository</span></a>
+                <a href="https://kittchat.herokuapp.com/" target="_blank"><LanguageIcon /><span className="web-remark">Homepage</span></a>
               </span>
             </section>
             <img className="project-images" src="images/kittchat1.png" alt="kittchat-image" />
@@ -33,10 +34,10 @@ function Projects() {
 
           <article className="card">
             <section className="card-header">
-              <h2>video data managing system</h2>
-              <span>
-                <a href="https://github.com/LuisaEgoavil/animeek" rel="noreferrer" target="_blank"><GitHubIcon /></a>
-                <a href="https://animeek.herokuapp.com/" rel="noreferrer" target="_blank"><LaunchIcon /></a>
+              <h2>{t('projects.title2')}</h2>
+              <span className="card-link">
+                <a href="https://github.com/LuisaEgoavil/animeek" rel="noreferrer" target="_blank"><GitHubIcon /><span className="github-remark">Repository</span></a>
+                <a href="https://animeek.herokuapp.com/" rel="noreferrer" target="_blank"><LanguageIcon /><span className="web-remark">Homepage</span></a>
               </span>
             </section>
             <img className="project-images" src="images/animeek1.png" alt="animeek-image" />
@@ -45,10 +46,10 @@ function Projects() {
 
           <article className="card">
             <section className="card-header">
-              <h2>coin game</h2>
-              <span>
-                <a href="https://github.com/Megumikawa/coin-collector-game" rel="noreferrer" target="_blank"><GitHubIcon /></a>
-                <a href="https://megumikawa.github.io/coin-collector-game/" rel="noreferrer" target="_blank"><LaunchIcon /></a>
+              <h2>{t('projects.title3')}</h2>
+              <span className="card-link">
+                <a href="https://github.com/Megumikawa/coin-collector-game" rel="noreferrer" target="_blank"><GitHubIcon /><span className="github-remark">Repository</span></a>
+                <a href="https://megumikawa.github.io/coin-collector-game/" rel="noreferrer" target="_blank"><LanguageIcon /><span className="web-remark">Homepage</span></a>
               </span>
             </section>
             <img className="project-images" src="images/coincollector1.png" alt="coincollector-image" />
@@ -57,10 +58,10 @@ function Projects() {
 
           <article className="card">
             <section className="card-header">
-              <h2>coin game</h2>
-              <span>
-                <a href="https://github.com/Megumikawa/cryptocurrency-price-tracker" rel="noreferrer" target="_blank"><GitHubIcon /></a>
-                <a href="https://cryptocurrency-price-searcher.herokuapp.com/" rel="noreferrer" target="_blank"><LaunchIcon /></a>
+              <h2>{t('projects.title4')}</h2>
+              <span className="card-link">
+                <a href="https://github.com/Megumikawa/cryptocurrency-price-tracker" rel="noreferrer" target="_blank"><GitHubIcon /><span className="github-remark">Repository</span></a>
+                <a href="https://cryptocurrency-price-searcher.herokuapp.com/" rel="noreferrer" target="_blank"><LanguageIcon /><span className="web-remark">Homepage</span></a>
               </span>
             </section>
             <img className="project-images" src="images/cypto.png" alt="cypto-image" />
@@ -69,10 +70,10 @@ function Projects() {
 
           <article className="card">
             <section className="card-header">
-              <h2>Todo List</h2>
-              <span>
-                <a href="https://github.com/Megumikawa/todo-list" rel="noreferrer" target="_blank"><GitHubIcon /></a>
-                <a href="https://todo-list-react-app-practice.herokuapp.com/" rel="noreferrer" target="_blank"><LaunchIcon /></a>
+              <h2>{t('projects.title5')}</h2>
+              <span className="card-link">
+                <a href="https://github.com/Megumikawa/todo-list" rel="noreferrer" target="_blank"><GitHubIcon /><span className="github-remark">Repository</span></a>
+                <a href="https://todo-list-react-app-practice.herokuapp.com/" rel="noreferrer" target="_blank"><LanguageIcon /><span className="web-remark">Homepage</span></a>
               </span>
             </section>
             <img className="project-images" src="images/todo.png" alt="todo-image" />
@@ -81,10 +82,10 @@ function Projects() {
 
           <article className="card">
             <section className="card-header">
-              <h2>EC Site</h2>
-              <span>
-                <a href="https://github.com/Megumikawa/manabito-practice/tree/feature/feuille/feuille" rel="noreferrer" target="_blank"><GitHubIcon /></a>
-                <a href="https://megumikawa.github.io/manabito-feuille/" rel="noreferrer" target="_blank"><LaunchIcon /></a>
+              <h2>{t('projects.title6')}</h2>
+              <span className="card-link">
+                <a href="https://github.com/Megumikawa/manabito-practice/tree/feature/feuille/feuille" rel="noreferrer" target="_blank"><GitHubIcon /><span className="github-remark">Repository</span></a>
+                <a href="https://megumikawa.github.io/manabito-feuille/" rel="noreferrer" target="_blank"><LanguageIcon /><span className="web-remark">Homepage</span></a>
               </span>
             </section>
             <img className="project-images" src="images/feuille1.png" alt="kittchat-image" />

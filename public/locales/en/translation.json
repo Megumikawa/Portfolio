@@ -22,5 +22,13 @@
   "contact": {
     "sentence1": "Questions?",
     "sentence2": "Get in touch!!"
+  },
+  "projects": {
+    "title1": "CAFE RESERVATION",
+    "title2": "WATCH LIST",
+    "title3": "COIN GAME",
+    "title4": "CRYPTOCURRENCY SEARCHER",
+    "title5": "TODO LIST",
+    "title6": "ACCESSORY SHOP"
   }
 }
