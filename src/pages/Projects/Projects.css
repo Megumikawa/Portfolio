@@ -25,7 +25,7 @@
 .card {
   max-width: 30%;
   margin-bottom: 2%;
-  transition: transform 250ms;
+  transition: transform .25s;
 }
 
 .card:hover {
@@ -130,74 +130,4 @@
   height: calc(100% + 12vh);
   position: absolute;
   top: 1700px;
-}
-
-/* --- Smartphone --- */ 
-@media (max-width: 479px) {
-  .projects {
-    padding: 0;
-    top: 2760px;
-    width: 98%;
-    margin: 0 auto;
-  }
-
-  .project-container {
-    display: block;
-  }
-
-  .project-image {
-    width: 70%;
-    margin: 12% auto 4%;
-    background-color: rgb(248, 237, 223);
-  }
-
-  .my-project-card {
-    width: 96%;
-    margin: 0 auto;
-  }
-
-  .tech-skills span {
-    margin: 0 1%;
-  }
-}
-
-
-
-/* --- Smartphone(width) --- */
-@media screen and (min-width:480px) and (max-width: 599px) {
-  .projects {
-    top: 2860px;
-    padding: 0;
-  }
-
-  .project-container {
-    display: block;
-    /* overflow-x: hidden; */
-    width: 96%;
-    /* margin: 0 auto;; */
-    padding: 0 2%;
-  }
-
-  .project-image {
-    width: 80%;
-    margin: 12% auto 4%;
-  }
-
-  .my-project-card {
-    width: 96%;
-    margin: 0 auto;
-  }
-
-  .my-project-card p {
-    padding: 0 1%;
-    text-align: left;
-  }
-
-  .tech-skills span {
-    margin: 0 1%;
-  }
-}
-/* --- Tablet ---*/
-@media (min-width: 768px) {
-  
 }

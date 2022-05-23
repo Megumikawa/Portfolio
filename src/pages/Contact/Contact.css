@@ -12,50 +12,15 @@
 
 .contact-link a {
   margin: 0 20px;
+  
 }
 
 .contact-link-btn {
   font-size: 20px;
   padding: 12px 18px;
+  transition: transform .25s;
 }
 
-
-/* --- Smartphone --- */ 
-@media (max-width: 479px) {
-  .contact {
-    top: 6070px;
-    right: 28%;
-  }
-
-  .contact-link a {
-    display: block;
-    margin-bottom: 6%;
-  }
-  .github-btn {
-    padding-left: 12%;
-    padding-right: 12%;
-  }
-
-  .email-btn {
-    padding-left: 14%;
-    padding-right: 14%;
-  }
-}
-
-/* --- Smartphone(width) --- */
-@media screen and (min-width:480px) and (max-width: 599px) {
-  .contact {
-    top: 6300px;
-    right: 10%;
-  }
-}
-
-/* --- Tablet ---*/
-@media (min-width: 768px) {
-  
-}
-
-/* --- Desktop ---*/
-@media (min-width:1280px) {
-
+.contact-link-btn:hover {
+  transform: scale(1.1);
 }

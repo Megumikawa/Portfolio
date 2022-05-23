@@ -16,7 +16,7 @@ function Home() {
       <Particles className="particles" params={particlesOptions} />
       <section className="home">
         <h1>{t('header.homeTop')}<br />
-          <img style={{width: '25%', marginTop: '10%'}} src="images/myanime.png" alt="myillust" />
+          <img style={{width: '50%', marginTop: '4%'}} src="images/animeme.png" alt="myillust" />
         </h1>
         <p className="typewriter">
           <Typewriter

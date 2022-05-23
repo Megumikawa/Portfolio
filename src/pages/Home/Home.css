@@ -1,7 +1,7 @@
 .home {
   position: absolute;
   top: 400px;
-  right: 30%;
+  right: 36%;
   font-weight: 300;
   color: #eee;
 }
@@ -30,48 +30,4 @@
   top: -20vh;
   transform: skewY(-6deg);
   width: 100%;
-}
-/* 
-.projects-background {
-  height: calc(120% + 12vh);
-  position: absolute;
-  top: 1600px;
-} */
-
-/* .particles,
-.particles-project {
-  height: 100%;
-} */
-
-/* .particles {
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-  top: 0;
-  left: 0;
-} */
-
-/* --- Smartphone --- */ 
-@media (max-width: 479px) {
-  .home {
-    right: 24%;
-    text-align: center;
-  }
-}
-
-/* --- Smartphone(width) --- */
-@media (max-width: 599px) {
-  .home {
-    right: 20%;
-    text-align: center;
-  }
-
-  .home h1,
-  .name {
-    font-size: 40px;
-  }
-
-  .typewriter {
-    font-size: 30px;
-  }
 }
