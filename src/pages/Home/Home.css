@@ -1,14 +1,11 @@
 .home {
   position: absolute;
-  top: 400px;
+  top: 350px;
   right: 36%;
   font-weight: 300;
   color: #eee;
-}
-
-.home {
   font-size: 80px;
-  transform: skewY(+6deg);
+  transform: skewY(+4deg);
 }
 
 .home h1 {
@@ -25,9 +22,9 @@
 .background {
   background: linear-gradient(135deg, #410a84, #31a7bb);
   box-shadow: 0 0 50 rgb(60 117 162 / 40%);
-  height: calc(100% + 11vh);
+  height: calc(100% + 14vh);
   position: absolute;
   top: -20vh;
-  transform: skewY(-6deg);
+  transform: skewY(-4deg);
   width: 100%;
 }

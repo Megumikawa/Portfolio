@@ -55,7 +55,7 @@ function Header() {
     const currentScrollPos = window.pageYOffset;
     setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10 );
     setPrevScrollPos(currentScrollPos);
-  }, 100)
+  },100)
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
@@ -71,17 +71,14 @@ function Header() {
   return (
     <div className="nav-wrap">
       <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-70px' }} className="navbar-inner" collapseOnSelect expand="lg" >
-        <Scroll to="home" smooth={true} offset={-130}>
-          {/* <Navbar.Brand href="#"> */}
-            {/* <img src="images/myillust.png" style={{width:'40px', height:'auto'}} alt="logo" /> */}
-          {/* </Navbar.Brand> */}
-        </Scroll>
+        {/* <Scroll to="home" smooth={true} offset={-130}>
+        </Scroll> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav mr-1" className="hamburgerBtn" />
         <Navbar.Collapse id="responsive-navbar-nav" className="hamburgerInside" style={{flexGrow: '0', textAlign: 'right'}}>
           <Nav className="mr-auto">
-            <Scroll to="about" smooth={true} offset={-260}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>{t('header.about')}</Nav.Link></Scroll>
-            <Scroll to="projects" smooth={true} offset={-150}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>{t('header.projects')}</Nav.Link></Scroll>
-            <Scroll to="contact" smooth={true} offset={-196}><Nav.Link href="#contact" className="header-link-name" style={navLinkStyles}>{t('header.contact')}</Nav.Link></Scroll>
+            <Scroll to="about" smooth={true} offset={-260} duration={0}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>{t('header.about')}</Nav.Link></Scroll>
+            <Scroll to="projects" smooth={true} offset={0}  duration={0}><Nav.Link href="#projects" className="header-link-name" style={navLinkStyles}>{t('header.projects')}</Nav.Link></Scroll>
+            <Scroll to="contact" smooth={true} offset={-196}  duration={0}><Nav.Link href="#contact" className="header-link-name" style={navLinkStyles}>{t('header.contact')}</Nav.Link></Scroll>
             <NavDropdown aria-expanded="false"
               title={
                 <AiOutlineGlobal size={20} color={'#fff'} />
@@ -98,7 +95,6 @@ function Header() {
                   <span 
                     className={`flag-icon flag-icon-${country_code} mx-2`}
                     style={{ opacity: code === currentLanguageCode ? 0.5 : 1}}
-                    
                   >
                   </span>
                   {name}

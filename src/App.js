@@ -6,6 +6,7 @@ import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 import Header from './components/Header';
+// import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollUp from './components/scroll/ScrollUp';
 
@@ -19,6 +20,7 @@ function App() {
     <div className="main">
       
       <Header />
+      {/* <Navbar /> */}
       <Home />
       <About />
       <Projects />

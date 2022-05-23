@@ -4,7 +4,7 @@
   height: calc(100% + 11vh);
   position: absolute;
   top: -20vh;
-  transform: skewY(-6deg);
+  transform: skewY(-4deg);
   width: 100%;
 }
 
@@ -24,33 +24,4 @@
   z-index: 1;
   top: 0;
   left: 0;
-}
-
-/* --- Smartphone --- */
-@media (max-width: 479px) {
-  .background {
-    height: 104%;
-  }
-
-  .projects-background {
-    height: 310%;
-    top: 2700px;
-  }
-}
-
-/* --- Smartphone(width) --- */
-@media screen and (min-width:480px) and (max-width: 599px) {
-  .projects-background {
-    top: 2800px;
-    /* width: 100%; */
-  }
-
-  .background {
-    width: 100%;
-  }
-}
-
-/* --- Tablet ---*/
-@media (min-width: 768px) {
-  
 }
