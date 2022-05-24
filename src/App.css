@@ -33,9 +33,6 @@ hr {
 
 body {
   font-family: 'Nunito', sans-serif;
-  /* font-family: Cabin,
-  "Open Sans",
-  sans-serif; */
 }
 
 li {
@@ -64,11 +61,11 @@ ul {
   position: fixed;
   height: 45px;
   width: 100%;
-  /* padding-top: 20px; */
   background-color: rgba(107,107, 206, 0.45);
   box-shadow: -5px 10px 10px 10px rgba(107,107, 206, 0.45);
   padding: 1% 1% 0;
 }
+
 .hamburgerBtn,
 .languageBtn {
   margin-right: 2%;
@@ -82,9 +79,18 @@ ul {
 .header-link-name {
   white-space: nowrap;
 }
-.header-link-name:hover {
-  opacity: .5;
-  text-decoration: underline;
+
+.header-link-name:after {
+  content: '';
+    width: 0;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid #000;
+    display: block;
+}
+
+.header-link-name:hover:after {
+  width: 100%;
+  border-bottom: solid 5px #7550b6;
 }
 
 .dropdown-toggle::after {
@@ -121,19 +127,18 @@ ul {
 .footer {
   margin-top: 60px;
   position: absolute;
-  top: 3200px;
+  top: 330%;
   width: 100%;
-  /* height: calc(15% + 12vh); */
 }
 
 .particles-footer {
-  height: 50%;
+  height: 30%;
 }
 
 .footer-background {
   background: linear-gradient(90deg,#410a84,#31a7bb);
   box-shadow: 0 0 50 rgb(60 117 162 / 40%);
-  height: calc(50px + 12vh);
+  height: calc(28% + 12vh);
   position: absolute;
   left: 0;
   transform: skewY(-5deg);
@@ -143,8 +148,8 @@ ul {
 .footer-background2 {
   color: #fff;
   background: linear-gradient(90deg, #410a84, #31a7bb);;
-  height: calc(40% + 12vh);
-  padding: 140px 0 20px;
+  height: calc(30% + 12vh);
+  padding: 6% 0 2%;
   position: relative;
   top: 76px;
 }

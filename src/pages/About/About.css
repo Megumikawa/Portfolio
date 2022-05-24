@@ -12,10 +12,12 @@
 }
 
 .about h1 {
-  margin: 4% 0;
-  
+  margin: 3% 0;
   text-align: left;
+  font-size: 36px;
+  font-weight: 600;
 }
+
 .about-article {
   width: 60%;
   margin-right: 6%;
@@ -30,13 +32,11 @@
   font-size: 1.3rem;
   line-height: 1.6rem;
 }
+
 .about-skills {
   margin: 6% auto;
 }
-.about-link {
-  margin: 40px 0;
-  text-align: center;
-}
+
 
 .contact-me {
   border: 1px solid;
@@ -59,20 +59,4 @@
     top: 1100px;
     padding: 0 2%;
   }
-}
-
-
-
-/* --- Smartphone (width)--- */
-@media screen and (min-width:480px) and (max-width: 599px) {
-  .about {
-    top: 1140px;
-    padding: 0 2%;
-    width: 96%;
-  }
-}
-
-/* --- Tablet ---*/
-@media (min-width: 768px) {
-
 }

@@ -1,18 +1,20 @@
 .contact {
   position: absolute;
-  top: 2800px;
+  top: 290%;
   right: 35%;
   margin: 50px 0;
+}
+
+.contact h1 {
+  text-align: center;
 }
 
 .contact-link {
   margin: 40px 0;
 }
 
-
 .contact-link a {
   margin: 0 20px;
-  
 }
 
 .contact-link-btn {
