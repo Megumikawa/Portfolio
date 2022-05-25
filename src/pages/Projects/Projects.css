@@ -38,6 +38,7 @@
   justify-content: space-between;
   padding: 3% 3% 2% 2%;
   color: #fff;
+  border-bottom: 0;
 }
 
 .card-header h2 {
@@ -83,7 +84,6 @@
 }
 
 .card-link a:hover {
-  /* color: rgb(233,233,233); */
   color: #7550B6;
 }
 

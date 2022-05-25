@@ -190,3 +190,10 @@ ul {
     position: absolute;
   }
 }
+
+/* tablet */
+@media screen and (max-width : 1024px) {
+  .hamburgerBtn {
+      margin: 1% 0 0 90%;
+    }
+}

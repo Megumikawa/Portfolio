@@ -14,13 +14,13 @@
     }
   },
   "header": {
-    "about": "Vorstellen",
+    "about": "Über mich",
     "projects": "Projekte",
     "contact": "Kontakt",
     "homeTop": "Hallo, Ich bin Megumi"
   },
   "contact": {
     "sentence1": "Fragen?",
-    "sentence2": "in Kontakt kommen!!"
+    "sentence2": "Nimm Kontakt mit mir!!"
   }
 }
