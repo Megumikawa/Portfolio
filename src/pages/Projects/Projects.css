@@ -154,6 +154,6 @@
   }
 
   .particles {
-    height: calc(100% + 11vh);
+    height: calc(100% - 11vh);
   }
 }
