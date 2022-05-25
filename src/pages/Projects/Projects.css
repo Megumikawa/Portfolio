@@ -26,6 +26,7 @@
   max-width: 30%;
   margin-bottom: 2%;
   transition: transform .25s;
+  background-color: #4457a0bd;
 }
 
 .card:hover {
@@ -36,6 +37,7 @@
   display: flex;
   justify-content: space-between;
   padding: 3% 3% 2% 2%;
+  color: #fff;
 }
 
 .card-header h2 {
@@ -74,13 +76,15 @@
   white-space: nowrap;
   position: relative;
 }
+
 .card-link a {
   margin: 0 8% 0 0;
-  color: #7550B6;
+  color: #fff;
 }
 
 .card-link a:hover {
-  color: rgb(233,233,233);
+  /* color: rgb(233,233,233); */
+  color: #7550B6;
 }
 
 .github-remark,
@@ -130,4 +134,22 @@
   height: calc(90% + 12vh);
   position: absolute;
   top: 180%;
+}
+
+
+/* smartphone */
+@media screen and (max-width : 599px) {
+  .projects-background {
+    top: 300%;
+    height: calc(230% + 12vh);
+  }
+
+  .card {
+    max-width: 100%;
+    margin-bottom: 4%;
+  }
+
+  .card-container {
+    display: block;
+  }
 }

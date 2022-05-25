@@ -15,3 +15,12 @@
   background-color: #64bcd7;
   color: #fff;
 }
+
+
+
+@media screen and (max-width : 599px) {
+  .scrollUp-btn {
+      bottom: 24px;
+      right: 16px;
+    }
+}

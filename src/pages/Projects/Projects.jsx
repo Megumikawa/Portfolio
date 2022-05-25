@@ -13,7 +13,6 @@ function Projects() {
 
   return (
     <>
-      {/* <ProjectsBackground /> */}
 
       <div id="projects" className="projects projects-background">
         <Particles className="particles" params={particlesOptions} />

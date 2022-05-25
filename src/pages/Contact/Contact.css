@@ -26,3 +26,26 @@
 .contact-link-btn:hover {
   transform: scale(1.1);
 }
+
+@media screen and (max-width : 599px) {
+  .contact {
+    top: 540%;
+    right: auto;
+  }
+
+  .contact h1,
+  .contact h2 {
+    font-size: 36px;
+  }
+
+  .contact-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+  }
+
+  .contact-link a {
+    margin: 0 2%;
+  }
+
+}

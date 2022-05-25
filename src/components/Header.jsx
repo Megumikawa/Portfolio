@@ -71,8 +71,6 @@ function Header() {
   return (
     <div className="nav-wrap">
       <Navbar style={{ ...navbarStyles, top: visible ? '0' : '-70px' }} className="navbar-inner" collapseOnSelect expand="lg" >
-        {/* <Scroll to="home" smooth={true} offset={-130}>
-        </Scroll> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav mr-1" className="hamburgerBtn" />
         <Navbar.Collapse id="responsive-navbar-nav" className="hamburgerInside" style={{flexGrow: '0', textAlign: 'right'}}>
           <Nav className="mr-auto">

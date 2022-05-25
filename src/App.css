@@ -156,3 +156,14 @@ ul {
 
 
 /* ---------RESPONSIVE---------- */
+
+/* smartphone */
+@media screen and (max-width : 599px) {
+    .navbar-inner {
+      padding-left: 10%;
+    }
+
+    .footer {
+      top: 600%;
+    }
+}
