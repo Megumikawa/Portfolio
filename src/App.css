@@ -192,7 +192,7 @@ ul {
 }
 
 /* tablet */
-@media screen and (max-width : 1024px) {
+@media screen and (min-width:600px) and (max-width:1024px) {
   .hamburgerBtn {
       margin: 1% 0 0 90%;
     }

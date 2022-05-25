@@ -31,16 +31,8 @@
 }
 
 
-
-/* tablet */
-@media screen and (min-width:600px) and (max-width:1024px){
-  .home {
-      right: 20%;
-    }
-}
-
 /* smartphone */
-@media only screen and (max-width : 599px) {
+@media screen and (max-width : 599px) {
   .home {
     overflow: hidden;
     right: auto;
@@ -54,4 +46,11 @@
   .typewriter {
     font-size: 24px;
   }
+}
+
+/* tablet */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .home {
+      right: 20%;
+    }
 }
