@@ -152,4 +152,8 @@
   .card-container {
     display: block;
   }
+
+  .particles {
+    height: calc(100% + 11vh);
+  }
 }

@@ -160,34 +160,33 @@ ul {
 
 /* smartphone */
 @media screen and (max-width : 599px) {
-    .navbar-inner {
-      padding-left: 10%;
-    }
+  .navbar-inner {
+    padding-left: 10%;
+  }
 
-    .footer {
-      top: 600%;
-    }
+  .footer {
+    top: 584%;
+  }
 
-    .hamburgerInside {
-      background-color: #463e97e0;
-      margin: 2% 0 0 55%;
-      padding-left: 2%;
-    }
+  .hamburgerInside {
+    background-color: #463e97e0;
+    margin: 2% 0 0 55%;
+    padding-left: 2%;
+  }
 
-    .hamburgerInside a {
-      text-align: left;
-    }
+  .hamburgerInside a {
+    text-align: left;
+  }
 
-    .hamburgerBtn {
-      margin: 2% 0 0 78%;
-    }
+  .hamburgerBtn {
+    margin: 2% 0 0 78%;
+  }
 
-    .dropdown-menu {
-      position: absolute;
-    }
+  .dropdown-menu {
+    position: absolute;
+  }
 
-        .navbar-nav .dropdown-menu {
-          position: absolute;
-        }
-
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
 }

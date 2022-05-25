@@ -67,8 +67,14 @@
     width: 100%;
   }
 
+  .about-article p {
+    font-size: 1.1rem;
+    }
+
   .about-image {
     width: 60%;
     margin: 0 20%;
   }
+
+  
 }

@@ -38,12 +38,12 @@
     right: auto;
   }
 
-    .home h1 {
-      font-size: 30px;
-      right: auto;
-    }
+  .home h1 {
+    font-size: 30px;
+    right: auto;
+  }
 
-    .typewriter {
-      font-size: 24px;
-    }
+  .typewriter {
+    font-size: 24px;
+  }
 }
