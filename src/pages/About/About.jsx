@@ -26,7 +26,7 @@ function About() {
             </p>
           <p><Trans>
             {t('about.conclusionPart.part1')}
-            <a href="https://drive.google.com/file/d/1QcUJSITsgUa02a-rZpDoAV_zGX9H2lXr/view?usp=sharing" target="_blank" className="about-link"> Resume</a>
+            <a href="https://www.canva.com/design/DAEtKygfMWA/gBT9ltjA9eJiOlvBluddlw/edit?utm_content=DAEtKygfMWA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" className="about-link"> Resume</a>
             
             {t('about.conclusionPart.part2')}
             <a href="https://github.com/Megumikawa" target="_blank">Github</a>

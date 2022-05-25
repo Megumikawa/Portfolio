@@ -74,6 +74,7 @@ ul {
 .hamburgerInside {
   flex-grow: 0;
   text-align: right;
+  
 }
 
 .header-link-name {
@@ -165,5 +166,9 @@ ul {
 
     .footer {
       top: 600%;
+    }
+
+    .hamburgerInside {
+      background-color: #463e97e0;
     }
 }
