@@ -170,5 +170,24 @@ ul {
 
     .hamburgerInside {
       background-color: #463e97e0;
+      margin: 2% 0 0 55%;
+      padding-left: 2%;
     }
+
+    .hamburgerInside a {
+      text-align: left;
+    }
+
+    .hamburgerBtn {
+      margin: 2% 0 0 78%;
+    }
+
+    .dropdown-menu {
+      position: absolute;
+    }
+
+        .navbar-nav .dropdown-menu {
+          position: absolute;
+        }
+
 }
